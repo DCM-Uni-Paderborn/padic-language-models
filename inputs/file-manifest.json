@@ -263,6 +263,10 @@
     "bytes": 20227,
     "sha256": "829182bc4ba1237046782a82eb095c73a8e4902b01bed6393532cd90bad8e929"
   },
+  "inputs/modular-execution.json": {
+    "bytes": 918,
+    "sha256": "ba236f15f7dbbeb9caaaef47d917bacfdd3facbff1f9af22ca9b3f9fbea03e75"
+  },
   "inputs/publication-scope.json": {
     "bytes": 735,
     "sha256": "13da9c0e75a1bc4e6dd87dc23f7357a769812f63500e30379d0529d3edb12b4c"
@@ -324,8 +328,8 @@
     "sha256": "6976963a784aeaea2f25c9a0e4e7454dacbd7a3fdecd04bf39224c2dbbe9b3f4"
   },
   "research/learned-encoder-protocol.md": {
-    "bytes": 7458,
-    "sha256": "c3172c441a58b56526db65affeb0f7202feee3e161a6bcc4957fd0d7a9c45f7c"
+    "bytes": 7403,
+    "sha256": "9cb45d772186d7738403d2ba6222ecf9586e2e0111cd70461cd5c014abbfb467"
   },
   "research/modular-adapter-protocol.md": {
     "bytes": 5323,

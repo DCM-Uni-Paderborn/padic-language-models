@@ -1,0 +1,13 @@
+{
+  "producer_cap_seconds": 1800,
+  "scope": "Fresh reproduction using the published scientific method and unchanged source files",
+  "source_sha256": {
+    "experiments/audit_modular_adapter.py": "19fdf92bb8675f980259955ffd601dcb0da62e95ce2c0c461647ec5149d34fe0",
+    "experiments/pilot_modular_adapter.py": "43b5b2bd6339106504325a24690be0324bb6ee0ead603c62a079f05e5653c10b",
+    "research/modular-adapter-protocol.md": "f277bb1e7f8fa943000037e5a8d5eddabd7049eed66629760a36930119b36686",
+    "src/padic_lm/continuous_tree.py": "0e52a5a7731828c42eff62d17a53d93aa85d1b244977a8bcd5fa7290beaab9e6",
+    "src/padic_lm/modular_adapter.py": "020cc62ba2497ca9f92bf257b003724c56797b342f38e36f969956db9ea8ed93",
+    "tests/test_continuous_tree.py": "4f5b9a4985689a34e326159da26978d94fcd7b7fac9670feb85af1834a5b8cea",
+    "tests/test_modular_adapter.py": "6ae73313f4ed3da6b55aefee4b4822052070efda8786c67e0c5bbbf98982db9b"
+  }
+}
