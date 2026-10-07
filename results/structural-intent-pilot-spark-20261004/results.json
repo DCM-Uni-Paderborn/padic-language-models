@@ -1,0 +1,1268 @@
+[
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 1.6801468025436708,
+    "initial_training_objective": 7.674678021912351,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "semantic_prefix",
+    "seed": 17,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.7866333095067906,
+        "domain_nll": 0.6587903757122106,
+        "intent_accuracy": 0.6526090064331665,
+        "intent_nll": 1.407831610032437,
+        "probability_sum_max_error": 5.551115123125783e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.7748928060981419,
+        "domain_nll": 0.6823023164974853,
+        "intent_accuracy": 0.6579323487374941,
+        "intent_nll": 1.449511658591828,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.8228571428571428,
+        "domain_nll": 0.5359268086359397,
+        "intent_accuracy": 0.8496428571428571,
+        "intent_nll": 0.8371084694696118,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.69,
+        "domain_nll": 0.8785021356652497,
+        "probability_sum_max_error": 3.3306690738754696e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.674678021912351,
+        "step": 0
+      },
+      {
+        "objective": 2.290697380454308,
+        "step": 25
+      },
+      {
+        "objective": 1.9146818915416433,
+        "step": 50
+      },
+      {
+        "objective": 1.8016047437659546,
+        "step": 75
+      },
+      {
+        "objective": 1.7510835179771422,
+        "step": 100
+      },
+      {
+        "objective": 1.724064087002872,
+        "step": 125
+      },
+      {
+        "objective": 1.708264813959371,
+        "step": 150
+      },
+      {
+        "objective": 1.6985264172938344,
+        "step": 175
+      },
+      {
+        "objective": 1.6923026224665587,
+        "step": 200
+      },
+      {
+        "objective": 1.688218127385129,
+        "step": 225
+      },
+      {
+        "objective": 1.6854840483489433,
+        "step": 250
+      },
+      {
+        "objective": 1.683627081262107,
+        "step": 275
+      },
+      {
+        "objective": 1.6823528710925946,
+        "step": 300
+      },
+      {
+        "objective": 1.6814727866928627,
+        "step": 325
+      },
+      {
+        "objective": 1.6808628426624443,
+        "step": 350
+      },
+      {
+        "objective": 1.6804397975460401,
+        "step": 375
+      },
+      {
+        "objective": 1.6801468025436708,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 2.4485556169315057,
+    "initial_training_objective": 7.491470633505567,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "shuffled_prefix",
+    "seed": 17,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.8666904932094354,
+        "domain_nll": 0.6257834749543206,
+        "intent_accuracy": 0.42030021443888493,
+        "intent_nll": 2.132787217237497,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8470700333492139,
+        "domain_nll": 0.6688989729505624,
+        "intent_accuracy": 0.42806098141972365,
+        "intent_nll": 2.1355880490330637,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9528571428571428,
+        "domain_nll": 0.45410471759784443,
+        "intent_accuracy": 0.5446428571428571,
+        "intent_nll": 1.6231636638406721,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.7133333333333334,
+        "domain_nll": 0.968241768393531,
+        "probability_sum_max_error": 3.3306690738754696e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.491470633505567,
+        "step": 0
+      },
+      {
+        "objective": 2.749088161237033,
+        "step": 25
+      },
+      {
+        "objective": 2.5282754343665435,
+        "step": 50
+      },
+      {
+        "objective": 2.475581532292513,
+        "step": 75
+      },
+      {
+        "objective": 2.459321903798326,
+        "step": 100
+      },
+      {
+        "objective": 2.4532413461837925,
+        "step": 125
+      },
+      {
+        "objective": 2.450593829517563,
+        "step": 150
+      },
+      {
+        "objective": 2.449436701340947,
+        "step": 175
+      },
+      {
+        "objective": 2.4489734587241614,
+        "step": 200
+      },
+      {
+        "objective": 2.4487775784039822,
+        "step": 225
+      },
+      {
+        "objective": 2.4486846829317725,
+        "step": 250
+      },
+      {
+        "objective": 2.448633459234125,
+        "step": 275
+      },
+      {
+        "objective": 2.4486042574268105,
+        "step": 300
+      },
+      {
+        "objective": 2.4485835435652032,
+        "step": 325
+      },
+      {
+        "objective": 2.4485673252759996,
+        "step": 350
+      },
+      {
+        "objective": 2.448559447559761,
+        "step": 375
+      },
+      {
+        "objective": 2.4485556169315057,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.6586012026069179,
+    "initial_training_objective": 7.242946311780241,
+    "kind": "flat",
+    "learned_parameter_count": 9035,
+    "method": "flat_joint",
+    "seed": 17,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.9067190850607577,
+        "domain_nll": 0.34258330623087824,
+        "intent_accuracy": 0.7834167262330236,
+        "intent_nll": 0.8388834553813982,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.9047165316817533,
+        "domain_nll": 0.36855198439949655,
+        "intent_accuracy": 0.7772748928060982,
+        "intent_nll": 0.8790395877384916,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9992857142857143,
+        "domain_nll": 0.08395019460454822,
+        "intent_accuracy": 0.9903571428571428,
+        "intent_nll": 0.1721290796625164,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.74,
+        "domain_nll": 0.8172610324748291,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.242946311780241,
+        "step": 0
+      },
+      {
+        "objective": 0.8862519249095536,
+        "step": 25
+      },
+      {
+        "objective": 0.7240172777960845,
+        "step": 50
+      },
+      {
+        "objective": 0.6818687571992952,
+        "step": 75
+      },
+      {
+        "objective": 0.6745246156187963,
+        "step": 100
+      },
+      {
+        "objective": 0.6718251088131586,
+        "step": 125
+      },
+      {
+        "objective": 0.6702402819087283,
+        "step": 150
+      },
+      {
+        "objective": 0.6689653620869624,
+        "step": 175
+      },
+      {
+        "objective": 0.6677649635709699,
+        "step": 200
+      },
+      {
+        "objective": 0.6665680162216632,
+        "step": 225
+      },
+      {
+        "objective": 0.6653588960329472,
+        "step": 250
+      },
+      {
+        "objective": 0.6641429551336762,
+        "step": 275
+      },
+      {
+        "objective": 0.6629347371177801,
+        "step": 300
+      },
+      {
+        "objective": 0.6617536589744627,
+        "step": 325
+      },
+      {
+        "objective": 0.6606220368320037,
+        "step": 350
+      },
+      {
+        "objective": 0.6595635250078691,
+        "step": 375
+      },
+      {
+        "objective": 0.6586012026069179,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.4303906582703288,
+    "initial_training_objective": 2.300587713713557,
+    "kind": "domain",
+    "learned_parameter_count": 585,
+    "method": "direct_domain",
+    "seed": 17,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.8495353824160115,
+        "domain_nll": 0.459325881064138,
+        "probability_sum_max_error": 5.551115123125783e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8344449737970462,
+        "domain_nll": 0.5015261882056069,
+        "probability_sum_max_error": 5.551115123125783e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9017857142857143,
+        "domain_nll": 0.3422671024861966,
+        "probability_sum_max_error": 5.551115123125783e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.8333333333333334,
+        "domain_nll": 0.5355150164927113,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 2.300587713713557,
+        "step": 0
+      },
+      {
+        "objective": 0.5899583719340944,
+        "step": 25
+      },
+      {
+        "objective": 0.48301149798018905,
+        "step": 50
+      },
+      {
+        "objective": 0.45613790670869053,
+        "step": 75
+      },
+      {
+        "objective": 0.4449196343656123,
+        "step": 100
+      },
+      {
+        "objective": 0.439158494360098,
+        "step": 125
+      },
+      {
+        "objective": 0.4359133417087215,
+        "step": 150
+      },
+      {
+        "objective": 0.4339685624739427,
+        "step": 175
+      },
+      {
+        "objective": 0.432744223206588,
+        "step": 200
+      },
+      {
+        "objective": 0.43194442230545926,
+        "step": 225
+      },
+      {
+        "objective": 0.43140914835675137,
+        "step": 250
+      },
+      {
+        "objective": 0.4310462446700545,
+        "step": 275
+      },
+      {
+        "objective": 0.4307991336231498,
+        "step": 300
+      },
+      {
+        "objective": 0.43063113277485443,
+        "step": 325
+      },
+      {
+        "objective": 0.4305175298506085,
+        "step": 350
+      },
+      {
+        "objective": 0.4304413111775508,
+        "step": 375
+      },
+      {
+        "objective": 0.4303906582703288,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 1.680147907598092,
+    "initial_training_objective": 7.66436303928261,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "semantic_prefix",
+    "seed": 29,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.7866333095067906,
+        "domain_nll": 0.6587915493979747,
+        "intent_accuracy": 0.6526090064331665,
+        "intent_nll": 1.407822981047081,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.7748928060981419,
+        "domain_nll": 0.6823055256419646,
+        "intent_accuracy": 0.6576941400666985,
+        "intent_nll": 1.4495105500702619,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.8228571428571428,
+        "domain_nll": 0.5359390880365147,
+        "intent_accuracy": 0.8496428571428571,
+        "intent_nll": 0.8371222498217711,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.69,
+        "domain_nll": 0.878515020707113,
+        "probability_sum_max_error": 3.3306690738754696e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.66436303928261,
+        "step": 0
+      },
+      {
+        "objective": 2.288623021364161,
+        "step": 25
+      },
+      {
+        "objective": 1.9140429924154123,
+        "step": 50
+      },
+      {
+        "objective": 1.8013689068858643,
+        "step": 75
+      },
+      {
+        "objective": 1.751028317683255,
+        "step": 100
+      },
+      {
+        "objective": 1.724083401913206,
+        "step": 125
+      },
+      {
+        "objective": 1.7083106614417347,
+        "step": 150
+      },
+      {
+        "objective": 1.6985755902876043,
+        "step": 175
+      },
+      {
+        "objective": 1.692345022206565,
+        "step": 200
+      },
+      {
+        "objective": 1.6882506156622843,
+        "step": 225
+      },
+      {
+        "objective": 1.6855069727939467,
+        "step": 250
+      },
+      {
+        "objective": 1.6836422317244293,
+        "step": 275
+      },
+      {
+        "objective": 1.6823623480670284,
+        "step": 300
+      },
+      {
+        "objective": 1.6814784513483665,
+        "step": 325
+      },
+      {
+        "objective": 1.680866120836282,
+        "step": 350
+      },
+      {
+        "objective": 1.6804416756298761,
+        "step": 375
+      },
+      {
+        "objective": 1.680147907598092,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 2.5501014194405176,
+    "initial_training_objective": 7.5042970086680985,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "shuffled_prefix",
+    "seed": 29,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.859542530378842,
+        "domain_nll": 0.6498953719511784,
+        "intent_accuracy": 0.412794853466762,
+        "intent_nll": 2.186810832061572,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8487374940447833,
+        "domain_nll": 0.680375178987565,
+        "intent_accuracy": 0.3947117675083373,
+        "intent_nll": 2.238225594519606,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9378571428571428,
+        "domain_nll": 0.4913142677610311,
+        "intent_accuracy": 0.5221428571428571,
+        "intent_nll": 1.694163796538179,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.7,
+        "domain_nll": 0.9509503251080257,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.5042970086680985,
+        "step": 0
+      },
+      {
+        "objective": 2.8580101167231122,
+        "step": 25
+      },
+      {
+        "objective": 2.633785065512926,
+        "step": 50
+      },
+      {
+        "objective": 2.580044360247207,
+        "step": 75
+      },
+      {
+        "objective": 2.5629144539726183,
+        "step": 100
+      },
+      {
+        "objective": 2.555964190132421,
+        "step": 125
+      },
+      {
+        "objective": 2.5529369439374214,
+        "step": 150
+      },
+      {
+        "objective": 2.5515380158911816,
+        "step": 175
+      },
+      {
+        "objective": 2.550900911182139,
+        "step": 200
+      },
+      {
+        "objective": 2.5505920752777946,
+        "step": 225
+      },
+      {
+        "objective": 2.5504211101911154,
+        "step": 250
+      },
+      {
+        "objective": 2.55031533367651,
+        "step": 275
+      },
+      {
+        "objective": 2.5502536114593957,
+        "step": 300
+      },
+      {
+        "objective": 2.5502134812250787,
+        "step": 325
+      },
+      {
+        "objective": 2.5501681153464277,
+        "step": 350
+      },
+      {
+        "objective": 2.550119093742504,
+        "step": 375
+      },
+      {
+        "objective": 2.5501014194405176,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.6583578611642728,
+    "initial_training_objective": 7.246571711880245,
+    "kind": "flat",
+    "learned_parameter_count": 9035,
+    "method": "flat_joint",
+    "seed": 29,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.9067190850607577,
+        "domain_nll": 0.34265099247199754,
+        "intent_accuracy": 0.7830593280914939,
+        "intent_nll": 0.8387304645764376,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.9049547403525489,
+        "domain_nll": 0.36860956222240704,
+        "intent_accuracy": 0.7770366841353026,
+        "intent_nll": 0.8788237091394944,
+        "probability_sum_max_error": 1.1102230246251565e-15
+      },
+      "train": {
+        "domain_accuracy": 0.9992857142857143,
+        "domain_nll": 0.0839478995788414,
+        "intent_accuracy": 0.9907142857142858,
+        "intent_nll": 0.17175564867601714,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.74,
+        "domain_nll": 0.8169120162934153,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.246571711880245,
+        "step": 0
+      },
+      {
+        "objective": 0.8863741246702204,
+        "step": 25
+      },
+      {
+        "objective": 0.7240936472654687,
+        "step": 50
+      },
+      {
+        "objective": 0.6818700188962219,
+        "step": 75
+      },
+      {
+        "objective": 0.6744903645225988,
+        "step": 100
+      },
+      {
+        "objective": 0.6717633816942374,
+        "step": 125
+      },
+      {
+        "objective": 0.6701491699059194,
+        "step": 150
+      },
+      {
+        "objective": 0.6688442779703814,
+        "step": 175
+      },
+      {
+        "objective": 0.6676146501544867,
+        "step": 200
+      },
+      {
+        "objective": 0.6663898601769267,
+        "step": 225
+      },
+      {
+        "objective": 0.6651550213439461,
+        "step": 250
+      },
+      {
+        "objective": 0.6639165450736705,
+        "step": 275
+      },
+      {
+        "objective": 0.662690310293601,
+        "step": 300
+      },
+      {
+        "objective": 0.6614972297797386,
+        "step": 325
+      },
+      {
+        "objective": 0.6603610971160048,
+        "step": 350
+      },
+      {
+        "objective": 0.6593067592669304,
+        "step": 375
+      },
+      {
+        "objective": 0.6583578611642728,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.43038672378250364,
+    "initial_training_objective": 2.3084180227800646,
+    "kind": "domain",
+    "learned_parameter_count": 585,
+    "method": "direct_domain",
+    "seed": 29,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.8495353824160115,
+        "domain_nll": 0.4593306587025847,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8344449737970462,
+        "domain_nll": 0.5015364764101606,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9017857142857143,
+        "domain_nll": 0.3422518886894416,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.8333333333333334,
+        "domain_nll": 0.5354583708350967,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 2.3084180227800646,
+        "step": 0
+      },
+      {
+        "objective": 0.5890913239263688,
+        "step": 25
+      },
+      {
+        "objective": 0.48273254557033995,
+        "step": 50
+      },
+      {
+        "objective": 0.45601793224352216,
+        "step": 75
+      },
+      {
+        "objective": 0.4448457509972437,
+        "step": 100
+      },
+      {
+        "objective": 0.43909787936756056,
+        "step": 125
+      },
+      {
+        "objective": 0.43585978075971377,
+        "step": 150
+      },
+      {
+        "objective": 0.4339217585576885,
+        "step": 175
+      },
+      {
+        "objective": 0.432704585645204,
+        "step": 200
+      },
+      {
+        "objective": 0.4319119465340868,
+        "step": 225
+      },
+      {
+        "objective": 0.4313833418020711,
+        "step": 250
+      },
+      {
+        "objective": 0.43102629636820555,
+        "step": 275
+      },
+      {
+        "objective": 0.43078409387869565,
+        "step": 300
+      },
+      {
+        "objective": 0.4306200485206123,
+        "step": 325
+      },
+      {
+        "objective": 0.43050952982068325,
+        "step": 350
+      },
+      {
+        "objective": 0.43043564873418416,
+        "step": 375
+      },
+      {
+        "objective": 0.43038672378250364,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 1.6801522059984135,
+    "initial_training_objective": 7.69427386504376,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "semantic_prefix",
+    "seed": 43,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.7866333095067906,
+        "domain_nll": 0.6588201523214465,
+        "intent_accuracy": 0.6529664045746962,
+        "intent_nll": 1.4078547898793625,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.7748928060981419,
+        "domain_nll": 0.6823268870830058,
+        "intent_accuracy": 0.6581705574082897,
+        "intent_nll": 1.4495381172375723,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.8228571428571428,
+        "domain_nll": 0.535948316171245,
+        "intent_accuracy": 0.8496428571428571,
+        "intent_nll": 0.8371318661226487,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.69,
+        "domain_nll": 0.8783766555948117,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.69427386504376,
+        "step": 0
+      },
+      {
+        "objective": 2.28851818483607,
+        "step": 25
+      },
+      {
+        "objective": 1.913917537220423,
+        "step": 50
+      },
+      {
+        "objective": 1.801313810205705,
+        "step": 75
+      },
+      {
+        "objective": 1.7510239772066611,
+        "step": 100
+      },
+      {
+        "objective": 1.7241012839614573,
+        "step": 125
+      },
+      {
+        "objective": 1.7083374261129223,
+        "step": 150
+      },
+      {
+        "objective": 1.6986050389476812,
+        "step": 175
+      },
+      {
+        "objective": 1.6923737970876058,
+        "step": 200
+      },
+      {
+        "objective": 1.6882767874554745,
+        "step": 225
+      },
+      {
+        "objective": 1.6855295443631029,
+        "step": 250
+      },
+      {
+        "objective": 1.683660866324751,
+        "step": 275
+      },
+      {
+        "objective": 1.6823771595622197,
+        "step": 300
+      },
+      {
+        "objective": 1.6814898292032003,
+        "step": 325
+      },
+      {
+        "objective": 1.6808745904156188,
+        "step": 350
+      },
+      {
+        "objective": 1.680447796166809,
+        "step": 375
+      },
+      {
+        "objective": 1.6801522059984135,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 2.5337713626432175,
+    "initial_training_objective": 7.507299367596473,
+    "kind": "tree",
+    "learned_parameter_count": 9035,
+    "method": "shuffled_prefix",
+    "seed": 43,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.860614724803431,
+        "domain_nll": 0.6543432931736011,
+        "intent_accuracy": 0.40421729807005,
+        "intent_nll": 2.223269596711602,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8473082420200095,
+        "domain_nll": 0.6872072507528295,
+        "intent_accuracy": 0.4068604097189138,
+        "intent_nll": 2.234878349104314,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9392857142857143,
+        "domain_nll": 0.492911927294297,
+        "intent_accuracy": 0.5314285714285715,
+        "intent_nll": 1.6699719839639589,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.7633333333333333,
+        "domain_nll": 0.8742438896229733,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.507299367596473,
+        "step": 0
+      },
+      {
+        "objective": 2.837726204495432,
+        "step": 25
+      },
+      {
+        "objective": 2.6126244418840705,
+        "step": 50
+      },
+      {
+        "objective": 2.5615561713704955,
+        "step": 75
+      },
+      {
+        "objective": 2.546137119652691,
+        "step": 100
+      },
+      {
+        "objective": 2.5402326931928543,
+        "step": 125
+      },
+      {
+        "objective": 2.5375305641216857,
+        "step": 150
+      },
+      {
+        "objective": 2.5353722248739916,
+        "step": 175
+      },
+      {
+        "objective": 2.5345248097254203,
+        "step": 200
+      },
+      {
+        "objective": 2.534139533005484,
+        "step": 225
+      },
+      {
+        "objective": 2.53397007935033,
+        "step": 250
+      },
+      {
+        "objective": 2.5338845925556757,
+        "step": 275
+      },
+      {
+        "objective": 2.5338251509360226,
+        "step": 300
+      },
+      {
+        "objective": 2.5337977350201464,
+        "step": 325
+      },
+      {
+        "objective": 2.533783252817108,
+        "step": 350
+      },
+      {
+        "objective": 2.533775513777166,
+        "step": 375
+      },
+      {
+        "objective": 2.5337713626432175,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.658486998966128,
+    "initial_training_objective": 7.2501761892813095,
+    "kind": "flat",
+    "learned_parameter_count": 9035,
+    "method": "flat_joint",
+    "seed": 43,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.9070764832022874,
+        "domain_nll": 0.3426504772552448,
+        "intent_accuracy": 0.7834167262330236,
+        "intent_nll": 0.8388456615974107,
+        "probability_sum_max_error": 7.771561172376096e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.9047165316817533,
+        "domain_nll": 0.36857152473772703,
+        "intent_accuracy": 0.7767984754645069,
+        "intent_nll": 0.8789365856390232,
+        "probability_sum_max_error": 7.771561172376096e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9992857142857143,
+        "domain_nll": 0.08395610858611452,
+        "intent_accuracy": 0.9903571428571428,
+        "intent_nll": 0.1719588616265998,
+        "probability_sum_max_error": 8.881784197001252e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.74,
+        "domain_nll": 0.8171911736495306,
+        "probability_sum_max_error": 5.551115123125783e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 7.2501761892813095,
+        "step": 0
+      },
+      {
+        "objective": 0.8861711748816884,
+        "step": 25
+      },
+      {
+        "objective": 0.7241185778436434,
+        "step": 50
+      },
+      {
+        "objective": 0.6818571193015552,
+        "step": 75
+      },
+      {
+        "objective": 0.6744908185381098,
+        "step": 100
+      },
+      {
+        "objective": 0.6717783934793351,
+        "step": 125
+      },
+      {
+        "objective": 0.670180177689256,
+        "step": 150
+      },
+      {
+        "objective": 0.668892443839915,
+        "step": 175
+      },
+      {
+        "objective": 0.6676800168888128,
+        "step": 200
+      },
+      {
+        "objective": 0.6664719532905015,
+        "step": 225
+      },
+      {
+        "objective": 0.6652528509636868,
+        "step": 250
+      },
+      {
+        "objective": 0.6640284554358843,
+        "step": 275
+      },
+      {
+        "objective": 0.6628138515365345,
+        "step": 300
+      },
+      {
+        "objective": 0.6616290778371472,
+        "step": 325
+      },
+      {
+        "objective": 0.6604970623262296,
+        "step": 350
+      },
+      {
+        "objective": 0.6594419412989796,
+        "step": 375
+      },
+      {
+        "objective": 0.658486998966128,
+        "step": 400
+      }
+    ]
+  },
+  {
+    "coefficients_changed": true,
+    "final_training_objective": 0.43038110155855064,
+    "initial_training_objective": 2.298506787743478,
+    "kind": "domain",
+    "learned_parameter_count": 585,
+    "method": "direct_domain",
+    "seed": 43,
+    "splits": {
+      "development": {
+        "domain_accuracy": 0.8495353824160115,
+        "domain_nll": 0.4593130271064892,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "seen_test": {
+        "domain_accuracy": 0.8344449737970462,
+        "domain_nll": 0.5015144222945301,
+        "probability_sum_max_error": 5.551115123125783e-16
+      },
+      "train": {
+        "domain_accuracy": 0.9017857142857143,
+        "domain_nll": 0.34221187071688686,
+        "probability_sum_max_error": 4.440892098500626e-16
+      },
+      "unseen_test": {
+        "domain_accuracy": 0.8333333333333334,
+        "domain_nll": 0.53547870143622,
+        "probability_sum_max_error": 4.440892098500626e-16
+      }
+    },
+    "training_history": [
+      {
+        "objective": 2.298506787743478,
+        "step": 0
+      },
+      {
+        "objective": 0.5894510689862031,
+        "step": 25
+      },
+      {
+        "objective": 0.4825070574837756,
+        "step": 50
+      },
+      {
+        "objective": 0.45577268071157545,
+        "step": 75
+      },
+      {
+        "objective": 0.4446364720382043,
+        "step": 100
+      },
+      {
+        "objective": 0.4389322205147206,
+        "step": 125
+      },
+      {
+        "objective": 0.43573188092783394,
+        "step": 150
+      },
+      {
+        "objective": 0.4338245044801209,
+        "step": 175
+      },
+      {
+        "objective": 0.43263134451884333,
+        "step": 200
+      },
+      {
+        "objective": 0.43185716823950593,
+        "step": 225
+      },
+      {
+        "objective": 0.43134262780850813,
+        "step": 250
+      },
+      {
+        "objective": 0.43099624688778515,
+        "step": 275
+      },
+      {
+        "objective": 0.4307621020853938,
+        "step": 300
+      },
+      {
+        "objective": 0.4306041152625343,
+        "step": 325
+      },
+      {
+        "objective": 0.4304981194243088,
+        "step": 350
+      },
+      {
+        "objective": 0.4304275825684164,
+        "step": 375
+      },
+      {
+        "objective": 0.43038110155855064,
+        "step": 400
+      }
+    ]
+  }
+]

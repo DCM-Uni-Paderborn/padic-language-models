@@ -1,0 +1,707 @@
+{
+  "manifest": {
+    "affected_query_definition": "zero_based_query_position >= 32",
+    "alignment_completion_sha256": "41782ff6103e9936415faa88f4eb4838da7744828229854339879f82cf18a012",
+    "alignment_config_sha256": "635fc996d7bbde104841369a3e963c732e1392c20d433ec48567a66aa165992c",
+    "alignment_directory": "/Users/tkuehne/Documents/Science/padic-language-models/results/routing-alignment-spark-20261003",
+    "budget_per_query_head": 32,
+    "checks": {
+      "captured_repeat_kv_groups_bitwise_exact": true,
+      "exact_budget_causal_chronological_recent_selections": true,
+      "input_artifact_hashes_verified": true,
+      "raw_ids_joined_without_order_assumptions": true,
+      "shared_recent_union_bound_verified": true,
+      "trace_and_pinned_model_hash_agreement": true
+    },
+    "command": [
+      "experiments/alignment_access.py",
+      "--alignment",
+      "results/routing-alignment-spark-20261003",
+      "--trace",
+      "results/llm-control-spark-20261003/attention-trace.npz",
+      "--model-manifest",
+      "results/llm-routing-primes-spark-20261003/manifest.json",
+      "--output",
+      "results/alignment-access-spark-20261003"
+    ],
+    "created_utc": "2026-10-03T21:14:44.807312+00:00",
+    "gqa_group_size": 3,
+    "group_mapping_basis": "pinned stock Llama repeat_kv contiguous layout, corroborated by bitwise-equal captured K and V",
+    "mandatory_recent_inside_budget": 8,
+    "model": "HuggingFaceTB/SmolLM2-135M",
+    "model_loaded_state_sha256": "d9bcdca3b4d83d1d8505eb3b0e85f0c21dc1c2641e72109b3b4897a965500fb1",
+    "model_manifest_path": "/Users/tkuehne/Documents/Science/padic-language-models/results/llm-routing-primes-spark-20261003/manifest.json",
+    "model_manifest_sha256": "93a88be9a710c13d5876115318759376da1f368d22d54add7d2d212a136b99db",
+    "model_revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "numpy_version": "2.4.6",
+    "physical_kv_heads": 3,
+    "python_version": "3.14.6",
+    "query_head_to_physical_kv_head": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "query_heads": 9,
+    "rawstats_sha256": {
+      "pca-17": "6e4b5c3230ac34e2c0adcfafd46fd67f947831f4cb8c689cb26af12eb9d4e256",
+      "random-17": "b14be4a6997150b4948330271b19d0923702d971f01a593faef3cfdbda43c8ec",
+      "random-29": "d7f8a76ca3bcdfa92992df0d87533082fecd648f07af5896e4cf99f14d29969d",
+      "random-43": "e369bb77ff468d70ef793fb6d42797855f350df0bc540a5096813190112979ad"
+    },
+    "scope": "Secondary logical selected-position unions; all real K/V remain retained. No actual reads, storage savings, bytes or speed are measured.",
+    "shared_recent_union_bound": "min(causal_prefix, r + group_size * (min(causal_prefix,budget) - r)), r=min(recent,budget,causal_prefix)",
+    "source_sha256": {
+      "alignment_access.py": "0867efed875a97e8182abc1a1d2fd7d7889267a4d8befa7a7cff2ab582a11de7"
+    },
+    "source_snapshots": {
+      "alignment_access.py": "sources/alignment_access.py"
+    },
+    "trace_path": "/Users/tkuehne/Documents/Science/padic-language-models/results/llm-control-spark-20261003/attention-trace.npz",
+    "trace_sha256": "1410127348792eec13aa013d38f4710bed49855d918a509c6481452e1b639e9e"
+  },
+  "status": "alignment_access_completed",
+  "variants": [
+    {
+      "name": "pca-17",
+      "summaries": [
+        {
+          "logical_group_query_count": 11520,
+          "method": "recency",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 28.125,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_euclidean",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 65,
+          "selected_position_union_mean": 35.71484375,
+          "selected_position_union_median": 37.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_dot_product",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 37.96805555555556,
+          "selected_position_union_median": 40.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 68,
+          "selected_position_union_mean": 30.759895833333335,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 68,
+          "selected_position_union_mean": 30.759895833333335,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 61,
+          "selected_position_union_mean": 29.021875,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 61,
+          "selected_position_union_mean": 29.021875,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "recency",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 32.0,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_euclidean",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 65,
+          "selected_position_union_mean": 42.119791666666664,
+          "selected_position_union_median": 41.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_dot_product",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 45.12407407407407,
+          "selected_position_union_median": 43.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 68,
+          "selected_position_union_mean": 35.513194444444444,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 68,
+          "selected_position_union_mean": 35.513194444444444,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 61,
+          "selected_position_union_mean": 33.19583333333333,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 61,
+          "selected_position_union_mean": 33.19583333333333,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        }
+      ]
+    },
+    {
+      "name": "random-17",
+      "summaries": [
+        {
+          "logical_group_query_count": 11520,
+          "method": "recency",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 28.125,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_euclidean",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 45.658680555555556,
+          "selected_position_union_median": 52.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_dot_product",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 46.203472222222224,
+          "selected_position_union_median": 53.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 73,
+          "selected_position_union_mean": 39.597309027777776,
+          "selected_position_union_median": 41.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 73,
+          "selected_position_union_mean": 39.597309027777776,
+          "selected_position_union_median": 41.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 71,
+          "selected_position_union_mean": 34.59010416666667,
+          "selected_position_union_median": 36.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 71,
+          "selected_position_union_mean": 34.59010416666667,
+          "selected_position_union_median": 36.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "recency",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 32.0,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_euclidean",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 55.37824074074074,
+          "selected_position_union_median": 57.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_dot_product",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 56.10462962962963,
+          "selected_position_union_median": 58.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 73,
+          "selected_position_union_mean": 47.29641203703704,
+          "selected_position_union_median": 46.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 73,
+          "selected_position_union_mean": 47.29641203703704,
+          "selected_position_union_median": 46.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 71,
+          "selected_position_union_mean": 40.62013888888889,
+          "selected_position_union_median": 39.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 71,
+          "selected_position_union_mean": 40.62013888888889,
+          "selected_position_union_median": 39.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        }
+      ]
+    },
+    {
+      "name": "random-29",
+      "summaries": [
+        {
+          "logical_group_query_count": 11520,
+          "method": "recency",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 28.125,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_euclidean",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 74,
+          "selected_position_union_mean": 45.412760416666664,
+          "selected_position_union_median": 52.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_dot_product",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 77,
+          "selected_position_union_mean": 46.03098958333333,
+          "selected_position_union_median": 53.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 39.50321180555556,
+          "selected_position_union_median": 41.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 39.50321180555556,
+          "selected_position_union_median": 41.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 34.331684027777776,
+          "selected_position_union_median": 36.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 34.331684027777776,
+          "selected_position_union_median": 36.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "recency",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 32.0,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_euclidean",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 74,
+          "selected_position_union_mean": 55.05034722222222,
+          "selected_position_union_median": 57.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_dot_product",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 77,
+          "selected_position_union_mean": 55.874652777777776,
+          "selected_position_union_median": 58.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 47.17094907407407,
+          "selected_position_union_median": 47.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 47.17094907407407,
+          "selected_position_union_median": 47.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 40.2755787037037,
+          "selected_position_union_median": 39.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 40.2755787037037,
+          "selected_position_union_median": 39.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        }
+      ]
+    },
+    {
+      "name": "random-43",
+      "summaries": [
+        {
+          "logical_group_query_count": 11520,
+          "method": "recency",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 28.125,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_euclidean",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 45.26996527777778,
+          "selected_position_union_median": 52.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "flat_dot_product",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 45.32612847222222,
+          "selected_position_union_median": 53.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 72,
+          "selected_position_union_mean": 38.36215277777778,
+          "selected_position_union_median": 35.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_2",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 72,
+          "selected_position_union_mean": 38.36215277777778,
+          "selected_position_union_median": 35.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "padic_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 34.09288194444444,
+          "selected_position_union_median": 34.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 11520,
+          "method": "trie_3",
+          "per_query_head_count": 34560,
+          "per_query_head_selected_positions_mean": 28.125,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 34.09288194444444,
+          "selected_position_union_median": 34.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "all_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "recency",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 32,
+          "selected_position_union_mean": 32.0,
+          "selected_position_union_median": 32.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_euclidean",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 54.8599537037037,
+          "selected_position_union_median": 56.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "flat_dot_product",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 76,
+          "selected_position_union_mean": 54.934837962962966,
+          "selected_position_union_median": 56.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 72,
+          "selected_position_union_mean": 45.649537037037035,
+          "selected_position_union_median": 44.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_2",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 72,
+          "selected_position_union_mean": 45.649537037037035,
+          "selected_position_union_median": 44.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "padic_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 39.957175925925924,
+          "selected_position_union_median": 38.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        },
+        {
+          "logical_group_query_count": 8640,
+          "method": "trie_3",
+          "per_query_head_count": 25920,
+          "per_query_head_selected_positions_mean": 32.0,
+          "selected_position_union_max": 70,
+          "selected_position_union_mean": 39.957175925925924,
+          "selected_position_union_median": 38.0,
+          "shared_recent_union_bound_max": 80,
+          "stratum": "affected_queries"
+        }
+      ]
+    }
+  ]
+}

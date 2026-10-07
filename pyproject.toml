@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "padic-language-models"
+version = "0.1.0"
+description = "Controlled experiments on finite p-adic ideas in language-model components"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2,<3"]
+
+[project.optional-dependencies]
+language = ["torch>=2.6", "transformers==4.57.6", "datasets==4.4.1"]
+figures = ["matplotlib>=3.10,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

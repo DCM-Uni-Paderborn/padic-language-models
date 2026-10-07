@@ -1,0 +1,22 @@
+{
+  "input_families": [
+    "WikiText discovery tokens",
+    "WikiText training and development windows",
+    "WikiText held-out windows",
+    "PG-19 nested prefixes",
+    "CLINC150 texts and taxonomy",
+    "synthetic regression",
+    "modular prompts and frozen priors",
+    "learned encoder and routing states"
+  ],
+  "omitted_regenerable": [
+    "model feature captures",
+    "bulk intermediate arrays",
+    "per-query outputs",
+    "full model caches",
+    "duplicate full corpus downloads"
+  ],
+  "scientific_negative_results": "Preserved in the paper and compact summaries",
+  "scope": "Current paper and SI, scientific code, essential frozen inputs and compact reported results",
+  "technical_failed_attempts": "Not included"
+}

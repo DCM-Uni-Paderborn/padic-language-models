@@ -1,0 +1,38 @@
+{
+  "status": "native_pg19_production_frozen_before_book_access",
+  "created_utc": "2026-10-04T05:10:52.748172+00:00",
+  "protocol_sha256": "e6c008c5ff69423aaea43256e70c77f80cce1bac546fa0fd5ce4587b73c82e42",
+  "preflight_sha256": "4f8177711f70366c3de608699fd0325813d068b509c6c85c412a1b53fd002a96",
+  "metadata_manifest_sha256": "cf6277b9a3939cb558a1b46a45b3d4475051bcc65e544b4e85bcbd8eb81b9794",
+  "source_sha256": {
+    "src/padic_lm/arithmetic.py": "657fe0d58db3149c874652679de871b6b353a402ce4734fb527422e2a3739900",
+    "src/padic_lm/corpus.py": "2df453e4777bde7c0546549b7fd4576367713e87f35271e064edbd08672c871c",
+    "src/padic_lm/dense_masks.py": "1967eda3fe667df0d2bfcd92f6c762accb62652cffcd204c507fafa889783437",
+    "src/padic_lm/development.py": "75da21cc942e601dc7943b1d8c537d8164682c886fd5914d8464c63b96cbf25c",
+    "src/padic_lm/flat_routing.py": "974d6b76d8646afc43ec9730d1ef5aa45cb8eb720c0272249b91e9b1b217f8b8",
+    "src/padic_lm/heldout.py": "1630bb1124dab3b6415ee71d9000915ed25fdf2153c6800b3211534857b2f49e",
+    "src/padic_lm/learned.py": "18ab3df4f8f1c2ad02843994115105766160c0ef865f4a23da6d0b8bda670dd4",
+    "src/padic_lm/native_decode.py": "2c07cbe6e7a331a0b8fd5b128eb4ef61d5fcaf4bfef16fa192b2c3cb4b344231",
+    "src/padic_lm/native_quality.py": "26c67ae5e1ca1c221f5bd61950a2ce9ae122cf026c7258bc9cdf353fbdd3517d",
+    "src/padic_lm/native_study.py": "0402fac9f4f0ea65dd2a1871193fdfb6c709e96087d6ef536be526e9aa96fdc4",
+    "src/padic_lm/prefix_index.py": "cd85589f605f18ad986c287b522d0a55e53afbc3b10a95d048df25c7f0bff4be",
+    "src/padic_lm/routing.py": "80f34d993f53e432ea9f226242428dd78a5e8869037bea399224d7542e624934",
+    "src/padic_lm/shared_budget.py": "b5d655f1386d58fe69e6ce430c3ff8ce5460fd09f31a9a920437559983329c7e",
+    "experiments/prepare_pg19_contexts.py": "cfe7e92c72615c6bbdfda19f57f0d29b2d77f63095bde4960e6ac9af1d08d9a5",
+    "experiments/evaluate_native_quality.py": "e5cdf57ab31a7b2037022c3257d1aaeddc1b9a2ce63273f4563ccc7840d19eaf",
+    "experiments/analyze_native_quality.py": "25134980398c8a1e678756d70594f19a28995f8813cf31abf0604a4e063a3cf6",
+    "experiments/preflight_native_quality.py": "80e2faf5b7902858f8bd1bea0c51aa3ce9260d9bb2f6ca9a50e16b0100934835",
+    "experiments/evaluate_qk_bridge.py": "2009ac05be8007c68a579ef1180970c37a870027a2ed969479413eeb3984ac67",
+    "experiments/llm_routing.py": "744452c4cbfc64b6629dd8247f2dc031b1fe62c4ad41ea0fff15e78972dd9f62",
+    "experiments/run_native_pg19.sh": "bf69a27518b925b61e240d06e449bb7170d5adbeadc86b1af5b982b34cd08401"
+  },
+  "selected_books": 40,
+  "contexts": [
+    2048,
+    4096
+  ],
+  "methods": 13,
+  "cap_process_wall_seconds": 10800,
+  "book_text_or_model_output_read": false,
+  "independent_auditors_are_separately_snapshotted": true
+}

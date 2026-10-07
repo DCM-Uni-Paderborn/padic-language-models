@@ -1,0 +1,97 @@
+{
+  "status": "complete_descriptive_summary_of_independently_audited_component_costs",
+  "complete_case_clock_rows": 156,
+  "phase_case_clock_rows": 540,
+  "storage_case_rows": 78,
+  "methods": [
+    "native_full",
+    "recency",
+    "uniform",
+    "s17_p2",
+    "s17_p3",
+    "s17_coarsened_p2",
+    "s29_p2",
+    "s29_p3",
+    "s29_coarsened_p2",
+    "s43_p2",
+    "s43_p3",
+    "s43_coarsened_p2",
+    "recency_view"
+  ],
+  "hardware_blocks": 7,
+  "raw_samples": 378000,
+  "family_ranges": {
+    "p2": {
+      "wall": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.271755438859715,
+        "maximum_ratio_to_full": 8.363809927874419,
+        "all_complete_calls_slower_than_full": true
+      },
+      "event": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.378151484708949,
+        "maximum_ratio_to_full": 8.53001367271878,
+        "all_complete_calls_slower_than_full": true
+      }
+    },
+    "p3": {
+      "wall": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.3411243435858955,
+        "maximum_ratio_to_full": 8.354881446678322,
+        "all_complete_calls_slower_than_full": true
+      },
+      "event": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.488159254031225,
+        "maximum_ratio_to_full": 8.568252976044738,
+        "all_complete_calls_slower_than_full": true
+      }
+    },
+    "coarsened_p2": {
+      "wall": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.333810015003752,
+        "maximum_ratio_to_full": 8.27232429826441,
+        "all_complete_calls_slower_than_full": true
+      },
+      "event": {
+        "matched_block_ratios": 126,
+        "minimum_ratio_to_full": 7.488159254031225,
+        "maximum_ratio_to_full": 8.512227853938052,
+        "all_complete_calls_slower_than_full": true
+      }
+    }
+  },
+  "allocation_history": {
+    "status": "followup_preflight_measurement_and_independent_audit_complete",
+    "utc": "2026-10-04T08:44:51.280738+00:00",
+    "preflight_completion_sha256": "c9bd9a8d6c83bf402d80aac7dc21c58b487b30808f0ec3cad9ba01222f058c1c",
+    "measurement_completion_sha256": "5e716c70c56f63370eb1f56862f2d9aa409115fec17537902a9b76de64ae0d5f",
+    "independent_audit_sha256": "94baf459ae8fb3ad4858c122f5a4dd2d87cf4e4dd0ea5df5c9eb082bc9437871",
+    "historical_failure_sha256": "b651b124c09a25aac7a28db219c0fa270f5deedeb022432f1561d0d470efde46",
+    "historical_cost_seconds": 16.651104430668056,
+    "new_outer_elapsed_seconds": 105.5296683292836,
+    "combined_outer_seconds": 122.18077275995165,
+    "new_scientific_ledger_seconds": 103.45093136746436,
+    "scope": "Transparent repeated Spark allocation; both histories retained; descriptive warm component costs only"
+  },
+  "quality_family_screens": {
+    "p2": {
+      "passed_comparisons": 23,
+      "required_comparisons": 36,
+      "screen_passed": false,
+      "largest_upper_nats": 0.020926084679125358,
+      "label": "not established by the frozen native-readout PG-19 screen"
+    },
+    "p3": {
+      "passed_comparisons": 29,
+      "required_comparisons": 36,
+      "screen_passed": false,
+      "largest_upper_nats": 0.016815224366268203,
+      "label": "not established by the frozen native-readout PG-19 screen"
+    }
+  },
+  "scope": "Warm single-component replay; medians/ranges describe seven hardware blocks, not confidence intervals. All real KV retained. No cached-model throughput or compression claim."
+}

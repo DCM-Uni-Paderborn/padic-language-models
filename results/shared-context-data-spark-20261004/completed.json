@@ -1,0 +1,17 @@
+{
+  "artifact_bytes": {
+    "manifest.json": 27490,
+    "prospective_protocol.txt": 7639,
+    "sources/corpus.py": 3049,
+    "sources/prepare_shared_contexts.py": 5148,
+    "tokens.npz": 183542
+  },
+  "artifact_sha256": {
+    "manifest.json": "7b49aad4227f34aa7b8589212bd02a7506f9675317e826d65403b3679d8abc0b",
+    "prospective_protocol.txt": "d1df47b5e8b089d683a213ab4220a225353b52e61809b975d387b3719887f4b3",
+    "sources/corpus.py": "2df453e4777bde7c0546549b7fd4576367713e87f35271e064edbd08672c871c",
+    "sources/prepare_shared_contexts.py": "4faa1e148451a4ca38f47693cfad18a3ff48977dd05cc76d504d587b12bb80e8",
+    "tokens.npz": "a47e3b6c2a38c07f652c326d28b7c5a87a03b7da2e49957811b727ed894b2e0a"
+  },
+  "status": "shared_contexts_frozen"
+}

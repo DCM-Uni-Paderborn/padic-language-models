@@ -1,0 +1,21 @@
+{
+  "ai_model_disclosed": "GPT-6.1 Sol",
+  "all_displayed_equations_and_proofs_unchanged": true,
+  "commit_and_pr_identifiers_in_manuscript": false,
+  "maximum_rebuilt_comparison_discrepancy": 2.220446049250313e-16,
+  "native_editor_compilation": "success",
+  "native_statistics_absolute_endpoints_rebuilt": 52,
+  "native_statistics_comparisons_rebuilt": 172,
+  "repository_reference_added": true,
+  "source_sha256": "6441c866951e42f417ca9589f6a6c58d2ae2a72b676ff7c2f5aee1f04e71d884",
+  "tables_unchanged": 31,
+  "terok_reference_added": true,
+  "test_suite": {
+    "gpu_visible": false,
+    "host": "Spark",
+    "passed": 170,
+    "result": "success",
+    "skipped": 1,
+    "tests_run": 171
+  }
+}

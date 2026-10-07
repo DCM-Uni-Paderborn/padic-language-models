@@ -1,0 +1,28 @@
+{
+  "automatic_restarts": 0,
+  "data_completion_sha256": "033d9984858ab0f417181980d64919a901fe813b6d6d97362410c02c959ed454",
+  "foundation_tests_passed": 4,
+  "independent_audit_limit_seconds": 1800,
+  "local_foundation_numpy": "2.4.6",
+  "local_foundation_python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "primary_host": "spark",
+  "producer_limit_seconds": 1800,
+  "protocol": "research/ball-ffn-pilot-protocol.md",
+  "protocol_sha256": "072d05e3c2373bfa53e8f739622668b4e84966bbdf1bd505d185d947b477515b",
+  "scope": "Fresh reproduction with fixed scientific settings and the published verification sources",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "source_sha256": {
+    "experiments/audit_ball_ffn.py": "f2e9010ccd65348f00d776f88d3189285a092e485501549b0310eef0049461de",
+    "experiments/pilot_ball_ffn.py": "36d89d45ade1af074dfe3da57c808b109b48058d9ebf84afc4eaa5c92a5420b8",
+    "src/padic_lm/arithmetic.py": "657fe0d58db3149c874652679de871b6b353a402ce4734fb527422e2a3739900",
+    "src/padic_lm/ball_ffn.py": "c15134e465f7dcd21e12b7dd07bcdf88f49c95ca6d74c894183ed64b5deb69ef",
+    "tests/test_ball_ffn.py": "76872319c3dce4f15d22a11467de8e5f81ab6a126a408f4e6898aea0cb76f44a"
+  },
+  "speed_is_primary": false,
+  "stage": "prospective_development_pilot_before_new_teacher_or_model_outputs",
+  "status": "publication_launch_settings"
+}

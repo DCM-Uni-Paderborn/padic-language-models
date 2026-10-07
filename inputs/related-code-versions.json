@@ -1,0 +1,250 @@
+{
+  "status": "primary_public_sources_pinned_for_read_only_review",
+  "created_utc": "2026-10-04T03:00:38.884818+00:00",
+  "repositories": [
+    {
+      "local_label": "dyadic-storage",
+      "repository_url": "https://github.com/sashakolpakov/dyadic-quant",
+      "commit": "3616b01456b40c91845288c684420390c3bec9a8",
+      "declared_commit_time": "2026-07-03T19:09:00+02:00",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2eef5438abf0c9f817c0ccf9300d803fe16a6a4db1838f1de69fc9d6d99453f0",
+          "bytes": 4157,
+          "git_blob": "4d801e65076b8ccda6a6f6150eeb41b68ca9733a",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/README.md"
+        },
+        {
+          "path": "PAPER.md",
+          "sha256": "2661c74a274edb892c46c0a2a7121287427d82ac8c14d761d74112c63652b6e1",
+          "bytes": 30078,
+          "git_blob": "893a25d1d6fd25cdf6f5d796378978f1d2211285",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/PAPER.md"
+        },
+        {
+          "path": "dyadic_quant/level1/progressive.py",
+          "sha256": "ae0743ebe4a980ec25fdb15fa033261667673ffe70316836b3f95c39ffb5395b",
+          "bytes": 9328,
+          "git_blob": "6059543d294a5c8b43b60b0e7a6ea60729e5c239",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/dyadic_quant/level1/progressive.py"
+        },
+        {
+          "path": "dyadic_quant/level1/dyadic_torch.py",
+          "sha256": "ffffd10a64746d8ffea7b8718e6db68c889787b5e79259e7cf90f4dd74921876",
+          "bytes": 14994,
+          "git_blob": "8af9e8b5912308ef8caac71cd3f2ab18e9124200",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/dyadic_quant/level1/dyadic_torch.py"
+        },
+        {
+          "path": "dyadic_quant/level1/arithmetic.py",
+          "sha256": "38588b5c394c207d997b3a22519af6c6ae22175a1b66da7a8a29bfb15f66917f",
+          "bytes": 1631,
+          "git_blob": "8b73540f9e4317119f04edacf882ac060bf63667",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/dyadic_quant/level1/arithmetic.py"
+        },
+        {
+          "path": "dyadic_quant/level1/inference.py",
+          "sha256": "20395aa28cc39b95b19b038015e736ed754bca2b8bd2eb4d9e6b1aa748cfed8b",
+          "bytes": 8292,
+          "git_blob": "9bf4055d77288f463d4a839cac4bce9b8e51e84f",
+          "immutable_url": "https://github.com/sashakolpakov/dyadic-quant/blob/3616b01456b40c91845288c684420390c3bec9a8/dyadic_quant/level1/inference.py"
+        }
+      ],
+      "missing_requested_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "local_label": "adelic-attention",
+      "repository_url": "https://github.com/sneed-and-feed/adelic-spectral-zeta",
+      "commit": "0c3e98c144796f99534f372b4aba977e6b76ee19",
+      "declared_commit_time": "2026-09-16T03:10:52-07:00",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "df390007774f864571287c437dd42b5066fdcb028f04aef0ed9e18343ce08c97",
+          "bytes": 75667,
+          "git_blob": "7973954227acfc0bca77a265240024ab09b95171",
+          "immutable_url": "https://github.com/sneed-and-feed/adelic-spectral-zeta/blob/0c3e98c144796f99534f372b4aba977e6b76ee19/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "7e6b4b6858b8bd35f28589444057061447930d854d3dd820036b07d5fed75305",
+          "bytes": 18591,
+          "git_blob": "cfc3031ce015af9762f6f7b1c42f84b3126b4d95",
+          "immutable_url": "https://github.com/sneed-and-feed/adelic-spectral-zeta/blob/0c3e98c144796f99534f372b4aba977e6b76ee19/LICENSE"
+        },
+        {
+          "path": "docs/monograph/22_systems_architecture_transformers.md",
+          "sha256": "a717ae5b308670145084bca5ca27ca897eb42e1a6b126f8677cbf86b86600133",
+          "bytes": 5742,
+          "git_blob": "9f41e18f6b3dc933a9590f4cc770d5ef23d609ea",
+          "immutable_url": "https://github.com/sneed-and-feed/adelic-spectral-zeta/blob/0c3e98c144796f99534f372b4aba977e6b76ee19/docs/monograph/22_systems_architecture_transformers.md"
+        }
+      ],
+      "missing_requested_files": []
+    },
+    {
+      "local_label": "ultrametric-models",
+      "repository_url": "https://github.com/Dicklesworthstone/model_guided_research",
+      "commit": "723ee40c1788e911b75aee33437804aec35add70",
+      "declared_commit_time": "2026-09-22T13:24:29-04:00",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ea2545f5ab5c2812b1f6c378ebf3a07e9f9de61b9c77eeecc83334daa23108e1",
+          "bytes": 54242,
+          "git_blob": "0dd202a9c5b54fdf5d3aceeda17bda1a1a14d2be",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "32a82e0a5754e72e51fae44b65a936c831c07376f21c90f5fb9e76897fcc3509",
+          "bytes": 3939,
+          "git_blob": "3d414da6ff83defe084707be6030866e8a7fb794",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/LICENSE"
+        },
+        {
+          "path": "nanochat/ultrametric_attention_torch.py",
+          "sha256": "d5679f9f7eae2b47d4c56231aee2cb72c90fc3ab4a4cd3e0602b7557c9c6819e",
+          "bytes": 28984,
+          "git_blob": "d6fe3333931556812ac3538cc9e90c161ce81a7a",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/nanochat/ultrametric_attention_torch.py"
+        },
+        {
+          "path": "nanochat/ultrametric_attention.py",
+          "sha256": "59813877ba13bb27765d5a22b846d1c541c383541a330d68937842168df7d12e",
+          "bytes": 7698,
+          "git_blob": "f16caf1ceccd544e0abfc4e7f2576ed3d83f4a03",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/nanochat/ultrametric_attention.py"
+        },
+        {
+          "path": "ultrametric_worlds_and_p_adic_computation.py",
+          "sha256": "4ff41601941133d01d22dc0ea537cab02221e1a300ed498c8615e58b9cf5b779",
+          "bytes": 72025,
+          "git_blob": "f1dd40f39715e21eaa1d2fbae06ec01cd445790a",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/ultrametric_worlds_and_p_adic_computation.py"
+        },
+        {
+          "path": "markdown_documentation/padic_precision.md",
+          "sha256": "338b7c2e90f277f425b81612d0a25513c0ab6aedf31cb87cc2d0c200fc8a0060",
+          "bytes": 8014,
+          "git_blob": "6d96052a24ffbf3bf60f0f729ced7c3fd3f0646d",
+          "immutable_url": "https://github.com/Dicklesworthstone/model_guided_research/blob/723ee40c1788e911b75aee33437804aec35add70/markdown_documentation/padic_precision.md"
+        }
+      ],
+      "missing_requested_files": []
+    },
+    {
+      "local_label": "valuation-demo",
+      "repository_url": "https://github.com/rwnq8/ultrametric-ai-poc",
+      "commit": "f14533914cd696b8ab0bd080f5e4f241a8c365e4",
+      "declared_commit_time": "2026-05-29T09:30:01+02:00",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "b547442fb0a809f767af893a4b0d7c0b7a94cd6ca7b90c6c342c423c6480486f",
+          "bytes": 2630,
+          "git_blob": "0ed2c74289853f836db5433349c54a32f49a9150",
+          "immutable_url": "https://github.com/rwnq8/ultrametric-ai-poc/blob/f14533914cd696b8ab0bd080f5e4f241a8c365e4/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "d30188ceaba12b5a5fa165f80cdc4f3de81e7c011f1bfd9b3bf73f352cde0b5f",
+          "bytes": 491,
+          "git_blob": "42b2f80212b018c9332c0b94fb9622b762ed7a61",
+          "immutable_url": "https://github.com/rwnq8/ultrametric-ai-poc/blob/f14533914cd696b8ab0bd080f5e4f241a8c365e4/LICENSE"
+        },
+        {
+          "path": "cocycle.py",
+          "sha256": "667ecead86661c174e3d2b726fc57548ec219c380d8074902dbb8841975d33fc",
+          "bytes": 5655,
+          "git_blob": "298ea5419672865cde43bdca2166bfce4d6b45ee",
+          "immutable_url": "https://github.com/rwnq8/ultrametric-ai-poc/blob/f14533914cd696b8ab0bd080f5e4f241a8c365e4/cocycle.py"
+        },
+        {
+          "path": "model.py",
+          "sha256": "a5729923636abc15810f299bc588934bd53ddbf83668be29119ab7134bc995bc",
+          "bytes": 10615,
+          "git_blob": "e821f65e9e6a247a1c577c06dabd17b628a772d1",
+          "immutable_url": "https://github.com/rwnq8/ultrametric-ai-poc/blob/f14533914cd696b8ab0bd080f5e4f241a8c365e4/model.py"
+        }
+      ],
+      "missing_requested_files": []
+    },
+    {
+      "local_label": "block-sparse-surgery",
+      "repository_url": "https://github.com/sneed-and-feed/sparse-ai",
+      "commit": "3b78f144c0107bb71d9a6e4f35195ffca0d54f8f",
+      "declared_commit_time": "2026-10-03T16:01:27-07:00",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2b437a7e1210bdde27b6cda78bece7b0399cd7518fe470f01246ed05bda7afe4",
+          "bytes": 33501,
+          "git_blob": "318e3c1dd03394180ec6bde433534b4d23ac48e4",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/LICENSE"
+        },
+        {
+          "path": "src/llama_surgery/topology.py",
+          "sha256": "2129b25d9ca23436b3f729e5f51c6605700252fae85897d4e5f13efaf530e318",
+          "bytes": 13514,
+          "git_blob": "f477b0360ba3af1603ae2a7e16ad403ec38ac606",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/src/llama_surgery/topology.py"
+        },
+        {
+          "path": "src/llama_surgery/kernel.py",
+          "sha256": "7c3c173f945ad6c80c37645e722cdd9a20780bc9d5da6c56b2a857dd958dc69e",
+          "bytes": 16971,
+          "git_blob": "461b35632c596aab7b83a7d89de3ac7e17e44d1c",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/src/llama_surgery/kernel.py"
+        },
+        {
+          "path": "src/llama_surgery/llama_patcher.py",
+          "sha256": "098d762aa0d09bbd792b42ea206849ed39f088f376a0adf7649fb0db310e14c6",
+          "bytes": 2595,
+          "git_blob": "a25a27c365f3fd52d4fd965386553f724ae63aff",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/src/llama_surgery/llama_patcher.py"
+        },
+        {
+          "path": "src/ultrametric/block_list.py",
+          "sha256": "656576db1cdaac742d0071472e1e51c0e67ea4174622f41a5711979e11f02d34",
+          "bytes": 20273,
+          "git_blob": "4df24b47042dfd0662c5601e6867d534ebd2b4f0",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/src/ultrametric/block_list.py"
+        },
+        {
+          "path": "papers/llama_surgery.md",
+          "sha256": "17c55aefb9358892e4bfb76240383b3162a36a744f7b491e5f13d1bfd3627998",
+          "bytes": 70642,
+          "git_blob": "1b19c5b378982807a9573a45ffd53c493c4a724e",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/papers/llama_surgery.md"
+        },
+        {
+          "path": "papers/learning_to_skip_blocks.md",
+          "sha256": "0ebf827341bdcdbe3811147946ca701d98bfb497458f59bc94ca1710be1083bd",
+          "bytes": 43981,
+          "git_blob": "548d069944f00488a9c331e3e41191ea5fc6859a",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/papers/learning_to_skip_blocks.md"
+        },
+        {
+          "path": "formalization/Formalization/Analysis/AttentionError.lean",
+          "sha256": "097ffcebc983ad0a0202b41d0552252c4f3980d84ccf765e33f93597b9b385ca",
+          "bytes": 13596,
+          "git_blob": "c35a76b8b063dd8f2e12c73995df2b49a6547530",
+          "immutable_url": "https://github.com/sneed-and-feed/sparse-ai/blob/3b78f144c0107bb71d9a6e4f35195ffca0d54f8f/formalization/Formalization/Analysis/AttentionError.lean"
+        }
+      ],
+      "missing_requested_files": []
+    }
+  ],
+  "scope": "Original public code/docs only; no repository code/dependency/benchmark/proof was executed. Source snapshots preserved in ignored research scratch, reconstructible by commit/blob digests; measured claims remain unreplicated."
+}

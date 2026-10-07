@@ -1,0 +1,52 @@
+{
+  "status": "pilot_validation_only",
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "model_revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+  "dataset": "Salesforce/wikitext",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "dataset_config": "wikitext-2-raw-v1",
+  "split": "validation",
+  "tokenizer": "HuggingFaceTB/SmolLM2-135M",
+  "sequence_length": 128,
+  "tokens": 4096,
+  "seed": 0,
+  "dtype": "torch.bfloat16",
+  "layer": "model.layers.0.mlp.down_proj",
+  "weight_codes": [
+    -7,
+    7
+  ],
+  "activation_codes": [
+    -127,
+    127
+  ],
+  "weight_scale": "per_output_row_absmax",
+  "activation_scale": "per_token_absmax",
+  "tf32": false,
+  "compute": "FP32 exact-integer emulation under checked bound",
+  "integer_abs_bound": 1365504,
+  "source_sha256": "3853705173d843488e9288e70e28ca359739a2f6f6c05aa2db213454fc43c4ef",
+  "tokens_sha256": "4d74b009cf76a76023849408a1c90afeedde397c18afffbe3d3cbf1b837d9c13",
+  "packages": {
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.6",
+    "datasets": "4.4.1",
+    "numpy": "2.5.3",
+    "huggingface-hub": "0.36.2"
+  },
+  "platform": "Linux-6.17.0-1029-nvidia-aarch64-with-glibc2.39",
+  "limitations": [
+    "one frozen projection, one development sample, no training or statistical confirmation",
+    "diagnostic reference matmul is included in modified-mode runtime",
+    "quantized codes are stored in float32; no packed-memory or native-throughput claim",
+    "separate blocks omit cross-block next-token predictions",
+    "ordinary scales, other model layers and readout remain real-valued"
+  ],
+  "gpu": "NVIDIA GB10",
+  "gpu_capability": [
+    12,
+    1
+  ],
+  "cuda_build": "13.0",
+  "nvidia_smi": "NVIDIA GB10, 580.173.02, 12.1"
+}

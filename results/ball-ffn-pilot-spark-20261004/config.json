@@ -1,0 +1,51 @@
+{
+  "affine_rows": 32,
+  "created_utc": "2026-10-04T10:04:08.784564+00:00",
+  "data_completion_sha256": "033d9984858ab0f417181980d64919a901fe813b6d6d97362410c02c959ed454",
+  "dev_targets": 32704,
+  "execution_sha256": "87b80f1670663bde477e3b925aa30c396c6d90f0daf895d0ca0f82db0e1a6904",
+  "features": 128,
+  "hardware": "NVIDIA GB10",
+  "inputs": 16,
+  "k": 4,
+  "layer": 0,
+  "methods": [
+    "reverse_ball",
+    "ordered_ball",
+    "shuffled_ball",
+    "reverse_signed",
+    "real_threshold",
+    "unmixed_ball",
+    "real_linear"
+  ],
+  "model": "HuggingFaceTB/SmolLM2-360M",
+  "model_hidden_size": 960,
+  "model_intermediate_size": 2560,
+  "model_state_sha256": "b9fa643b37b587b20e70991f30a7e24a9897aeaa159467fce79b59152f70d583",
+  "p": 2,
+  "packages": {
+    "numpy": "2.5.3",
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.6"
+  },
+  "revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+  "ridge_alpha": 0.001,
+  "scope": "Previously used development corpus; no untouched confirmation, compression or full-Q_p claim",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "source_sha256": {
+    "experiments/audit_ball_ffn.py": "f2e9010ccd65348f00d776f88d3189285a092e485501549b0310eef0049461de",
+    "experiments/pilot_ball_ffn.py": "36d89d45ade1af074dfe3da57c808b109b48058d9ebf84afc4eaa5c92a5420b8",
+    "src/padic_lm/arithmetic.py": "657fe0d58db3149c874652679de871b6b353a402ce4734fb527422e2a3739900",
+    "src/padic_lm/ball_ffn.py": "c15134e465f7dcd21e12b7dd07bcdf88f49c95ca6d74c894183ed64b5deb69ef",
+    "tests/test_ball_ffn.py": "76872319c3dce4f15d22a11467de8e5f81ab6a126a408f4e6898aea0cb76f44a"
+  },
+  "speed_claim": false,
+  "stage": "prospective_development_pilot",
+  "sweeps": 2,
+  "teacher_ffn_tensor_bytes": 14745600,
+  "train_tokens": 8192
+}

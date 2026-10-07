@@ -1,0 +1,2316 @@
+{
+  "large_numbers": [
+    {
+      "a": 898012,
+      "b": 347940,
+      "prompt": "Compute (898012 + 347940) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 447452,
+      "b": 383704,
+      "prompt": "Compute (447452 + 383704) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 870432,
+      "b": 277528,
+      "prompt": "Compute (870432 + 277528) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 406160,
+      "b": 218236,
+      "prompt": "Compute (406160 + 218236) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 777560,
+      "b": 813173,
+      "prompt": "Compute (777560 + 813173) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 648724,
+      "b": 409385,
+      "prompt": "Compute (648724 + 409385) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 833696,
+      "b": 465001,
+      "prompt": "Compute (833696 + 465001) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 345656,
+      "b": 267813,
+      "prompt": "Compute (345656 + 267813) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 162232,
+      "b": 601126,
+      "prompt": "Compute (162232 + 601126) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 472196,
+      "b": 937854,
+      "prompt": "Compute (472196 + 937854) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 432240,
+      "b": 932294,
+      "prompt": "Compute (432240 + 932294) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 343100,
+      "b": 287138,
+      "prompt": "Compute (343100 + 287138) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 893884,
+      "b": 285067,
+      "prompt": "Compute (893884 + 285067) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 787848,
+      "b": 953207,
+      "prompt": "Compute (787848 + 953207) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 581496,
+      "b": 498255,
+      "prompt": "Compute (581496 + 498255) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 627272,
+      "b": 921303,
+      "prompt": "Compute (627272 + 921303) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 108901,
+      "b": 511528,
+      "prompt": "Compute (108901 + 511528) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 806357,
+      "b": 663584,
+      "prompt": "Compute (806357 + 663584) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 244773,
+      "b": 513832,
+      "prompt": "Compute (244773 + 513832) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 775833,
+      "b": 744748,
+      "prompt": "Compute (775833 + 744748) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 966353,
+      "b": 457537,
+      "prompt": "Compute (966353 + 457537) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 950093,
+      "b": 674469,
+      "prompt": "Compute (950093 + 674469) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 981281,
+      "b": 766493,
+      "prompt": "Compute (981281 + 766493) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 158645,
+      "b": 251757,
+      "prompt": "Compute (158645 + 251757) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 309325,
+      "b": 409362,
+      "prompt": "Compute (309325 + 409362) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 441621,
+      "b": 795666,
+      "prompt": "Compute (441621 + 795666) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 735809,
+      "b": 727094,
+      "prompt": "Compute (735809 + 727094) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 694157,
+      "b": 785938,
+      "prompt": "Compute (694157 + 785938) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 590025,
+      "b": 141143,
+      "prompt": "Compute (590025 + 141143) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 310373,
+      "b": 759851,
+      "prompt": "Compute (310373 + 759851) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 940517,
+      "b": 998443,
+      "prompt": "Compute (940517 + 998443) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 371301,
+      "b": 307875,
+      "prompt": "Compute (371301 + 307875) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 205826,
+      "b": 335280,
+      "prompt": "Compute (205826 + 335280) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 810134,
+      "b": 315320,
+      "prompt": "Compute (810134 + 315320) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 105046,
+      "b": 950652,
+      "prompt": "Compute (105046 + 950652) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 314314,
+      "b": 539796,
+      "prompt": "Compute (314314 + 539796) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 802670,
+      "b": 232865,
+      "prompt": "Compute (802670 + 232865) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 150498,
+      "b": 668097,
+      "prompt": "Compute (150498 + 668097) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 432666,
+      "b": 126653,
+      "prompt": "Compute (432666 + 126653) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 538594,
+      "b": 557865,
+      "prompt": "Compute (538594 + 557865) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 663458,
+      "b": 253062,
+      "prompt": "Compute (663458 + 253062) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 237422,
+      "b": 422218,
+      "prompt": "Compute (237422 + 422218) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 921982,
+      "b": 921450,
+      "prompt": "Compute (921982 + 921450) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 737374,
+      "b": 734502,
+      "prompt": "Compute (737374 + 734502) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 178114,
+      "b": 186171,
+      "prompt": "Compute (178114 + 186171) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 644338,
+      "b": 306495,
+      "prompt": "Compute (644338 + 306495) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 845450,
+      "b": 901771,
+      "prompt": "Compute (845450 + 901771) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 245166,
+      "b": 510143,
+      "prompt": "Compute (245166 + 510143) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 259723,
+      "b": 159868,
+      "prompt": "Compute (259723 + 159868) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 146087,
+      "b": 238516,
+      "prompt": "Compute (146087 + 238516) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 311407,
+      "b": 150700,
+      "prompt": "Compute (311407 + 150700) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 511067,
+      "b": 577380,
+      "prompt": "Compute (511067 + 577380) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 551063,
+      "b": 992609,
+      "prompt": "Compute (551063 + 992609) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 921239,
+      "b": 199285,
+      "prompt": "Compute (921239 + 199285) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 125751,
+      "b": 556897,
+      "prompt": "Compute (125751 + 556897) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 153007,
+      "b": 865181,
+      "prompt": "Compute (153007 + 865181) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 571351,
+      "b": 321334,
+      "prompt": "Compute (571351 + 321334) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 700859,
+      "b": 178534,
+      "prompt": "Compute (700859 + 178534) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 674475,
+      "b": 921174,
+      "prompt": "Compute (674475 + 921174) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 307535,
+      "b": 764602,
+      "prompt": "Compute (307535 + 764602) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 924075,
+      "b": 354991,
+      "prompt": "Compute (924075 + 354991) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 857687,
+      "b": 668679,
+      "prompt": "Compute (857687 + 668679) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 226975,
+      "b": 383939,
+      "prompt": "Compute (226975 + 383939) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 223651,
+      "b": 952599,
+      "prompt": "Compute (223651 + 952599) mod 4.\nAnswer:",
+      "y": 2
+    }
+  ],
+  "new_wording": [
+    {
+      "a": 898012,
+      "b": 347940,
+      "prompt": "What is the remainder when the sum of 898012 and 347940 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 447452,
+      "b": 383704,
+      "prompt": "What is the remainder when the sum of 447452 and 383704 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 870432,
+      "b": 277528,
+      "prompt": "What is the remainder when the sum of 870432 and 277528 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 406160,
+      "b": 218236,
+      "prompt": "What is the remainder when the sum of 406160 and 218236 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 777560,
+      "b": 813173,
+      "prompt": "What is the remainder when the sum of 777560 and 813173 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 648724,
+      "b": 409385,
+      "prompt": "What is the remainder when the sum of 648724 and 409385 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 833696,
+      "b": 465001,
+      "prompt": "What is the remainder when the sum of 833696 and 465001 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 345656,
+      "b": 267813,
+      "prompt": "What is the remainder when the sum of 345656 and 267813 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 162232,
+      "b": 601126,
+      "prompt": "What is the remainder when the sum of 162232 and 601126 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 472196,
+      "b": 937854,
+      "prompt": "What is the remainder when the sum of 472196 and 937854 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 432240,
+      "b": 932294,
+      "prompt": "What is the remainder when the sum of 432240 and 932294 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 343100,
+      "b": 287138,
+      "prompt": "What is the remainder when the sum of 343100 and 287138 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 893884,
+      "b": 285067,
+      "prompt": "What is the remainder when the sum of 893884 and 285067 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 787848,
+      "b": 953207,
+      "prompt": "What is the remainder when the sum of 787848 and 953207 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 581496,
+      "b": 498255,
+      "prompt": "What is the remainder when the sum of 581496 and 498255 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 627272,
+      "b": 921303,
+      "prompt": "What is the remainder when the sum of 627272 and 921303 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 108901,
+      "b": 511528,
+      "prompt": "What is the remainder when the sum of 108901 and 511528 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 806357,
+      "b": 663584,
+      "prompt": "What is the remainder when the sum of 806357 and 663584 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 244773,
+      "b": 513832,
+      "prompt": "What is the remainder when the sum of 244773 and 513832 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 775833,
+      "b": 744748,
+      "prompt": "What is the remainder when the sum of 775833 and 744748 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 966353,
+      "b": 457537,
+      "prompt": "What is the remainder when the sum of 966353 and 457537 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 950093,
+      "b": 674469,
+      "prompt": "What is the remainder when the sum of 950093 and 674469 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 981281,
+      "b": 766493,
+      "prompt": "What is the remainder when the sum of 981281 and 766493 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 158645,
+      "b": 251757,
+      "prompt": "What is the remainder when the sum of 158645 and 251757 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 309325,
+      "b": 409362,
+      "prompt": "What is the remainder when the sum of 309325 and 409362 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 441621,
+      "b": 795666,
+      "prompt": "What is the remainder when the sum of 441621 and 795666 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 735809,
+      "b": 727094,
+      "prompt": "What is the remainder when the sum of 735809 and 727094 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 694157,
+      "b": 785938,
+      "prompt": "What is the remainder when the sum of 694157 and 785938 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 590025,
+      "b": 141143,
+      "prompt": "What is the remainder when the sum of 590025 and 141143 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 310373,
+      "b": 759851,
+      "prompt": "What is the remainder when the sum of 310373 and 759851 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 940517,
+      "b": 998443,
+      "prompt": "What is the remainder when the sum of 940517 and 998443 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 371301,
+      "b": 307875,
+      "prompt": "What is the remainder when the sum of 371301 and 307875 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 205826,
+      "b": 335280,
+      "prompt": "What is the remainder when the sum of 205826 and 335280 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 810134,
+      "b": 315320,
+      "prompt": "What is the remainder when the sum of 810134 and 315320 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 105046,
+      "b": 950652,
+      "prompt": "What is the remainder when the sum of 105046 and 950652 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 314314,
+      "b": 539796,
+      "prompt": "What is the remainder when the sum of 314314 and 539796 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 802670,
+      "b": 232865,
+      "prompt": "What is the remainder when the sum of 802670 and 232865 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 150498,
+      "b": 668097,
+      "prompt": "What is the remainder when the sum of 150498 and 668097 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 432666,
+      "b": 126653,
+      "prompt": "What is the remainder when the sum of 432666 and 126653 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 538594,
+      "b": 557865,
+      "prompt": "What is the remainder when the sum of 538594 and 557865 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 663458,
+      "b": 253062,
+      "prompt": "What is the remainder when the sum of 663458 and 253062 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 237422,
+      "b": 422218,
+      "prompt": "What is the remainder when the sum of 237422 and 422218 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 921982,
+      "b": 921450,
+      "prompt": "What is the remainder when the sum of 921982 and 921450 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 737374,
+      "b": 734502,
+      "prompt": "What is the remainder when the sum of 737374 and 734502 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 178114,
+      "b": 186171,
+      "prompt": "What is the remainder when the sum of 178114 and 186171 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 644338,
+      "b": 306495,
+      "prompt": "What is the remainder when the sum of 644338 and 306495 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 845450,
+      "b": 901771,
+      "prompt": "What is the remainder when the sum of 845450 and 901771 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 245166,
+      "b": 510143,
+      "prompt": "What is the remainder when the sum of 245166 and 510143 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 259723,
+      "b": 159868,
+      "prompt": "What is the remainder when the sum of 259723 and 159868 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 146087,
+      "b": 238516,
+      "prompt": "What is the remainder when the sum of 146087 and 238516 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 311407,
+      "b": 150700,
+      "prompt": "What is the remainder when the sum of 311407 and 150700 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 511067,
+      "b": 577380,
+      "prompt": "What is the remainder when the sum of 511067 and 577380 is divided by 4?\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 551063,
+      "b": 992609,
+      "prompt": "What is the remainder when the sum of 551063 and 992609 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 921239,
+      "b": 199285,
+      "prompt": "What is the remainder when the sum of 921239 and 199285 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 125751,
+      "b": 556897,
+      "prompt": "What is the remainder when the sum of 125751 and 556897 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 153007,
+      "b": 865181,
+      "prompt": "What is the remainder when the sum of 153007 and 865181 is divided by 4?\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 571351,
+      "b": 321334,
+      "prompt": "What is the remainder when the sum of 571351 and 321334 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 700859,
+      "b": 178534,
+      "prompt": "What is the remainder when the sum of 700859 and 178534 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 674475,
+      "b": 921174,
+      "prompt": "What is the remainder when the sum of 674475 and 921174 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 307535,
+      "b": 764602,
+      "prompt": "What is the remainder when the sum of 307535 and 764602 is divided by 4?\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 924075,
+      "b": 354991,
+      "prompt": "What is the remainder when the sum of 924075 and 354991 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 857687,
+      "b": 668679,
+      "prompt": "What is the remainder when the sum of 857687 and 668679 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 226975,
+      "b": 383939,
+      "prompt": "What is the remainder when the sum of 226975 and 383939 is divided by 4?\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 223651,
+      "b": 952599,
+      "prompt": "What is the remainder when the sum of 223651 and 952599 is divided by 4?\nAnswer:",
+      "y": 2
+    }
+  ],
+  "same_range": [
+    {
+      "a": 140,
+      "b": 520,
+      "prompt": "Compute (140 + 520) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 816,
+      "b": 968,
+      "prompt": "Compute (816 + 968) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 168,
+      "b": 376,
+      "prompt": "Compute (168 + 376) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 96,
+      "b": 412,
+      "prompt": "Compute (96 + 412) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 192,
+      "b": 377,
+      "prompt": "Compute (192 + 377) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 568,
+      "b": 889,
+      "prompt": "Compute (568 + 889) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 828,
+      "b": 557,
+      "prompt": "Compute (828 + 557) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 656,
+      "b": 705,
+      "prompt": "Compute (656 + 705) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 600,
+      "b": 870,
+      "prompt": "Compute (600 + 870) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 488,
+      "b": 50,
+      "prompt": "Compute (488 + 50) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 556,
+      "b": 822,
+      "prompt": "Compute (556 + 822) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 740,
+      "b": 646,
+      "prompt": "Compute (740 + 646) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 396,
+      "b": 335,
+      "prompt": "Compute (396 + 335) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 396,
+      "b": 171,
+      "prompt": "Compute (396 + 171) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 292,
+      "b": 443,
+      "prompt": "Compute (292 + 443) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 720,
+      "b": 251,
+      "prompt": "Compute (720 + 251) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 89,
+      "b": 20,
+      "prompt": "Compute (89 + 20) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 69,
+      "b": 72,
+      "prompt": "Compute (69 + 72) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 169,
+      "b": 768,
+      "prompt": "Compute (169 + 768) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 289,
+      "b": 144,
+      "prompt": "Compute (289 + 144) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 325,
+      "b": 529,
+      "prompt": "Compute (325 + 529) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 305,
+      "b": 765,
+      "prompt": "Compute (305 + 765) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 865,
+      "b": 497,
+      "prompt": "Compute (865 + 497) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 53,
+      "b": 521,
+      "prompt": "Compute (53 + 521) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 709,
+      "b": 486,
+      "prompt": "Compute (709 + 486) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 629,
+      "b": 966,
+      "prompt": "Compute (629 + 966) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 653,
+      "b": 730,
+      "prompt": "Compute (653 + 730) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 217,
+      "b": 574,
+      "prompt": "Compute (217 + 574) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 729,
+      "b": 587,
+      "prompt": "Compute (729 + 587) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 61,
+      "b": 23,
+      "prompt": "Compute (61 + 23) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 105,
+      "b": 971,
+      "prompt": "Compute (105 + 971) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 93,
+      "b": 751,
+      "prompt": "Compute (93 + 751) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 398,
+      "b": 472,
+      "prompt": "Compute (398 + 472) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 214,
+      "b": 644,
+      "prompt": "Compute (214 + 644) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 870,
+      "b": 836,
+      "prompt": "Compute (870 + 836) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 134,
+      "b": 456,
+      "prompt": "Compute (134 + 456) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 762,
+      "b": 305,
+      "prompt": "Compute (762 + 305) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 154,
+      "b": 305,
+      "prompt": "Compute (154 + 305) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 294,
+      "b": 129,
+      "prompt": "Compute (294 + 129) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 150,
+      "b": 873,
+      "prompt": "Compute (150 + 873) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 498,
+      "b": 766,
+      "prompt": "Compute (498 + 766) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 998,
+      "b": 742,
+      "prompt": "Compute (998 + 742) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 590,
+      "b": 374,
+      "prompt": "Compute (590 + 374) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 834,
+      "b": 282,
+      "prompt": "Compute (834 + 282) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 110,
+      "b": 807,
+      "prompt": "Compute (110 + 807) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 542,
+      "b": 135,
+      "prompt": "Compute (542 + 135) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 926,
+      "b": 71,
+      "prompt": "Compute (926 + 71) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 522,
+      "b": 803,
+      "prompt": "Compute (522 + 803) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 207,
+      "b": 568,
+      "prompt": "Compute (207 + 568) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 683,
+      "b": 444,
+      "prompt": "Compute (683 + 444) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 411,
+      "b": 464,
+      "prompt": "Compute (411 + 464) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 739,
+      "b": 744,
+      "prompt": "Compute (739 + 744) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 527,
+      "b": 793,
+      "prompt": "Compute (527 + 793) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 411,
+      "b": 929,
+      "prompt": "Compute (411 + 929) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 383,
+      "b": 97,
+      "prompt": "Compute (383 + 97) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 899,
+      "b": 769,
+      "prompt": "Compute (899 + 769) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 651,
+      "b": 934,
+      "prompt": "Compute (651 + 934) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 543,
+      "b": 578,
+      "prompt": "Compute (543 + 578) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 563,
+      "b": 510,
+      "prompt": "Compute (563 + 510) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 507,
+      "b": 866,
+      "prompt": "Compute (507 + 866) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 355,
+      "b": 39,
+      "prompt": "Compute (355 + 39) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 283,
+      "b": 3,
+      "prompt": "Compute (283 + 3) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 751,
+      "b": 119,
+      "prompt": "Compute (751 + 119) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 967,
+      "b": 275,
+      "prompt": "Compute (967 + 275) mod 4.\nAnswer:",
+      "y": 2
+    }
+  ],
+  "train": [
+    {
+      "a": 72,
+      "b": 124,
+      "prompt": "Compute (72 + 124) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 208,
+      "b": 968,
+      "prompt": "Compute (208 + 968) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 140,
+      "b": 988,
+      "prompt": "Compute (140 + 988) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 880,
+      "b": 396,
+      "prompt": "Compute (880 + 396) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 852,
+      "b": 760,
+      "prompt": "Compute (852 + 760) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 720,
+      "b": 108,
+      "prompt": "Compute (720 + 108) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 236,
+      "b": 336,
+      "prompt": "Compute (236 + 336) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 976,
+      "b": 176,
+      "prompt": "Compute (976 + 176) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 796,
+      "b": 937,
+      "prompt": "Compute (796 + 937) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 812,
+      "b": 789,
+      "prompt": "Compute (812 + 789) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 716,
+      "b": 949,
+      "prompt": "Compute (716 + 949) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 84,
+      "b": 521,
+      "prompt": "Compute (84 + 521) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 736,
+      "b": 381,
+      "prompt": "Compute (736 + 381) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 116,
+      "b": 93,
+      "prompt": "Compute (116 + 93) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 460,
+      "b": 309,
+      "prompt": "Compute (460 + 309) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 356,
+      "b": 245,
+      "prompt": "Compute (356 + 245) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 728,
+      "b": 498,
+      "prompt": "Compute (728 + 498) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 348,
+      "b": 62,
+      "prompt": "Compute (348 + 62) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 512,
+      "b": 666,
+      "prompt": "Compute (512 + 666) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 984,
+      "b": 594,
+      "prompt": "Compute (984 + 594) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 468,
+      "b": 454,
+      "prompt": "Compute (468 + 454) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 264,
+      "b": 850,
+      "prompt": "Compute (264 + 850) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 280,
+      "b": 102,
+      "prompt": "Compute (280 + 102) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 352,
+      "b": 190,
+      "prompt": "Compute (352 + 190) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 12,
+      "b": 547,
+      "prompt": "Compute (12 + 547) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 964,
+      "b": 59,
+      "prompt": "Compute (964 + 59) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 68,
+      "b": 219,
+      "prompt": "Compute (68 + 219) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 604,
+      "b": 775,
+      "prompt": "Compute (604 + 775) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 16,
+      "b": 995,
+      "prompt": "Compute (16 + 995) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 396,
+      "b": 707,
+      "prompt": "Compute (396 + 707) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 4,
+      "b": 659,
+      "prompt": "Compute (4 + 659) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 980,
+      "b": 175,
+      "prompt": "Compute (980 + 175) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 945,
+      "b": 600,
+      "prompt": "Compute (945 + 600) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 713,
+      "b": 152,
+      "prompt": "Compute (713 + 152) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 997,
+      "b": 772,
+      "prompt": "Compute (997 + 772) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 949,
+      "b": 936,
+      "prompt": "Compute (949 + 936) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 913,
+      "b": 780,
+      "prompt": "Compute (913 + 780) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 77,
+      "b": 644,
+      "prompt": "Compute (77 + 644) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 277,
+      "b": 740,
+      "prompt": "Compute (277 + 740) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 697,
+      "b": 520,
+      "prompt": "Compute (697 + 520) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 553,
+      "b": 681,
+      "prompt": "Compute (553 + 681) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 661,
+      "b": 553,
+      "prompt": "Compute (661 + 553) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 33,
+      "b": 197,
+      "prompt": "Compute (33 + 197) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 813,
+      "b": 573,
+      "prompt": "Compute (813 + 573) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 921,
+      "b": 585,
+      "prompt": "Compute (921 + 585) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 341,
+      "b": 749,
+      "prompt": "Compute (341 + 749) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 981,
+      "b": 225,
+      "prompt": "Compute (981 + 225) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 649,
+      "b": 625,
+      "prompt": "Compute (649 + 625) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 605,
+      "b": 998,
+      "prompt": "Compute (605 + 998) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 469,
+      "b": 294,
+      "prompt": "Compute (469 + 294) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 333,
+      "b": 654,
+      "prompt": "Compute (333 + 654) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 301,
+      "b": 98,
+      "prompt": "Compute (301 + 98) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 409,
+      "b": 22,
+      "prompt": "Compute (409 + 22) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 581,
+      "b": 430,
+      "prompt": "Compute (581 + 430) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 61,
+      "b": 246,
+      "prompt": "Compute (61 + 246) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 413,
+      "b": 806,
+      "prompt": "Compute (413 + 806) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 665,
+      "b": 419,
+      "prompt": "Compute (665 + 419) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 829,
+      "b": 79,
+      "prompt": "Compute (829 + 79) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 841,
+      "b": 347,
+      "prompt": "Compute (841 + 347) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 973,
+      "b": 39,
+      "prompt": "Compute (973 + 39) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 105,
+      "b": 155,
+      "prompt": "Compute (105 + 155) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 593,
+      "b": 527,
+      "prompt": "Compute (593 + 527) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 725,
+      "b": 995,
+      "prompt": "Compute (725 + 995) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 873,
+      "b": 307,
+      "prompt": "Compute (873 + 307) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 906,
+      "b": 108,
+      "prompt": "Compute (906 + 108) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 398,
+      "b": 616,
+      "prompt": "Compute (398 + 616) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 498,
+      "b": 372,
+      "prompt": "Compute (498 + 372) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 602,
+      "b": 552,
+      "prompt": "Compute (602 + 552) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 454,
+      "b": 984,
+      "prompt": "Compute (454 + 984) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 778,
+      "b": 128,
+      "prompt": "Compute (778 + 128) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 310,
+      "b": 572,
+      "prompt": "Compute (310 + 572) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 754,
+      "b": 60,
+      "prompt": "Compute (754 + 60) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 286,
+      "b": 265,
+      "prompt": "Compute (286 + 265) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 314,
+      "b": 789,
+      "prompt": "Compute (314 + 789) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 578,
+      "b": 149,
+      "prompt": "Compute (578 + 149) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 814,
+      "b": 305,
+      "prompt": "Compute (814 + 305) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 994,
+      "b": 489,
+      "prompt": "Compute (994 + 489) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 870,
+      "b": 37,
+      "prompt": "Compute (870 + 37) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 270,
+      "b": 981,
+      "prompt": "Compute (270 + 981) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 878,
+      "b": 833,
+      "prompt": "Compute (878 + 833) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 450,
+      "b": 90,
+      "prompt": "Compute (450 + 90) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 618,
+      "b": 826,
+      "prompt": "Compute (618 + 826) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 242,
+      "b": 166,
+      "prompt": "Compute (242 + 166) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 606,
+      "b": 570,
+      "prompt": "Compute (606 + 570) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 810,
+      "b": 654,
+      "prompt": "Compute (810 + 654) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 214,
+      "b": 66,
+      "prompt": "Compute (214 + 66) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 946,
+      "b": 330,
+      "prompt": "Compute (946 + 330) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 594,
+      "b": 182,
+      "prompt": "Compute (594 + 182) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 790,
+      "b": 19,
+      "prompt": "Compute (790 + 19) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 982,
+      "b": 747,
+      "prompt": "Compute (982 + 747) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 426,
+      "b": 63,
+      "prompt": "Compute (426 + 63) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 246,
+      "b": 151,
+      "prompt": "Compute (246 + 151) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 346,
+      "b": 71,
+      "prompt": "Compute (346 + 71) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 790,
+      "b": 819,
+      "prompt": "Compute (790 + 819) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 510,
+      "b": 763,
+      "prompt": "Compute (510 + 763) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 890,
+      "b": 411,
+      "prompt": "Compute (890 + 411) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 251,
+      "b": 140,
+      "prompt": "Compute (251 + 140) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 43,
+      "b": 752,
+      "prompt": "Compute (43 + 752) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 51,
+      "b": 748,
+      "prompt": "Compute (51 + 748) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 367,
+      "b": 600,
+      "prompt": "Compute (367 + 600) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 487,
+      "b": 480,
+      "prompt": "Compute (487 + 480) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 19,
+      "b": 932,
+      "prompt": "Compute (19 + 932) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 991,
+      "b": 380,
+      "prompt": "Compute (991 + 380) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 587,
+      "b": 780,
+      "prompt": "Compute (587 + 780) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 279,
+      "b": 497,
+      "prompt": "Compute (279 + 497) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 431,
+      "b": 41,
+      "prompt": "Compute (431 + 41) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 503,
+      "b": 281,
+      "prompt": "Compute (503 + 281) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 795,
+      "b": 877,
+      "prompt": "Compute (795 + 877) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 883,
+      "b": 305,
+      "prompt": "Compute (883 + 305) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 175,
+      "b": 261,
+      "prompt": "Compute (175 + 261) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 955,
+      "b": 913,
+      "prompt": "Compute (955 + 913) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 771,
+      "b": 329,
+      "prompt": "Compute (771 + 329) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 959,
+      "b": 442,
+      "prompt": "Compute (959 + 442) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 487,
+      "b": 430,
+      "prompt": "Compute (487 + 430) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 803,
+      "b": 738,
+      "prompt": "Compute (803 + 738) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 183,
+      "b": 718,
+      "prompt": "Compute (183 + 718) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 219,
+      "b": 170,
+      "prompt": "Compute (219 + 170) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 251,
+      "b": 90,
+      "prompt": "Compute (251 + 90) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 51,
+      "b": 366,
+      "prompt": "Compute (51 + 366) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 931,
+      "b": 326,
+      "prompt": "Compute (931 + 326) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 135,
+      "b": 543,
+      "prompt": "Compute (135 + 543) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 343,
+      "b": 135,
+      "prompt": "Compute (343 + 135) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 159,
+      "b": 859,
+      "prompt": "Compute (159 + 859) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 99,
+      "b": 547,
+      "prompt": "Compute (99 + 547) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 263,
+      "b": 707,
+      "prompt": "Compute (263 + 707) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 827,
+      "b": 867,
+      "prompt": "Compute (827 + 867) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 395,
+      "b": 331,
+      "prompt": "Compute (395 + 331) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 551,
+      "b": 71,
+      "prompt": "Compute (551 + 71) mod 4.\nAnswer:",
+      "y": 2
+    }
+  ],
+  "validation": [
+    {
+      "a": 916,
+      "b": 116,
+      "prompt": "Compute (916 + 116) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 560,
+      "b": 60,
+      "prompt": "Compute (560 + 60) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 460,
+      "b": 188,
+      "prompt": "Compute (460 + 188) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 284,
+      "b": 972,
+      "prompt": "Compute (284 + 972) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 760,
+      "b": 725,
+      "prompt": "Compute (760 + 725) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 320,
+      "b": 681,
+      "prompt": "Compute (320 + 681) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 332,
+      "b": 861,
+      "prompt": "Compute (332 + 861) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 852,
+      "b": 645,
+      "prompt": "Compute (852 + 645) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 904,
+      "b": 574,
+      "prompt": "Compute (904 + 574) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 484,
+      "b": 418,
+      "prompt": "Compute (484 + 418) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 976,
+      "b": 174,
+      "prompt": "Compute (976 + 174) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 700,
+      "b": 478,
+      "prompt": "Compute (700 + 478) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 676,
+      "b": 263,
+      "prompt": "Compute (676 + 263) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 92,
+      "b": 427,
+      "prompt": "Compute (92 + 427) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 28,
+      "b": 531,
+      "prompt": "Compute (28 + 531) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 556,
+      "b": 55,
+      "prompt": "Compute (556 + 55) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 185,
+      "b": 428,
+      "prompt": "Compute (185 + 428) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 629,
+      "b": 128,
+      "prompt": "Compute (629 + 128) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 977,
+      "b": 304,
+      "prompt": "Compute (977 + 304) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 717,
+      "b": 396,
+      "prompt": "Compute (717 + 396) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 537,
+      "b": 261,
+      "prompt": "Compute (537 + 261) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 761,
+      "b": 809,
+      "prompt": "Compute (761 + 809) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 505,
+      "b": 441,
+      "prompt": "Compute (505 + 441) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 237,
+      "b": 57,
+      "prompt": "Compute (237 + 57) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 97,
+      "b": 398,
+      "prompt": "Compute (97 + 398) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 161,
+      "b": 674,
+      "prompt": "Compute (161 + 674) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 213,
+      "b": 362,
+      "prompt": "Compute (213 + 362) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 653,
+      "b": 986,
+      "prompt": "Compute (653 + 986) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 317,
+      "b": 711,
+      "prompt": "Compute (317 + 711) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 73,
+      "b": 855,
+      "prompt": "Compute (73 + 855) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 573,
+      "b": 3,
+      "prompt": "Compute (573 + 3) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 349,
+      "b": 699,
+      "prompt": "Compute (349 + 699) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 750,
+      "b": 856,
+      "prompt": "Compute (750 + 856) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 898,
+      "b": 112,
+      "prompt": "Compute (898 + 112) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 726,
+      "b": 776,
+      "prompt": "Compute (726 + 776) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 778,
+      "b": 144,
+      "prompt": "Compute (778 + 144) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 250,
+      "b": 569,
+      "prompt": "Compute (250 + 569) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 154,
+      "b": 477,
+      "prompt": "Compute (154 + 477) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 646,
+      "b": 49,
+      "prompt": "Compute (646 + 49) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 434,
+      "b": 705,
+      "prompt": "Compute (434 + 705) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 630,
+      "b": 66,
+      "prompt": "Compute (630 + 66) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 214,
+      "b": 258,
+      "prompt": "Compute (214 + 258) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 522,
+      "b": 702,
+      "prompt": "Compute (522 + 702) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 818,
+      "b": 402,
+      "prompt": "Compute (818 + 402) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 18,
+      "b": 63,
+      "prompt": "Compute (18 + 63) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 202,
+      "b": 775,
+      "prompt": "Compute (202 + 775) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 466,
+      "b": 351,
+      "prompt": "Compute (466 + 351) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 302,
+      "b": 695,
+      "prompt": "Compute (302 + 695) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 155,
+      "b": 948,
+      "prompt": "Compute (155 + 948) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 35,
+      "b": 672,
+      "prompt": "Compute (35 + 672) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 651,
+      "b": 284,
+      "prompt": "Compute (651 + 284) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 295,
+      "b": 252,
+      "prompt": "Compute (295 + 252) mod 4.\nAnswer:",
+      "y": 3
+    },
+    {
+      "a": 223,
+      "b": 49,
+      "prompt": "Compute (223 + 49) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 467,
+      "b": 185,
+      "prompt": "Compute (467 + 185) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 931,
+      "b": 609,
+      "prompt": "Compute (931 + 609) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 255,
+      "b": 645,
+      "prompt": "Compute (255 + 645) mod 4.\nAnswer:",
+      "y": 0
+    },
+    {
+      "a": 203,
+      "b": 298,
+      "prompt": "Compute (203 + 298) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 323,
+      "b": 810,
+      "prompt": "Compute (323 + 810) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 443,
+      "b": 422,
+      "prompt": "Compute (443 + 422) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 871,
+      "b": 918,
+      "prompt": "Compute (871 + 918) mod 4.\nAnswer:",
+      "y": 1
+    },
+    {
+      "a": 459,
+      "b": 347,
+      "prompt": "Compute (459 + 347) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 387,
+      "b": 663,
+      "prompt": "Compute (387 + 663) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 607,
+      "b": 211,
+      "prompt": "Compute (607 + 211) mod 4.\nAnswer:",
+      "y": 2
+    },
+    {
+      "a": 935,
+      "b": 271,
+      "prompt": "Compute (935 + 271) mod 4.\nAnswer:",
+      "y": 2
+    }
+  ]
+}

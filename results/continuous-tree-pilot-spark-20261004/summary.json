@@ -1,0 +1,126 @@
+{
+  "completed_utc": "2026-10-04T15:59:13.688452+00:00",
+  "elapsed_seconds": 0.31123940274119377,
+  "figure_pass": true,
+  "fits": [
+    {
+      "accepted_updates": 5,
+      "metrics": {
+        "test": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "train": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "validation": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        }
+      },
+      "recovered_modulo_243": true,
+      "seed": 17,
+      "state": {
+        "centers_numerator": [
+          1620,
+          1845,
+          234
+        ],
+        "denominator": 9,
+        "depth": 5,
+        "p": 3,
+        "radii": [
+          0.00411522633744856,
+          0.00411522633744856,
+          0.00411522633744856
+        ]
+      },
+      "theta": [
+        180,
+        205,
+        26
+      ]
+    },
+    {
+      "accepted_updates": 5,
+      "metrics": {
+        "test": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "train": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "validation": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        }
+      },
+      "recovered_modulo_243": true,
+      "seed": 29,
+      "state": {
+        "centers_numerator": [
+          2043,
+          108,
+          1305
+        ],
+        "denominator": 9,
+        "depth": 5,
+        "p": 3,
+        "radii": [
+          0.00411522633744856,
+          0.00411522633744856,
+          0.00411522633744856
+        ]
+      },
+      "theta": [
+        227,
+        12,
+        145
+      ]
+    },
+    {
+      "accepted_updates": 5,
+      "metrics": {
+        "test": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "train": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        },
+        "validation": {
+          "direct_loss": 0.0020576131687242804,
+          "max_point_error": 0.004115226337448559
+        }
+      },
+      "recovered_modulo_243": true,
+      "seed": 43,
+      "state": {
+        "centers_numerator": [
+          1098,
+          1422,
+          873
+        ],
+        "denominator": 9,
+        "depth": 5,
+        "p": 3,
+        "radii": [
+          0.00411522633744856,
+          0.00411522633744856,
+          0.00411522633744856
+        ]
+      },
+      "theta": [
+        122,
+        158,
+        97
+      ]
+    }
+  ],
+  "producer_gate": true,
+  "scope": "independent mechanism reproduction, not full upstream experimental reproduction"
+}

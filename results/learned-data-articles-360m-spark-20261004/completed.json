@@ -1,0 +1,15 @@
+{
+  "status": "learning_data_frozen",
+  "artifact_sha256": {
+    "manifest.json": "29500a70ae3ca2fc17ace13b4e53a2d86c27349702837411b3b385b2a1c4c6c0",
+    "sources/corpus.py": "2df453e4777bde7c0546549b7fd4576367713e87f35271e064edbd08672c871c",
+    "sources/prepare_learning_data.py": "1bf4f2ca1d5b5ecd2b5f36c0ca96b6b251bab5261c0c5beaba88cf0263652bc2",
+    "tokens.npz": "6f915d4379a9523d74514272a828f4eae4bbb822e0e0f6fae24c45a05d6ea39b"
+  },
+  "artifact_bytes": {
+    "manifest.json": 254923,
+    "sources/corpus.py": 3049,
+    "sources/prepare_learning_data.py": 6483,
+    "tokens.npz": 70830
+  }
+}

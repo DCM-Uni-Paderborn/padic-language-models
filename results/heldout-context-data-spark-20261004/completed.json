@@ -1,0 +1,22 @@
+{
+  "status": "heldout_contexts_frozen",
+  "artifact_sha256": {
+    "prospective_protocol.txt": "9a0095eb8e079773e63d259c292a4d7ad10b932ded90df58026bbf90be2048d0",
+    "sources/corpus.py": "2df453e4777bde7c0546549b7fd4576367713e87f35271e064edbd08672c871c",
+    "sources/heldout.py": "1630bb1124dab3b6415ee71d9000915ed25fdf2153c6800b3211534857b2f49e",
+    "sources/prepare_heldout_data.py": "baa02e812bd96d0dc290cf37e6cf0acf345a3a5ede9036c71966bc8c3d66dac6",
+    "test_access_record.json": "672216530de118eba37775d7fa91833b54f955ec3ea6a5050c6902cc38613f4f",
+    "tokens.npz": "5ab9892f409a64279a156e4e4cb599e2e35f9df2182f3c6c147c1ea337052e61",
+    "manifest.json": "0b90c0b4da30cb5d4467bc92c4dea066152d86cb2a017ba95704c8f3f06f56ad"
+  },
+  "artifact_bytes": {
+    "prospective_protocol.txt": 8585,
+    "sources/corpus.py": 3049,
+    "sources/heldout.py": 3574,
+    "sources/prepare_heldout_data.py": 7009,
+    "test_access_record.json": 324,
+    "tokens.npz": 133293,
+    "manifest.json": 51756
+  },
+  "data_preparation_wall_seconds": 5.097187872044742
+}

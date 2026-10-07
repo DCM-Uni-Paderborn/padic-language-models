@@ -1,0 +1,6 @@
+{
+  "first_test_access_utc": "2026-10-04T02:19:45.255559+00:00",
+  "protocol_sha256": "9a0095eb8e079773e63d259c292a4d7ad10b932ded90df58026bbf90be2048d0",
+  "passed_development_audit_sha256": "28b682bdf864333c6161606cfc4e6c67260551cab60fe5eb6f162676a6439a36",
+  "scope": "Text/token inventory access only; no model output"
+}

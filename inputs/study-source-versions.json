@@ -1,0 +1,23 @@
+{
+  "research/ball-ffn-pilot-execution.json": {
+    "experiments/audit_ball_ffn.py": "f2e9010ccd65348f00d776f88d3189285a092e485501549b0310eef0049461de",
+    "experiments/pilot_ball_ffn.py": "36d89d45ade1af074dfe3da57c808b109b48058d9ebf84afc4eaa5c92a5420b8",
+    "src/padic_lm/arithmetic.py": "657fe0d58db3149c874652679de871b6b353a402ce4734fb527422e2a3739900",
+    "src/padic_lm/ball_ffn.py": "c15134e465f7dcd21e12b7dd07bcdf88f49c95ca6d74c894183ed64b5deb69ef",
+    "tests/test_ball_ffn.py": "76872319c3dce4f15d22a11467de8e5f81ab6a126a408f4e6898aea0cb76f44a"
+  },
+  "research/continuous-tree-execution.json": {
+    "experiments/audit_continuous_tree.py": "01ff60acc98e5a185426c00a7a92a45d8cd9ebfc5811737ae2fd129241f60847",
+    "experiments/pilot_continuous_tree.py": "28a6e0a2742ad4e296f209455f510ced589b77d4cccd61389d19849dc4be2d44",
+    "research/continuous-tree-protocol.md": "3d8eb94ec212e9b73db6fb341180d584f706fc06ff577b5356c5d554d488118f",
+    "src/padic_lm/continuous_tree.py": "4c58d1affa6f7be256c33fcd43c72a740d495d83c15c483b61af995dd2c06502",
+    "tests/test_continuous_tree.py": "a9e87b56dee5326c49affb60b1bc0d675a205fcbca8f7ad9aa4dfe3cb4f9699b"
+  },
+  "research/structural-intent-execution.json": {
+    "experiments/audit_structural_intent.py": "1e26ef51b8d74da81002239a198246c4106e511eec670006e7d1b4da2de66d6a",
+    "experiments/pilot_structural_intent.py": "1cc75a627f447b5c0112cb0c3748f4e704759a28e68bb9e55ab270ee3110ec1a",
+    "research/clinc-domains.json": "b947b579d3b8e74b06f93b01083d8efaff2888b43a3e362533bd88a6e1211b3a",
+    "src/padic_lm/structural_intent.py": "c59c3c16063c3a612287640610fec0411ebf2738af781516c660eea1247f61c8",
+    "tests/test_structural_intent.py": "051e4487d6c58ffc4ebc88ae6e8a407639ff7635c7c6e1e9699a53935bfe057c"
+  }
+}

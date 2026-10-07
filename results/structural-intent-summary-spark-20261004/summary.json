@@ -1,0 +1,55 @@
+{
+  "audit_sha256": "0336eff158776d4bd34b98d6ea908599529a72ee91f332279098835cb3b02fe2",
+  "comparison_rows": 9,
+  "descriptive_semantic_topology_effect": [
+    {
+      "seed": 17,
+      "semantic_minus_shuffled_seen_intent_accuracy_pp": 22.987136731777042
+    },
+    {
+      "seed": 29,
+      "semantic_minus_shuffled_seen_intent_accuracy_pp": 26.298237255836117
+    },
+    {
+      "seed": 43,
+      "semantic_minus_shuffled_seen_intent_accuracy_pp": 25.131014768937586
+    }
+  ],
+  "primary_progression": [
+    {
+      "conditions": {
+        "direct_domain": false,
+        "flat_joint": false,
+        "seen_intent_accuracy": false,
+        "shuffled_prefix": false
+      },
+      "passes": false,
+      "seed": 17
+    },
+    {
+      "conditions": {
+        "direct_domain": false,
+        "flat_joint": false,
+        "seen_intent_accuracy": false,
+        "shuffled_prefix": false
+      },
+      "passes": false,
+      "seed": 29
+    },
+    {
+      "conditions": {
+        "direct_domain": false,
+        "flat_joint": false,
+        "seen_intent_accuracy": false,
+        "shuffled_prefix": false
+      },
+      "passes": false,
+      "seed": 43
+    }
+  ],
+  "producer_sha256": "159c85c2277bb8a724628b7b0e4536fcbb8a9d503bf50d7f878a83335c4f88a1",
+  "records": 12,
+  "scope": "Known-intent semantic versus shuffled gains are descriptive; all primary unseen-transfer progression rules fail. No unique p-adic advantage.",
+  "split_rows": 48,
+  "status": "all_fixed_structural_probe_results_exported"
+}

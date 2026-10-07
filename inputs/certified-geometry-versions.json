@@ -1,0 +1,95 @@
+{
+  "status": "selected_pinned_source_mechanisms_inspected",
+  "ssa_revision": "0613e78d65db5b90ddba840d069fa66307faefed",
+  "poet_revision": "7933a5fa93ccac5b0f9d94a71e2a9519b9f1abf6",
+  "foreign_code_weights_installers_or_proofs_executed": false,
+  "files": [
+    {
+      "repository": "ssa",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/README.md",
+      "git_blob_sha1": "743c92ebbb33a423f9f790bc9823177ee2c1f513",
+      "sha256": "96186cedf044b9878e3ffc4f1b32f895e2cfaad1e7f05c8871e108074816ccc9",
+      "bytes": 32967
+    },
+    {
+      "repository": "ssa",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/LICENSE",
+      "git_blob_sha1": "edb8b1652edbf7118b1ecb29eafd1293758db242",
+      "sha256": "028bf4508c10151a6672c9e36d52e12453c1831d776485439786c2aff2016edd",
+      "bytes": 11339
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/certified_attention.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/certified_attention.py",
+      "git_blob_sha1": "49ab06810aeb5261acbd1469cb80cf2281d648b0",
+      "sha256": "7827799de5e1eb4c06f5943ff60898eb6272f75454f1d51cb79d419a617aa37c",
+      "bytes": 11621
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/hierarchical_certified_attention.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/hierarchical_certified_attention.py",
+      "git_blob_sha1": "6290c040c346c5560de0a08cc2665a49fbf6880e",
+      "sha256": "bd67a97d6314f437c8f615f1cc6e6734f0ff0d72095cd5414fdb4ee44a5886aa",
+      "bytes": 23314
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/treecode.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/treecode.py",
+      "git_blob_sha1": "c645a9f5022f5c03e9a7ad88e1a8c2ad7af362d2",
+      "sha256": "b9269eeb6e903b5d45c84ab6f22dfeadc09018ad5ee5355866f93dc3162268a9",
+      "bytes": 10276
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/tail_tree_router.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/tail_tree_router.py",
+      "git_blob_sha1": "64a8ae69cd3f762a6da622aa558b16832ffbe51b",
+      "sha256": "1df43ede3363fb9c754bd8d3fcaf6cc4d07ba79b2e581a91d0bd15cc2db0d795",
+      "bytes": 6833
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/score_tail_certificate.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/score_tail_certificate.py",
+      "git_blob_sha1": "8aa0d76e12f94d49095d9e358f3c5c8bce99cae7",
+      "sha256": "887b2134dac76a3d268674fb09189a2be0d86e4fb51000033d3790f15c02ca14",
+      "bytes": 21665
+    },
+    {
+      "repository": "ssa",
+      "path": "ssa/float_tree_verification.py",
+      "url": "https://raw.githubusercontent.com/jonsmirl/ssa/0613e78d65db5b90ddba840d069fa66307faefed/ssa/float_tree_verification.py",
+      "git_blob_sha1": "ed48686e23a2236531bb357b73508ee2bbab7719",
+      "sha256": "912b3c932e4261343032173bdda29058cd5e5cb9ca7e526a282ed713043c9d60",
+      "bytes": 9430
+    },
+    {
+      "repository": "poet",
+      "path": "README.md",
+      "url": "https://huggingface.co/Grayblock-AI/POET-51M-certified/resolve/7933a5fa93ccac5b0f9d94a71e2a9519b9f1abf6/README.md",
+      "git_blob_sha1": null,
+      "sha256": "50661868a5de756d8675e4fdf4e0167a22780c65371f5b2fcdfa89fd94a28bd2",
+      "bytes": 5323
+    },
+    {
+      "repository": "poet",
+      "path": "config.json",
+      "url": "https://huggingface.co/Grayblock-AI/POET-51M-certified/resolve/7933a5fa93ccac5b0f9d94a71e2a9519b9f1abf6/config.json",
+      "git_blob_sha1": null,
+      "sha256": "443ab064e1ef2642d06a2e4e2655e6352d9146ef8c0908221894087da59f79f8",
+      "bytes": 715
+    }
+  ],
+  "poet_linked_code_access": {
+    "github_repository_url": "https://github.com/Grayblock-AI/spherical-attention",
+    "github_repository_http_status": 404,
+    "github_api_repository_http_status": 404,
+    "limitation": "Only pinned model card/config reviewed; implementation not available through the linked public endpoints."
+  },
+  "review_note_sha256": "3c8ff1ab611a5ea234afd2578faf4aba9625baa5b179c04f5043486463a38691"
+}

@@ -1,0 +1,369 @@
+{
+  "status": "all_native_address_changes_have_quantile_crossing_witnesses",
+  "gate_sha256": "de771c1f376c2aad53a309d770de4ad321307b351b056e67a0550b7636aa1476",
+  "native_source_sha256": "2c07cbe6e7a331a0b8fd5b128eb4ef61d5fcaf4bfef16fa192b2c3cb4b344231",
+  "source_sha256": "05b687ea3cb964503bce15ac649fe51bfb6e98fb259e050c59ef2a477b2677ad",
+  "witnesses": [
+    {
+      "length": 512,
+      "seed": 17,
+      "family": "p3",
+      "role": "query",
+      "head": 11,
+      "position": 0,
+      "old_packed_code": 151,
+      "new_packed_code": 142,
+      "old_latent": [
+        -0.09770649671554565,
+        0.9050111770629883
+      ],
+      "new_latent": [
+        -0.09770648181438446,
+        0.9050111174583435
+      ],
+      "coordinates": [
+        {
+          "coordinate": 0,
+          "old_bin": 16,
+          "new_bin": 15,
+          "old_projected": 0.2731100474545509,
+          "new_projected": 0.2731100372241396,
+          "crossed_cutpoints": [
+            0.2731100474545509
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -1.02304112958862e-08
+          ]
+        }
+      ]
+    },
+    {
+      "length": 512,
+      "seed": 17,
+      "family": "p3",
+      "role": "key",
+      "head": 14,
+      "position": 32,
+      "old_packed_code": 65,
+      "new_packed_code": 200,
+      "old_latent": [
+        -0.12925991415977478,
+        0.8777024745941162
+      ],
+      "new_latent": [
+        -0.1292600929737091,
+        0.8777025938034058
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 6,
+          "new_bin": 5,
+          "old_projected": 0.3637964308472301,
+          "new_projected": 0.3637963443855831,
+          "crossed_cutpoints": [
+            0.3637964308472301
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -8.6461647008651e-08
+          ]
+        }
+      ]
+    },
+    {
+      "length": 512,
+      "seed": 29,
+      "family": "p3",
+      "role": "query",
+      "head": 4,
+      "position": 285,
+      "old_packed_code": 236,
+      "new_packed_code": 227,
+      "old_latent": [
+        0.4971965551376343,
+        1.0927627086639404
+      ],
+      "new_latent": [
+        0.49719637632369995,
+        1.0927624702453613
+      ],
+      "coordinates": [
+        {
+          "coordinate": 0,
+          "old_bin": 20,
+          "new_bin": 19,
+          "old_projected": 0.44346053017401427,
+          "new_projected": 0.4434603631674603,
+          "crossed_cutpoints": [
+            0.44346053017401427
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -1.6700655397494657e-07
+          ]
+        }
+      ]
+    },
+    {
+      "length": 512,
+      "seed": 43,
+      "family": "p2",
+      "role": "key",
+      "head": 1,
+      "position": 0,
+      "old_packed_code": 156,
+      "new_packed_code": 28,
+      "old_latent": [
+        0.7377235889434814,
+        -1.0161418914794922
+      ],
+      "new_latent": [
+        0.7377233505249023,
+        -1.0161418914794922
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 9,
+          "new_bin": 8,
+          "old_projected": 0.12179556027798856,
+          "new_projected": 0.12179535466756763,
+          "crossed_cutpoints": [
+            0.12179556027798856
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -2.0561042092526183e-07
+          ]
+        }
+      ]
+    },
+    {
+      "length": 512,
+      "seed": 43,
+      "family": "p3",
+      "role": "query",
+      "head": 10,
+      "position": 0,
+      "old_packed_code": 50,
+      "new_packed_code": 185,
+      "old_latent": [
+        0.14233040809631348,
+        1.0290472507476807
+      ],
+      "new_latent": [
+        0.14233028888702393,
+        1.0290470123291016
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 3,
+          "new_bin": 2,
+          "old_projected": -0.31287276416274584,
+          "new_projected": -0.3128727695690536,
+          "crossed_cutpoints": [
+            -0.31287276416274584
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -5.406307734823201e-09
+          ]
+        }
+      ]
+    },
+    {
+      "length": 2048,
+      "seed": 17,
+      "family": "p3",
+      "role": "query",
+      "head": 11,
+      "position": 0,
+      "old_packed_code": 151,
+      "new_packed_code": 142,
+      "old_latent": [
+        -0.09770649671554565,
+        0.9050111770629883
+      ],
+      "new_latent": [
+        -0.09770648181438446,
+        0.9050111174583435
+      ],
+      "coordinates": [
+        {
+          "coordinate": 0,
+          "old_bin": 16,
+          "new_bin": 15,
+          "old_projected": 0.2731100474545509,
+          "new_projected": 0.2731100372241396,
+          "crossed_cutpoints": [
+            0.2731100474545509
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -1.02304112958862e-08
+          ]
+        }
+      ]
+    },
+    {
+      "length": 2048,
+      "seed": 17,
+      "family": "p3",
+      "role": "key",
+      "head": 14,
+      "position": 32,
+      "old_packed_code": 65,
+      "new_packed_code": 200,
+      "old_latent": [
+        -0.12925991415977478,
+        0.8777024745941162
+      ],
+      "new_latent": [
+        -0.1292600929737091,
+        0.8777025938034058
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 6,
+          "new_bin": 5,
+          "old_projected": 0.3637964308472301,
+          "new_projected": 0.3637963443855831,
+          "crossed_cutpoints": [
+            0.3637964308472301
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -8.6461647008651e-08
+          ]
+        }
+      ]
+    },
+    {
+      "length": 2048,
+      "seed": 29,
+      "family": "p3",
+      "role": "query",
+      "head": 4,
+      "position": 285,
+      "old_packed_code": 236,
+      "new_packed_code": 227,
+      "old_latent": [
+        0.4971965551376343,
+        1.0927627086639404
+      ],
+      "new_latent": [
+        0.49719637632369995,
+        1.0927624702453613
+      ],
+      "coordinates": [
+        {
+          "coordinate": 0,
+          "old_bin": 20,
+          "new_bin": 19,
+          "old_projected": 0.44346053017401427,
+          "new_projected": 0.4434603631674603,
+          "crossed_cutpoints": [
+            0.44346053017401427
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -1.6700655397494657e-07
+          ]
+        }
+      ]
+    },
+    {
+      "length": 2048,
+      "seed": 43,
+      "family": "p2",
+      "role": "key",
+      "head": 1,
+      "position": 0,
+      "old_packed_code": 156,
+      "new_packed_code": 28,
+      "old_latent": [
+        0.7377235889434814,
+        -1.0161418914794922
+      ],
+      "new_latent": [
+        0.7377233505249023,
+        -1.0161418914794922
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 9,
+          "new_bin": 8,
+          "old_projected": 0.12179556027798856,
+          "new_projected": 0.12179535466756763,
+          "crossed_cutpoints": [
+            0.12179556027798856
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -2.0561042092526183e-07
+          ]
+        }
+      ]
+    },
+    {
+      "length": 2048,
+      "seed": 43,
+      "family": "p3",
+      "role": "query",
+      "head": 10,
+      "position": 0,
+      "old_packed_code": 50,
+      "new_packed_code": 185,
+      "old_latent": [
+        0.14233040809631348,
+        1.0290472507476807
+      ],
+      "new_latent": [
+        0.14233028888702393,
+        1.0290470123291016
+      ],
+      "coordinates": [
+        {
+          "coordinate": 1,
+          "old_bin": 3,
+          "new_bin": 2,
+          "old_projected": -0.31287276416274584,
+          "new_projected": -0.3128727695690536,
+          "crossed_cutpoints": [
+            -0.31287276416274584
+          ],
+          "old_signed_distances": [
+            0.0
+          ],
+          "new_signed_distances": [
+            -5.406307734823201e-09
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Post-gate targeted diagnostics only; no cutpoint/precision/seed adjustment and no amended pass. Nested prefixes repeat five unique changed addresses."
+}

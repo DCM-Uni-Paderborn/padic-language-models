@@ -1,0 +1,85 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Every modular-adapter fit on larger operands (L) and alternative
+wording of those same operands (W). Accuracy is percent; conditional next-digit
+NLL is nats. Disk 2 and Disk 3 use the indicated model prime, including mismatches.
+Real controls are deterministic single fits. Quotient-tree controls reproduce
+every corresponding disk output, so their duplicate values are omitted.}
+\label{tab:modular-primary}
+\begin{tabular}{rlrrrrr}
+\toprule
+$m$ & Method & Seed & L acc. & L NLL & W acc. & W NLL\\
+\midrule
+4 & Stock & --- & 25.00 & 1.64892 & 25.00 & 1.68458\\
+4 & Raw & --- & 25.00 & 348.33875 & 25.00 & 348.44216\\
+4 & Fourier & --- & 100.00 & 0.04964 & 100.00 & 0.05036\\
+4 & Disk 2 & 17 & 78.12 & 0.64654 & 71.88 & 0.66473\\
+4 & Disk 2 & 29 & 78.12 & 0.64654 & 71.88 & 0.66473\\
+4 & Disk 2 & 43 & 78.12 & 0.64654 & 71.88 & 0.66473\\
+4 & Disk 3 & 17 & 23.44 & 1.48787 & 25.00 & 1.49196\\
+4 & Disk 3 & 29 & 26.56 & 1.45676 & 23.44 & 1.46359\\
+4 & Disk 3 & 43 & 21.88 & 1.44084 & 23.44 & 1.45003\\
+9 & Stock & --- & 11.11 & 2.39738 & 11.11 & 2.37174\\
+9 & Raw & --- & 11.11 & 637.28057 & 11.11 & 637.21132\\
+9 & Fourier & --- & 100.00 & 0.47746 & 100.00 & 0.48858\\
+9 & Disk 2 & 17 & 11.42 & 2.22426 & 12.96 & 2.25619\\
+9 & Disk 2 & 29 & 12.96 & 2.22792 & 12.04 & 2.26136\\
+9 & Disk 2 & 43 & 10.19 & 2.20509 & 12.65 & 2.22901\\
+9 & Disk 3 & 17 & 83.64 & 0.78859 & 97.22 & 0.76327\\
+9 & Disk 3 & 29 & 83.64 & 0.78859 & 97.22 & 0.76327\\
+9 & Disk 3 & 43 & 83.64 & 0.78859 & 97.22 & 0.76327\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{All auxiliary modular-adapter endpoints: accuracy percent/NLL nats.
+Validation is recorded but never selects a fit, rate or precision. Same-range
+test pairs are distinct from training and validation.}
+\label{tab:modular-auxiliary}
+\begin{tabular}{rlrlll}
+\toprule
+$m$ & Method & Seed & Training & Validation & Same-range test\\
+\midrule
+4 & Stock & --- & 25.00/1.61414 & 25.00/1.61504 & 25.00/1.62029\\
+4 & Raw & --- & 33.59/1.35643 & 39.06/1.37192 & 20.31/1.43326\\
+4 & Fourier & --- & 100.00/0.04839 & 100.00/0.04862 & 100.00/0.04895\\
+4 & Disk 2 & 17 & 78.12/0.55904 & 78.12/0.61875 & 76.56/0.60158\\
+4 & Disk 2 & 29 & 78.12/0.55904 & 78.12/0.61875 & 76.56/0.60158\\
+4 & Disk 2 & 43 & 78.12/0.55904 & 78.12/0.61875 & 76.56/0.60158\\
+4 & Disk 3 & 17 & 39.84/1.33839 & 26.56/1.40975 & 28.12/1.41617\\
+4 & Disk 3 & 29 & 35.16/1.33494 & 26.56/1.44413 & 28.12/1.39504\\
+4 & Disk 3 & 43 & 33.59/1.34468 & 26.56/1.43307 & 32.81/1.36846\\
+9 & Stock & --- & 11.11/2.40117 & 11.11/2.39398 & 11.11/2.39385\\
+9 & Raw & --- & 13.12/2.19232 & 14.20/2.21850 & 9.26/2.22793\\
+9 & Fourier & --- & 100.00/0.47992 & 100.00/0.47687 & 100.00/0.47601\\
+9 & Disk 2 & 17 & 11.88/2.20756 & 13.89/2.21766 & 12.35/2.21096\\
+9 & Disk 2 & 29 & 11.42/2.21780 & 12.96/2.22729 & 10.49/2.21619\\
+9 & Disk 2 & 43 & 12.35/2.20003 & 12.35/2.20394 & 10.80/2.19862\\
+9 & Disk 3 & 17 & 83.64/0.72609 & 82.72/0.81067 & 79.63/0.81877\\
+9 & Disk 3 & 29 & 83.64/0.72609 & 82.72/0.81067 & 79.63/0.81877\\
+9 & Disk 3 & 43 & 83.64/0.72609 & 82.72/0.81067 & 79.63/0.81877\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Matched-prime adapter minus Fourier. All three seeds have identical
+endpoint predictions and these intervals, despite different fitted coefficient
+representatives; each row applies separately to 17/29/43. Accuracy differences
+and intervals are percentage points; NLL differences are nats. Every full
+progression condition fails.}
+\label{tab:modular-paired}
+\begin{tabular}{rlrrrr}
+\toprule
+$m$ & Split & $\Delta$ acc. & 95\% interval & $\Delta$ NLL & Upper NLL\\
+\midrule
+4 & Larger & -21.88 & [-32.81, -12.50] & +0.59690 & +0.71926\\
+4 & Wording & -28.12 & [-39.06, -17.19] & +0.61437 & +0.72993\\
+9 & Larger & -16.36 & [-20.68, -12.65] & +0.31113 & +0.35776\\
+9 & Wording & -2.78 & [-4.63, -1.23] & +0.27468 & +0.31719\\
+\bottomrule
+\end{tabular}
+\end{table}

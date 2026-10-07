@@ -1,0 +1,25 @@
+{
+  "auditor_cap_seconds": 1800,
+  "automatic_restart": false,
+  "compute_host": "spark",
+  "credential_forwarding": false,
+  "dataset_blob_sha1": "7a7b26c5f2dfbbf213f3e67d2dd0727e1af545aa",
+  "dataset_commit": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "dataset_utterances_downloaded": false,
+  "host_key_checking": true,
+  "jump_host": "uts.hzdr.de",
+  "local_mathematical_tests_passed": 4,
+  "new_llm_features_or_fits_obtained": false,
+  "producer_cap_seconds": 1800,
+  "protocol": "research/structural-intent-protocol.md",
+  "protocol_sha256": "daff5aadd0d8db7ffa2433f5441c97924698fdf83b9eeebfa26292d969249cb8",
+  "scope": "Fresh reproduction with fixed scientific settings and the published verification sources",
+  "source_sha256": {
+    "experiments/audit_structural_intent.py": "1e26ef51b8d74da81002239a198246c4106e511eec670006e7d1b4da2de66d6a",
+    "experiments/pilot_structural_intent.py": "1cc75a627f447b5c0112cb0c3748f4e704759a28e68bb9e55ab270ee3110ec1a",
+    "research/clinc-domains.json": "b947b579d3b8e74b06f93b01083d8efaff2888b43a3e362533bd88a6e1211b3a",
+    "src/padic_lm/structural_intent.py": "c59c3c16063c3a612287640610fec0411ebf2738af781516c660eea1247f61c8",
+    "tests/test_structural_intent.py": "051e4487d6c58ffc4ebc88ae6e8a407639ff7635c7c6e1e9699a53935bfe057c"
+  },
+  "status": "publication_launch_settings"
+}

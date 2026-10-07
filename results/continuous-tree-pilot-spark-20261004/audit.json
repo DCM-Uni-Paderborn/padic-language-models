@@ -1,0 +1,21 @@
+{
+  "independent_fraction_loss_elements": 155157,
+  "limitations": "No convergence theorem or full upstream result reproduced; joint group enumeration differs from upstream coordinate queue.",
+  "passed": true,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "sha256": {
+    "execution.json": "2d5ff5ac6d8ce2063b56b827acd7ecd06afe750db7fe6cc36521a2ed9dc1e315",
+    "figure-trajectory.json": "bccb89809ff7303f4ad6d1c44e13c26d6cbb6e3cf0028e0464ecd85609b1d424",
+    "regression-17-data.npz": "4c76f99031844f2e9cf2e69bb9a3ad2aad4957649d3b7943602c59051ca9a798",
+    "regression-17-trajectory.json": "a3356dc954a6570f663e6d79064895f4a9b4220c751256d1a758c396c7cf27e0",
+    "regression-29-data.npz": "85d453788894085151036e40f4fbf3dedb1df511fc428a9c533779cbdab06140",
+    "regression-29-trajectory.json": "e589d6b0b3a627c0219f71ff3f38be68e2d7acfacca6763a9ab862c736f0d038",
+    "regression-43-data.npz": "74e7bcb7018ec15151649f3aa453d4b3a0423387a3c4189727189cd4dd822ae1",
+    "regression-43-trajectory.json": "3bdebe90eb85aa80775dc2ef08a933f940cef7b63404da06709c07e2e4326575",
+    "summary.json": "a8a65fd922db1a27d89077c2f1b27a6a5f3835b8723eb19524f7bf1c7c82c05d"
+  }
+}

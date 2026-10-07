@@ -1,0 +1,45 @@
+{
+  "status": "metadata_only_no_book_text_read",
+  "hf_revision": "4d28bd77e66947ad3835cf78ed7aaeb4dd87ad8b",
+  "artifacts": {
+    "test_files.txt": {
+      "url": "https://huggingface.co/datasets/deepmind/pg19/resolve/4d28bd77e66947ad3835cf78ed7aaeb4dd87ad8b/data/test_files.txt",
+      "sha256": "c84c08139695f3312df83239a1a41e7b9cde1baf7c08bfcf230ae09eaaf18d8c",
+      "bytes": 1475,
+      "headers": {
+        "Content-Length": "1475",
+        "ETag": "\"30b42ee29f41670d75702289b51ea7faa8bf00ec\""
+      }
+    },
+    "pg19.py": {
+      "url": "https://huggingface.co/datasets/deepmind/pg19/resolve/4d28bd77e66947ad3835cf78ed7aaeb4dd87ad8b/pg19.py",
+      "sha256": "05abf775677301e69935805db4507f7dd4a98beaa69738e4116c2bd1a2f82179",
+      "bytes": 6562,
+      "headers": {
+        "Content-Length": "6562",
+        "ETag": "\"499396396fb611777f8eef3094ded4e237da7d37\""
+      }
+    },
+    "metadata.csv": {
+      "url": "https://storage.googleapis.com/deepmind-gutenberg/metadata.csv",
+      "sha256": "fbb2fdb48522927b2e16aa52950f2afeb83c6fa8fed45f0c3dd834e9bc9b43b9",
+      "bytes": 2737447,
+      "headers": {
+        "Last-Modified": "Tue, 17 Sep 2019 11:33:55 GMT",
+        "ETag": "\"d59371cec1931f4633a506a766b9382d\"",
+        "x-goog-generation": "1568720035675954",
+        "x-goog-hash": "md5=1ZNxzsGTH0YzpQanZrk4LQ==",
+        "Content-Length": "2737447"
+      }
+    },
+    "model_config.json": {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M/resolve/f8027fd0eaeea54caa13c31d31b9fdc459c38b49/config.json",
+      "sha256": "34f7801487078de7e434e19162c497e5cc6ff397080e40e8586627cb68a5168a",
+      "bytes": 689,
+      "headers": {
+        "Content-Length": "689",
+        "ETag": "\"2c111af0f7d9845b3b9910d3d18f7cdd94bf16c4\""
+      }
+    }
+  }
+}

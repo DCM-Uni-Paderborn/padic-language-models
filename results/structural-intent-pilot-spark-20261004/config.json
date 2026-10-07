@@ -1,0 +1,47 @@
+{
+  "actual_rows": {
+    "development": 2798,
+    "seen_test": 4198,
+    "train": 2800,
+    "unseen_test": 300
+  },
+  "batch_size": 32,
+  "domain_depth": 4,
+  "dtype": "BF16",
+  "feature": "mean final hidden state over nonpad tokens",
+  "hardware": "NVIDIA GB10",
+  "hidden_dimension": 960,
+  "k": 8,
+  "l2_coefficient": 0.001,
+  "learning_rate": 0.03,
+  "max_tokens": 64,
+  "methods": [
+    "semantic_prefix",
+    "shuffled_prefix",
+    "flat_joint",
+    "direct_domain"
+  ],
+  "model": "HuggingFaceTB/SmolLM2-360M",
+  "model_state_sha256": "b9fa643b37b587b20e70991f30a7e24a9897aeaa159467fce79b59152f70d583",
+  "nvml_available": false,
+  "nvml_preflight": "Driver/library version mismatch; CUDA API and small FP64 arithmetic pass; no device-cost claim",
+  "observed_classes": 140,
+  "p": 2,
+  "packages": {
+    "numpy": "2.5.3",
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.6"
+  },
+  "probe_dimension": 64,
+  "revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+  "scope": "Few-shot frozen-LLM probe, not generative LM quality, p-adic gradient or unique arithmetic advantage",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "steps": 400,
+  "total_real_input_tokens": 93741,
+  "truncated_utterances": 0,
+  "withheld_classes": 10
+}

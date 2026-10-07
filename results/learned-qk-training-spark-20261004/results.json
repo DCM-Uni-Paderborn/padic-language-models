@@ -1,0 +1,263 @@
+{
+  "config": {
+    "affected_training_query_start": 128,
+    "batch_windows": 2,
+    "command": [
+      "experiments/train_qk_bridge.py",
+      "--data",
+      "results/learned-data-articles-360m-spark-20261004",
+      "--protocol",
+      "research/learned-encoder-protocol.md",
+      "--output",
+      "results/learned-qk-training-spark-20261004"
+    ],
+    "created_utc": "2026-10-03T22:20:41.706854+00:00",
+    "data_completion_sha256": "033d9984858ab0f417181980d64919a901fe813b6d6d97362410c02c959ed454",
+    "data_directory": "/home/kuehne88/work/padic-language-models/results/learned-data-articles-360m-spark-20261004",
+    "gpu_enabled_process_wall_limit_seconds": 3600,
+    "layer": 0,
+    "learning_rate": 0.001,
+    "model": "HuggingFaceTB/SmolLM2-360M",
+    "model_revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+    "optimizer": "Adam",
+    "packages": {
+      "numpy": "2.5.3",
+      "torch": "2.12.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "primary_loss": "batch output squared-error sum / native pre-o_proj target squared-norm sum",
+    "protocol_sha256": "c3172c441a58b56526db65affeb0f7202feee3e161a6bcc4957fd0d7a9c45f7c",
+    "queries_per_window": 32,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "sequence_length": 512,
+    "source_sha256": {
+      "flat_routing.py": "974d6b76d8646afc43ec9730d1ef5aa45cb8eb720c0272249b91e9b1b217f8b8",
+      "learned.py": "18ab3df4f8f1c2ad02843994115105766160c0ef865f4a23da6d0b8bda670dd4",
+      "llm_routing.py": "744452c4cbfc64b6629dd8247f2dc031b1fe62c4ad41ea0fff15e78972dd9f62",
+      "routing.py": "80f34d993f53e432ea9f226242428dd78a5e8869037bea399224d7542e624934",
+      "train_qk_bridge.py": "7008fdb5f0a8b07db1c02d1efeba754d1267a0abd08f722c151b888de706c6b8"
+    },
+    "stage": "training_only_before_development_outputs",
+    "steps": 200,
+    "temperature": 2
+  },
+  "development_model_outputs_read": false,
+  "full_budget_512_fixture_stock_exact": true,
+  "gpu_enabled_process_wall_seconds": 35.646694094873965,
+  "model_loaded_state_sha256": "b9fa643b37b587b20e70991f30a7e24a9897aeaa159467fce79b59152f70d583",
+  "original_model_state_unchanged": true,
+  "process_cpu_seconds": 35.405489104000004,
+  "scope": "Training-only fit evidence; no development/confirmation quality or native performance claim",
+  "seed_results": [
+    {
+      "final_training_error": {
+        "error_squared_sum": 200.9414985476398,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.25455178994364164
+      },
+      "first_batch_loss": 0.6515343189239502,
+      "flat_centroid_counts": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "flat_iterations": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "folding_maximum_latent_absolute_difference": {
+        "key": 1.9073486328125e-06,
+        "query": 2.86102294921875e-06
+      },
+      "initial_training_error": {
+        "error_squared_sum": 1893.1823037403901,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.7813354965366335
+      },
+      "last_batch_loss": 0.07181162387132645,
+      "seed": 17,
+      "shared_latent_pca_exact": true,
+      "standalone_numeric_state_bytes": {
+        "flat": 19757,
+        "p2": 19948,
+        "p3": 22588
+      },
+      "steps_completed": 200
+    },
+    {
+      "final_training_error": {
+        "error_squared_sum": 195.71397499886115,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.25121886878349403
+      },
+      "first_batch_loss": 0.729133665561676,
+      "flat_centroid_counts": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "flat_iterations": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "folding_maximum_latent_absolute_difference": {
+        "key": 2.86102294921875e-06,
+        "query": 3.337860107421875e-06
+      },
+      "initial_training_error": {
+        "error_squared_sum": 1998.4464839021844,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.8027634639429405
+      },
+      "last_batch_loss": 0.058179739862680435,
+      "seed": 29,
+      "shared_latent_pca_exact": true,
+      "standalone_numeric_state_bytes": {
+        "flat": 19757,
+        "p2": 19948,
+        "p3": 22588
+      },
+      "steps_completed": 200
+    },
+    {
+      "final_training_error": {
+        "error_squared_sum": 218.378109289783,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.26536637242167044
+      },
+      "first_batch_loss": 0.44908031821250916,
+      "flat_centroid_counts": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "flat_iterations": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "folding_maximum_latent_absolute_difference": {
+        "key": 2.384185791015625e-06,
+        "query": 2.86102294921875e-06
+      },
+      "initial_training_error": {
+        "error_squared_sum": 1907.5980202760989,
+        "query_head_rows": 92160,
+        "reference_squared_sum": 3101.111105605237,
+        "value_output_nrmse": 0.7843046111968401
+      },
+      "last_batch_loss": 0.06607236713171005,
+      "seed": 43,
+      "shared_latent_pca_exact": true,
+      "standalone_numeric_state_bytes": {
+        "flat": 19757,
+        "p2": 19948,
+        "p3": 22588
+      },
+      "steps_completed": 200
+    }
+  ],
+  "status": "learned_encoders_frozen_before_development",
+  "test_split_read": false,
+  "training_baseline_window_nll": [
+    2.8792271614074707,
+    2.4422237873077393,
+    2.8275790214538574,
+    2.240506887435913,
+    2.6869595050811768,
+    2.5251786708831787,
+    2.9624199867248535,
+    2.6913599967956543,
+    2.726188898086548,
+    2.250279426574707,
+    2.439042329788208,
+    2.2126903533935547,
+    2.4535062313079834,
+    2.14166522026062,
+    2.899376153945923,
+    2.6733181476593018
+  ]
+}

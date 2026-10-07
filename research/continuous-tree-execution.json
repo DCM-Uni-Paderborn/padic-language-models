@@ -1,0 +1,19 @@
+{
+  "auditor_cap_seconds": 300,
+  "compute_host": "spark",
+  "independent_implementation": true,
+  "jump_host": "uts.hzdr.de",
+  "mathematical_tests_passed": 5,
+  "producer_cap_seconds": 300,
+  "scope": "Fresh reproduction with fixed scientific settings and the published verification sources",
+  "source_sha256": {
+    "experiments/audit_continuous_tree.py": "4f870859c5c17100b3843b4c683c6992df0d6380ff1127a1acd79b90654a4a5a",
+    "experiments/pilot_continuous_tree.py": "28a6e0a2742ad4e296f209455f510ced589b77d4cccd61389d19849dc4be2d44",
+    "research/continuous-tree-protocol.md": "3d8eb94ec212e9b73db6fb341180d584f706fc06ff577b5356c5d554d488118f",
+    "src/padic_lm/continuous_tree.py": "0e52a5a7731828c42eff62d17a53d93aa85d1b244977a8bcd5fa7290beaab9e6",
+    "tests/test_continuous_tree.py": "4f5b9a4985689a34e326159da26978d94fcd7b7fac9670feb85af1834a5b8cea"
+  },
+  "status": "publication_launch_settings",
+  "upstream_commit": "53ffd9e79890e76b82ef2dc3c7230984053f9801",
+  "upstream_optimizer_available": false
+}

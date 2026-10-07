@@ -1,0 +1,24 @@
+{
+  "audit_fresh_lm_windows": 27,
+  "audit_residue_outputs": 39321600,
+  "audit_sha256": "289775a360d6b5128eaa0897ea438a727c043746c4f7ec1b3e6e5b7ad8077723",
+  "pilot_bytes": 188280645,
+  "pilot_completion_sha256": "a88436b8f97a485b1ef090811a628b8c55ffbe6cc1542fc5d1d9b182b18fda3a",
+  "pilot_files": 105,
+  "primary_delta_nll_range": [
+    7.080970098636527,
+    7.153621646717202
+  ],
+  "primary_development_nrmse_range": [
+    0.7251632863097524,
+    0.7271323811446733
+  ],
+  "primary_training_sse_unchanged": true,
+  "progression_all_seeds": false,
+  "records": 44,
+  "scope": "Previously used development corpus; no untouched confirmation, compression or full-Q_p claim",
+  "secondary_process_seconds": 191.71422938909382,
+  "source_sha256": "05ba91dc03247a8f4adb54109d62ae69d636330f8ca5382b5fd250f638e67976",
+  "status": "all_ball_ffn_development_results_exported",
+  "stock_nll": 2.546624073334654
+}

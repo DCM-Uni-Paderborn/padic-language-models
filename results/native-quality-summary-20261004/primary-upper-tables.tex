@@ -1,0 +1,44 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{llrrr}
+\toprule
+Family & Seed & Native full & Uniform & Coarsened binary \\
+\midrule
+Binary & 17 & 0.014194 / 0.015141 & 0.010146 / 0.010823 & 0.007691 / 0.008204 \\
+Binary & 29 & 0.009355 / 0.009979 & 0.005662 / 0.006040 & 0.003990 / 0.004256 \\
+Binary & 43 & 0.006741 / 0.007191 & 0.003054 / 0.003258 & 0.002555 / 0.002726 \\
+Ternary & 17 & 0.009827 / 0.010483 & 0.005924 / 0.006319 & 0.003267 / 0.003485 \\
+Ternary & 29 & 0.007406 / 0.007900 & 0.003876 / 0.004134 & 0.002218 / 0.002365 \\
+Ternary & 43 & 0.005176 / 0.005521 & 0.001458 / 0.001555 & 0.000959 / 0.001023 \\
+\bottomrule
+\end{tabular}
+\caption{Complete 2,048-token native PG-19 primary upper bounds,
+in nats per target, shown as all/affected. Each family requires every bound
+to be strictly below \(\log(1.01)=0.00995033\); decisions use full precision.
+The coarsened comparator has the same seed. Fixed fits and approximate
+20,000 paired whole-book percentile resamples limit coverage.}
+\label{tab:native-pg19-2048}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{llrrr}
+\toprule
+Family & Seed & Native full & Uniform & Coarsened binary \\
+\midrule
+Binary & 17 & 0.020272 / 0.020926 & 0.012243 / 0.012638 & 0.007558 / 0.007802 \\
+Binary & 29 & 0.011714 / 0.012092 & 0.003805 / 0.003927 & 0.003807 / 0.003929 \\
+Binary & 43 & 0.013843 / 0.014290 & 0.005881 / 0.006071 & 0.003736 / 0.003857 \\
+Ternary & 17 & 0.016290 / 0.016815 & 0.008420 / 0.008692 & 0.003516 / 0.003629 \\
+Ternary & 29 & 0.010702 / 0.011047 & 0.002853 / 0.002945 & 0.002700 / 0.002787 \\
+Ternary & 43 & 0.011680 / 0.012057 & 0.003843 / 0.003967 & 0.001573 / 0.001623 \\
+\bottomrule
+\end{tabular}
+\caption{Complete 4,096-token native PG-19 primary upper bounds,
+in nats per target, shown as all/affected. Each family requires every bound
+to be strictly below \(\log(1.01)=0.00995033\); decisions use full precision.
+The coarsened comparator has the same seed. Fixed fits and approximate
+20,000 paired whole-book percentile resamples limit coverage.}
+\label{tab:native-pg19-4096}
+\end{table}
+

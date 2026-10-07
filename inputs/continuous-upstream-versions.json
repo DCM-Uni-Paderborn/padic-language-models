@@ -1,0 +1,16 @@
+{
+  "commit": "53ffd9e79890e76b82ef2dc3c7230984053f9801",
+  "original_policy_path": "AGENTS.md",
+  "purpose": "Pinned original source/license for arithmetic API inspection; no upstream optimizer available, no source executed or copied into our learner.",
+  "repository": "https://github.com/google-deepmind/padic-ml",
+  "sha256": {
+    "LICENSE": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "README.md": "aba78003bc5f334614c215150876ff44360b483bbc1d0b0f204c2d452c2633f5",
+    "padic_ml/__init__.py": "46a9236b6e89c3a09b38bc3f2e216f21bf10f794f597ee3e63202360eaf0980f",
+    "padic_ml/_array.py": "09460b9d4ab9544bf7b981a3761e9bf608af73cdb85deccb68c4e13402bba873",
+    "padic_ml/_array_test.py": "4fcd4fd2d317ae538b1cc29522bd9c03110dd7a8498d9e6e2632983fff9b9927",
+    "padic_ml/ops.py": "586205c4d61ea39f0438753b6551152718b63341b91f5dcd197e4c83262a84bc",
+    "padic_ml/ops_test.py": "efed83c8dacbb08cf131101d386496c0647407e74e3ec63fbe4693f3b405603b",
+    "pyproject.toml": "bbac8edb518c8374e7cb1988c37b54465839f04573f3d8bb302544104dbea7ec"
+  }
+}

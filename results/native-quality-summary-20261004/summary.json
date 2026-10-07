@@ -1,0 +1,138 @@
+{
+  "status": "fully_audited_native_pg19_quality_screen_not_established_for_either_family",
+  "evaluation_completion_sha256": "e6706d2b93e478a07cab97de06cd3278a8dcbd6ffc5efa8b0ef8b412672335e0",
+  "numerical_audit_sha256": "ea2e65127363cc696fb55608b4732473b81b94b2f0bf630928bf9f682c73251d",
+  "statistics_completion_sha256": "094c58ebc4ff647e3dcdec743ccb76f337a1e1b5da7cfd2062c796086b74c4ed",
+  "statistical_audit_sha256": "a67119af168a1f3b21271cd5d0714f2a65b0430c9fc9587383094ae69f32b364",
+  "families": {
+    "p2": {
+      "passed_comparisons": 23,
+      "required_comparisons": 36,
+      "screen_passed": false,
+      "largest_upper_nats": 0.020926084679125358,
+      "label": "not established by the frozen native-readout PG-19 screen"
+    },
+    "p3": {
+      "passed_comparisons": 29,
+      "required_comparisons": 36,
+      "screen_passed": false,
+      "largest_upper_nats": 0.016815224366268203,
+      "label": "not established by the frozen native-readout PG-19 screen"
+    }
+  },
+  "contexts": {
+    "2048": {
+      "p2": {
+        "passed_comparisons": 13,
+        "required_comparisons": 18,
+        "passed_by_reference": {
+          "native_full": 3,
+          "uniform": 4,
+          "same_seed_coarsened_p2": 6
+        },
+        "all_target_point_relative_ppl_range_percent": [
+          0.5727504729820038,
+          1.2730309613387254
+        ],
+        "largest_upper_comparison": {
+          "length": 2048,
+          "method": "s17_p2",
+          "reference": "native_full",
+          "endpoint": "affected",
+          "paired_delta_nll": 0.013493730574931912,
+          "lower_025": 0.011891901954966382,
+          "upper_975": 0.015140729376478807,
+          "point_relative_ppl_percent": 1.3585181833938549,
+          "upper_relative_ppl_percent": 1.5255930896863386,
+          "family": "p2",
+          "seed": 17,
+          "passed": false
+        }
+      },
+      "p3": {
+        "passed_comparisons": 17,
+        "required_comparisons": 18,
+        "passed_by_reference": {
+          "native_full": 5,
+          "uniform": 6,
+          "same_seed_coarsened_p2": 6
+        },
+        "all_target_point_relative_ppl_range_percent": [
+          0.4204432938404962,
+          0.8594952448820291
+        ],
+        "largest_upper_comparison": {
+          "length": 2048,
+          "method": "s17_p3",
+          "reference": "native_full",
+          "endpoint": "affected",
+          "paired_delta_nll": 0.00912907186011295,
+          "lower_025": 0.007863740626191738,
+          "upper_975": 0.010482934920658143,
+          "point_relative_ppl_percent": 0.9170868929290187,
+          "upper_relative_ppl_percent": 1.0538073385482343,
+          "family": "p3",
+          "seed": 17,
+          "passed": false
+        }
+      }
+    },
+    "4096": {
+      "p2": {
+        "passed_comparisons": 10,
+        "required_comparisons": 18,
+        "passed_by_reference": {
+          "native_full": 0,
+          "uniform": 4,
+          "same_seed_coarsened_p2": 6
+        },
+        "all_target_point_relative_ppl_range_percent": [
+          1.0516271652194393,
+          1.8820549308631676
+        ],
+        "largest_upper_comparison": {
+          "length": 4096,
+          "method": "s17_p2",
+          "reference": "native_full",
+          "endpoint": "affected",
+          "paired_delta_nll": 0.01924725771466995,
+          "lower_025": 0.01765182372569776,
+          "upper_975": 0.020926084679125358,
+          "point_relative_ppl_percent": 1.9433680299783582,
+          "upper_relative_ppl_percent": 2.114657047153927,
+          "family": "p2",
+          "seed": 17,
+          "passed": false
+        }
+      },
+      "p3": {
+        "passed_comparisons": 12,
+        "required_comparisons": 18,
+        "passed_by_reference": {
+          "native_full": 0,
+          "uniform": 6,
+          "same_seed_coarsened_p2": 6
+        },
+        "all_target_point_relative_ppl_range_percent": [
+          0.9570509587919506,
+          1.496888680881881
+        ],
+        "largest_upper_comparison": {
+          "length": 4096,
+          "method": "s17_p3",
+          "reference": "native_full",
+          "endpoint": "affected",
+          "paired_delta_nll": 0.01533736844078406,
+          "lower_025": 0.013954575176918737,
+          "upper_975": 0.016815224366268203,
+          "point_relative_ppl_percent": 1.5455589502842686,
+          "upper_relative_ppl_percent": 1.6957396016346862,
+          "family": "p3",
+          "seed": 17,
+          "passed": false
+        }
+      }
+    }
+  },
+  "scope": "Three fixed dual-affine fits, first layer of one 360M checkpoint, original uncached sequence QKV, retained real KV, 40 nested book prefixes; approximate 20,000 paired whole-book resamples. Not universal p-adic usefulness or native resource evidence."
+}

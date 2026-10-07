@@ -1,0 +1,46 @@
+{
+  "affected_training_query_start": 128,
+  "batch_windows": 2,
+  "command": [
+    "experiments/train_qk_bridge.py",
+    "--data",
+    "results/learned-data-articles-360m-spark-20261004",
+    "--protocol",
+    "research/learned-encoder-protocol.md",
+    "--output",
+    "results/learned-qk-training-spark-20261004"
+  ],
+  "created_utc": "2026-10-03T22:20:41.706854+00:00",
+  "data_completion_sha256": "033d9984858ab0f417181980d64919a901fe813b6d6d97362410c02c959ed454",
+  "data_directory": "/home/kuehne88/work/padic-language-models/results/learned-data-articles-360m-spark-20261004",
+  "gpu_enabled_process_wall_limit_seconds": 3600,
+  "layer": 0,
+  "learning_rate": 0.001,
+  "model": "HuggingFaceTB/SmolLM2-360M",
+  "model_revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+  "optimizer": "Adam",
+  "packages": {
+    "numpy": "2.5.3",
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.6"
+  },
+  "primary_loss": "batch output squared-error sum / native pre-o_proj target squared-norm sum",
+  "protocol_sha256": "c3172c441a58b56526db65affeb0f7202feee3e161a6bcc4957fd0d7a9c45f7c",
+  "queries_per_window": 32,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "sequence_length": 512,
+  "source_sha256": {
+    "flat_routing.py": "974d6b76d8646afc43ec9730d1ef5aa45cb8eb720c0272249b91e9b1b217f8b8",
+    "learned.py": "18ab3df4f8f1c2ad02843994115105766160c0ef865f4a23da6d0b8bda670dd4",
+    "llm_routing.py": "744452c4cbfc64b6629dd8247f2dc031b1fe62c4ad41ea0fff15e78972dd9f62",
+    "routing.py": "80f34d993f53e432ea9f226242428dd78a5e8869037bea399224d7542e624934",
+    "train_qk_bridge.py": "7008fdb5f0a8b07db1c02d1efeba754d1267a0abd08f722c151b888de706c6b8"
+  },
+  "stage": "training_only_before_development_outputs",
+  "steps": 200,
+  "temperature": 2
+}
