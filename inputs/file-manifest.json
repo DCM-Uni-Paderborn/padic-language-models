@@ -292,8 +292,8 @@
     "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
   },
   "manuscript/main.tex": {
-    "bytes": 214685,
-    "sha256": "6441c866951e42f417ca9589f6a6c58d2ae2a72b676ff7c2f5aee1f04e71d884"
+    "bytes": 214751,
+    "sha256": "69c357f7a9e5b69af3a6e5a6ec15674b7c83a1d3bbb4c2dc8e1e3770da7d9ad5"
   },
   "pyproject.toml": {
     "bytes": 479,
@@ -1156,7 +1156,7 @@
     "sha256": "8a8c8072b0f6447144fc031e75ad037193215224fe0af82d9f265665c7498652"
   },
   "validation/publication-check.json": {
-    "bytes": 698,
-    "sha256": "b48b03406cd89adacdff5ef3044dee5e7450f4982e0c3685ff2891441ddb4e9c"
+    "bytes": 769,
+    "sha256": "6c4de6625fb5359091b504316f8309985b936bb4e6779a155f97cb72d924792c"
   }
 }

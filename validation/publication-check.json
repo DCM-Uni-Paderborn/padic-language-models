@@ -6,8 +6,10 @@
   "native_editor_compilation": "success",
   "native_statistics_absolute_endpoints_rebuilt": 52,
   "native_statistics_comparisons_rebuilt": 172,
+  "overleaf_parallel_disclosure_integrated": true,
+  "references": 36,
   "repository_reference_added": true,
-  "source_sha256": "6441c866951e42f417ca9589f6a6c58d2ae2a72b676ff7c2f5aee1f04e71d884",
+  "source_sha256": "69c357f7a9e5b69af3a6e5a6ec15674b7c83a1d3bbb4c2dc8e1e3770da7d9ad5",
   "tables_unchanged": 31,
   "terok_reference_added": true,
   "test_suite": {
