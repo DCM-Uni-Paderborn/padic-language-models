@@ -7,14 +7,19 @@
     "CLINC150 texts and taxonomy",
     "synthetic regression",
     "modular prompts and frozen priors",
-    "learned encoder and routing states"
+    "learned encoder and routing states",
+    "Frozen low-precision continuation prefixes and fixed minibatch schedules"
   ],
   "omitted_regenerable": [
     "model feature captures",
     "bulk intermediate arrays",
     "per-query outputs",
     "full model caches",
-    "duplicate full corpus downloads"
+    "duplicate full corpus downloads",
+    "teacher logits",
+    "optimizer states",
+    "low-precision shadow-weight checkpoints",
+    "low-precision training histories and logs"
   ],
   "scientific_negative_results": "Preserved in the paper and compact summaries",
   "scope": "Current paper and SI, scientific code, essential frozen inputs and compact reported results",

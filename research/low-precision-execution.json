@@ -1,0 +1,116 @@
+{
+  "canonical_settings": 56,
+  "date": "2026-10-19",
+  "fits_by_group": {
+    "135M_continuation": 3,
+    "135M_mantissa": 9,
+    "135M_primary": 93,
+    "135M_projection": 33,
+    "360M_continuation": 3,
+    "360M_mantissa": 3,
+    "360M_primary": 12,
+    "360M_projection": 12
+  },
+  "fits_expected": 168,
+  "inputs": "results/low-precision-inputs-20261019",
+  "interpretation": {
+    "cyclic_nearest_bin_change_diagnostic_used": false,
+    "format_labels_do_not_identify_an_arithmetic_metric": true,
+    "mixed_nominal_cap_is_not_always_equal_packed_payload": true,
+    "model_and_device_change_together": true,
+    "primary_unit_precision_stays_fixed_with_bit_cap": true
+  },
+  "model_configurations": "inputs/low-precision-model-configs.json",
+  "numerical_contract": {
+    "activation_clipping": "One learned FP32 factor per projection",
+    "activation_groups": "64 inputs per token",
+    "digit_projection_grid": "FP64 round-to-nearest-even then balanced remainder",
+    "index_storage": "ceil(log2(distinct alphabet size)) bits; no joint radix packing",
+    "matmul_precision": "highest",
+    "matrix_accumulation": "FP32",
+    "other_parameters": "BF16, frozen",
+    "packed_neural_inference": false,
+    "payload_scope": "Parameter indices, learned scales and frozen BF16 parameters only",
+    "shadow_weights": "FP32",
+    "tf32": false,
+    "weight_groups": 64,
+    "weight_scale_dtype": "FP32"
+  },
+  "protocols": [
+    "research/low-precision-protocol-20261019.md",
+    "research/low-precision-mantissa-20261019.md",
+    "research/residue-qat-protocol-20261019.md",
+    "research/residue-controls-20261019.md",
+    "research/bf16-continuation-20261019.md"
+  ],
+  "question": "Few-bit real-decoded residue and unit/valuation representations in pretrained LLM continuation",
+  "schema": 1,
+  "software_by_model": {
+    "135M": {
+      "datasets": "4.4.1",
+      "gpu": "NVIDIA GB10",
+      "host": "Spark",
+      "numpy": "2.5.3",
+      "python": "3.12.3",
+      "torch": "2.12.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "360M": {
+      "datasets": "4.4.1",
+      "gpu": "NVIDIA A40",
+      "host": "Terok",
+      "numpy": "2.4.6",
+      "python": "3.12.13",
+      "torch": "2.6.0+cu124",
+      "transformers": "4.57.6"
+    }
+  },
+  "statistics": {
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 514203,
+    "corpora": [
+      "wikitext",
+      "pg19"
+    ],
+    "documents_per_corpus": 40,
+    "integer_superiority": "all six upper paired NLL bounds below zero",
+    "primary_quality_allowance": "log(1.10), all three seeds on both corpora against original checkpoint",
+    "quantile_method": "linear",
+    "resampling_unit": "whole document, paired",
+    "scope": "Fixed fits on reused component-study corpora, held out from these updates; approximate pointwise intervals without a global familywise claim",
+    "supplementary_reference": "same-seed continued BF16",
+    "supplementary_timing": "BF16 continuation controls specified after initial quantized outcomes and before their own fits",
+    "targets_per_document": 255,
+    "upper_quantile": 0.975
+  },
+  "training": {
+    "adamw_betas": [
+      0.9,
+      0.999
+    ],
+    "adamw_epsilon": 1e-08,
+    "batch_windows": 2,
+    "development_prefixes": 16,
+    "distinct_training_prefixes": 128,
+    "fixed_final_update": true,
+    "global_gradient_norm_clip": 1,
+    "input_tokens_per_fit": 65536,
+    "loss": "0.5 next-token cross entropy + 0.5 teacher KL",
+    "next_token_targets_per_fit": 65280,
+    "scale_and_clipping_learning_rate": 0.001,
+    "scale_gradient_factor": "1/sqrt(64)",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "teacher": "Original frozen checkpoint",
+    "teacher_temperature": 1,
+    "test_selected_checkpoint": false,
+    "updates": 128,
+    "weight_decay": 0,
+    "weight_learning_rate": 1e-05,
+    "window_tokens": 256
+  },
+  "training_source_freeze": "inputs/low-precision-training-freeze.json"
+}

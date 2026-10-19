@@ -41,6 +41,8 @@ implementation. A small finite-ring FFN pilot fails its development progression
 criteria. A semantic-prefix classification probe learns but fails its unseen-intent
 generalization rule. A continuous-disk branch learns exact modular rules,
 but its fixed LLM-answer fusion fails the stronger Fourier control.
+Full-projection low-bit and mixed-precision continuation fails its declared
+quality screen. Matched higher-precision continuation retains quality.
 Broad \(p\)-adic utility, a useful trained ring FFN and cache
 compression remain unestablished. Complete protocols, controls, failures and
 provenance are retained in the Supporting Information (SI).
@@ -48,47 +50,44 @@ provenance are retained in the Supporting Information (SI).
 \end{center}
 
 \begin{abstract}
-\(p\)-Adic numbers replace magnitude-based closeness by agreement of successive
-radix digits. We derive this construction, explain negative and fractional
-values, and distinguish an infinite field, finite residue arithmetic and
-hierarchical codes. These distinctions motivate hybrid language-model
-components without implying that residues approximate real neural states.
-Verified arithmetic and pretrained-projection controls show exact equivalence
-of binary residues to wrapping integers; narrow reconstruction damages
-real-valued likelihood. We then train three output-supervised Q/K bridges in
-frozen SmolLM2-360M and evaluate binary/ternary routing with 128 shared selected
-positions per query-head group. An untouched 40-article WikiText screen uses
-20,000 paired document resamples and a prespecified 1\% PPL allowance.
-Both families pass all required seed/comparator/endpoint bounds; their
-largest stock-reference affected-target upper PPL changes are 0.774\% and
-0.523\%. A separately frozen native single-query evaluation on 40 PG-19
-books at 2,048/4,096 tokens fails the joint screen: binary passes 23/36
-required bounds and ternary 29/36, with every full-reference bound failing
-at 4,096. Complete numerical and independent statistical audits verify
-these decisions. Ordinary coarsened binary and coverage controls have
-smaller point losses. Secondary component-cost characterization passes 78
-correctness cases and an independent audit of 378,000 samples on Spark;
-the original interrupted allocation is preserved separately.
-A binary finite-ring/ball FFN pilot fits a real teacher-supervised readout,
-but its fixed-readout digit search accepts no ring changes in three seeds;
-complete FFN replacement strongly damages development likelihood.
-A separate CLINC150 probe learns meaningful semantic prefixes and outperforms
-shuffled prefixes on seen intents, but stronger flat controls and failed
-unseen-intent progression prevent a quality-advantage claim.
-A continuous-disk answer branch learns exact modular rules; fixed fusion with
-LLM priors improves on stock but fails stronger real Fourier controls.
-First-layer intervention, fixed fits, retained real KV and the combined
-operator/corpus/context change limit interpretation. The results motivate
-explicit encoding, resolution and locality controls and establish a scoped
-negative transfer result. They support limited feasibility of a learned
-finite-hierarchy component, rather than broad \(p\)-adic utility or a universal
-advantage of one prime. Implementation latency is not the criterion for
-accepting or rejecting the mathematical concept.
+\(p\)-Adic numbers define closeness through agreement of successive low-power
+digits. We derive this construction, explain negative and fractional values,
+and distinguish an infinite field, finite residue arithmetic and hierarchical
+codes. These objects motivate large language model (LLM) components with
+explicit real interfaces. Arithmetic controls establish exact equivalence of
+sufficiently wide binary residues and wrapping integers.
+Learned binary and ternary routing in the first layer of frozen SmolLM2-360M
+passes a frozen 40-article WikiText screen with a 1\% perplexity (PPL)
+allowance, but fails a separate native PG-19 screen. Stronger ordinary
+coverage and coarsened-tree controls limit attribution.
+
+We extend the numerical study to every attention and feed-forward projection
+in SmolLM2-135M/360M. The 168 fixed continuation fits cover two-, three- and
+four-bit alphabets, mixed precision, finite unit/exponent representations,
+cyclic digit projection and matched higher-precision controls. None of the
+54 low-bit settings meets the 10\% PPL retention rule on both corpora in
+all three seeds, either against the original checkpoint or against matched
+higher-precision continuation. The latter controls retain quality.
+Some unit alphabets improve on uniform integers, and ternary digit projection
+improves on same-alphabet clipping at 360M. Ordinary four-bit floating-point
+controls are stronger in the principal comparisons.
+Exact alphabet identities connect different primes and conventional
+floating-point value sets, separating a numerical codebook effect from a
+distinctly \(p\)-adic mechanism.
+
+A finite-ring/ball FFN pilot fails its learning and replacement criteria.
+Semantic-prefix and continuous-disk constructions learn meaningful structure
+or exact modular rules, but their task interfaces fail stronger flat or
+Fourier controls. The results establish limited hierarchical feasibility
+and scoped numerical effects, with unresolved transfer and no general
+advantage of one prime. Small models, short continuation, fixed fits and
+explicit operator contracts bound the conclusions. Hardware speed is
+secondary to the conceptual and likelihood tests.
 \end{abstract}
 
 \section{Introduction}
 
-Language-model efficiency is often approached through small numerical alphabets.
+Efficiency in large language models (LLMs) is often approached through small numerical alphabets.
 Native ternary weights, exemplified by BitNet b1.58, and hardware-oriented
 floating-point recipes such as NVFP4 reduce different parts of storage and
 computation \citep{ma2024era,ma2025bitnet,nvidia2026nvfp4}. Their benefits depend
@@ -137,6 +136,13 @@ separately in SI Section~\ref{si:continuous-learning}.
 Finite precision and its propagation are established numerical mathematics
 \citep{caruso2017computations}. Our arithmetic identities and exact tree
 implementations are controls, rather than new theorems.
+
+Real nonuniform quantization also has established precedents. Logarithmic
+representations use powers-of-two values \citep{miyashita2016log}, while
+ParetoQ studies how very low-bit performance depends on quantization and
+training \citep{liu2025paretoq}. A finite unit/exponent alphabet with real
+nearest-value decoding must therefore be compared with ordinary codebooks.
+Its description in a \(p\)-adic field supplies no separate LLM mechanism.
 
 Learned or geometric sparsity also has strong precedents. MoBA, NSA and HiP
 use block selection or hierarchical pruning \citep{lu2025moba,yuan2025nsa,lee2025hip};
@@ -358,10 +364,12 @@ Here \(N\) unit digits provide relative precision and \(e+N\) is absolute
 precision. The exponent encodes divisibility. An implemented format still
 needs exponent limits, normalization, rounding, zero conventions and
 precision propagation; cancellation can change valuation
-\citep{caruso2017computations}. Our controls implement fixed residues and
-addresses, not \(p\)-adic floating-point arithmetic.
+\citep{caruso2017computations}. Our arithmetic controls implement fixed residues and addresses.
+SI Section~\ref{si:low-precision} additionally tests finite unit/exponent
+alphabets and low-digit projection with real decoding. These hybrids do not
+implement complete \(p\)-adic floating-point arithmetic.
 
-A real FP4 format attempts to approximate real magnitudes with a small
+A real four-bit floating-point (FP4) format attempts to approximate real magnitudes with a small
 alphabet of signs, exponents and mantissas. A \(p\)-adic float approximates a different
 metric, and a finite ternary digit is not automatically a BitNet ternary
 weight. Neither the word ``float'' nor the number of symbols supplies a
@@ -472,6 +480,10 @@ they are not a prerequisite for a useful representation or learning result.
 \section{Central experiments and findings}
 \label{sec:main-results}
 
+We report mean next-token negative log likelihood (NLL), in nats per target,
+and perplexity (PPL). W\(b\)/A\(a\) denotes weight and activation precision
+caps of \(b\) and \(a\) bits.
+
 \subsection{Arithmetic controls delimit the claim}
 
 The synthetic control and frozen FFN down-projection interventions on
@@ -484,6 +496,78 @@ above 461, versus about 26.53 for ordinary W4/A8 reconstruction.
 The implementation is replicated on Spark GB10 and Terok A40, without a
 native speed comparison. All arithmetic, projection and model-size results
 are in SI Sections~\ref{si:arithmetic} and~\ref{si:components}.
+
+\subsection{Low-bit alphabets and mixed-precision continuation}
+\label{sec:low-precision-results}
+
+We quantize all seven attention and feed-forward projections in every block
+of SmolLM2-135M/360M. Embeddings, the tied output head, normalization and
+residual tensors retain bfloat16 (BF16). Shadow weights, learned group scales
+and matrix accumulation use 32-bit floating point (FP32). A separate cyclic
+encoder rounds onto an integer grid in 64-bit floating point (FP64), keeps
+low \(p\)-adic digits, and decodes them to real values before the product.
+Thus this study tests full-projection numerical interventions without a
+narrow modular accumulator. It retains real LLM operations.
+
+The 168 fits span 56 canonical settings and three fixed seeds, with 128
+updates and 65,536 input tokens per fit. Integer and real FP4 controls receive
+the same continuation as the residue and unit/valuation methods. A
+supplementary BF16 control applies the same weight updates with higher
+forward precision. Both evaluation corpora contain 40 fixed 256-token
+prefixes. They are held out from these updates and were used in earlier
+component studies. Complete allocations, inputs, fitting rules, byte counts
+and outcomes are in SI Section~\ref{si:low-precision}.
+
+None of the 54 low-bit settings passes all six upper paired-loss bounds
+required by the 10\% PPL allowance, against either the original checkpoint
+or the same-seed continued BF16 control. Both continued BF16 controls retain
+quality. They substantially improve WikiText PPL while preserving PG-19
+likelihood, so the shared continuation recipe alone does not account for
+the low-bit losses. Table~\ref{tab:low-precision-central} reports the
+principal W4/A8 comparisons. The real FP4 control beats the matched symmetric
+integer control on both corpora in every seed at both sizes. Its largest
+upper paired NLL differences are \(-0.1751\) and \(-0.1207\) nats/target
+for 135M and 360M, respectively.
+
+\begin{table}[htbp]
+\centering\small
+\caption{W4/A8 perplexity after the fixed continuation. Ranges include all three seeds. Original BF16 gives the unadapted checkpoints. Continued BF16 applies the same weight updates with BF16 forward precision. The extended unit alphabet has 13 states, while the primary unit and real FP4 alphabets have 15. The low-bit rows use the same four-bit index width and scale recipe. These are numerical emulations with real accumulation.}
+\label{tab:low-precision-central}
+\begin{tabular}{llrr}
+\toprule
+Model & Weight alphabet & WikiText PPL & PG-19 PPL\\
+\midrule
+135M & Original BF16 & 19.09 & 15.45 \\
+135M & Continued BF16 & \(14.74\text{--}14.75\) & \(15.37\text{--}15.40\) \\
+135M & Integer & \(22.18\text{--}23.88\) & \(30.37\text{--}34.88\) \\
+135M & Real FP4 & \(17.82\text{--}18.73\) & \(21.84\text{--}23.46\) \\
+135M & Binary units & \(23.90\text{--}27.25\) & \(33.51\text{--}55.32\) \\
+135M & Ternary units & \(56.27\text{--}72.90\) & \(153.33\text{--}214.37\) \\
+135M & Extended ternary units & \(21.38\text{--}21.95\) & \(28.99\text{--}30.20\) \\
+\midrule
+360M & Original BF16 & 14.09 & 13.75 \\
+360M & Continued BF16 & \(10.73\text{--}10.74\) & \(13.79\text{--}13.83\) \\
+360M & Integer & \(13.82\text{--}14.08\) & \(22.17\text{--}24.28\) \\
+360M & Real FP4 & \(12.00\text{--}12.13\) & \(17.77\text{--}18.19\) \\
+360M & Binary units & \(15.23\text{--}15.50\) & \(23.97\text{--}25.28\) \\
+360M & Ternary units & \(26.63\text{--}26.87\) & \(1616.03\text{--}1.48\times10^{4}\) \\
+360M & Extended ternary units & \(13.00\text{--}13.40\) & \(21.00\text{--}21.70\) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+There are narrower positive comparisons. Several three-bit unit alphabets
+beat uniform integer quantization at 135M. At 360M, ternary low-digit
+projection beats clipping with the same nine-state output alphabet in
+all six comparisons, with largest upper NLL difference \(-0.6492\)
+nats/target. Its absolute quality remains below the stronger ordinary
+controls. The fixed alternating W2/W4 schedule also fails quality retention.
+These outcomes depend on the value distribution, encoder and finite
+continuation recipe. Identical real alphabets can have different prime
+descriptions, and the extended ternary alphabet is a scaled subset of the
+ordinary FP4 value set. These identities constrain attribution to a
+\(p\)-adic metric.
 
 \subsection{Learned routing and the untouched WikiText screen}
 
@@ -555,10 +639,7 @@ Binary passes 23/36 and ternary 29/36 required bounds
 At 4,096 every full-reference bound fails for both families. Ternary has
 smaller point loss than binary for every seed/context, while recency, uniform
 and coarsened binary have smaller point loss still. Complete numerical and
-separate statistical verification pass. An initial verifier's erroneous
-bitwise-summation requirement is corrected without changing production,
-endpoints or decision rules; the original failed verifier and exact diagnosis
-are preserved in SI Section~\ref{app:native-pg19}. All 13 absolute readouts
+separate statistical verification pass. All 13 absolute readouts
 and all 72 primary upper bounds remain in SI
 Tables~\ref{tab:native-pg19-absolute}--\ref{tab:native-pg19-4096}.
 The failure is specific to this trained bridge and routing contract, not to
@@ -617,8 +698,12 @@ an application from being useful. Our development results show that
 resolution, tie-induced locality and physical GQA sharing deserve explicit
 controls; smaller ternary point losses do not identify a universal prime.
 
-The evidence is limited to small models from one family and localized
-first-layer interventions. Early pilots reuse development data; the two
+The models belong to one small pretrained family. The structural studies
+intervene in the first layer. The precision study changes all seven
+projections in every block while retaining real decoding and higher-precision
+exceptions. Its 128 updates and 256-token prefixes provide a bounded
+continuation test. The evaluation corpora are held out from these updates
+and were used in earlier component studies. Early pilots reuse development data; the two
 untouched screens support only their declared operators and workloads.
 Forty document units, fixed seeds and approximate bootstrap bounds limit
 uncertainty inference. Exact text exclusions do not rule out semantic overlap
@@ -640,6 +725,17 @@ The continuous-disk branch learns a certified modular rule on typed operands,
 but its fixed real logit fusion fails the Fourier comparison. Equivalent
 ordinary congruence arithmetic reproduces its scores; the positive learned
 rule and failed answer fusion answer different questions.
+The unit/valuation experiments also constrain what a format label means.
+Increasing an index budget can extend its exponent range while leaving unit
+precision fixed. Complete bands are one design choice. Ordinary FP4 admits
+its own binary unit/valuation description and includes a scaled version of
+the extended ternary alphabet. Improvements over an integer or clipped
+baseline can therefore identify a useful numerical encoding without
+identifying a distinct field or metric. The fixed short recipe and shared
+group scales bound this comparison. Native NVFP4 training and large-scale
+ternary pretraining use other recipes
+\citep{nvidia2026nvfp4,ma2024era,ma2025bitnet,liu2025paretoq}.
+
 Other P1 learners, evolving cached generation and broader model coverage remain
 prospective. The SI distinguishes completed evidence
 from these open requirements (Section~\ref{si:evaluation}). The selected
@@ -657,6 +753,11 @@ replacement quality. A learned semantic-prefix classifier improves on shuffled
 hierarchies for seen intents but fails its unseen-intent progression rule.
 A new continuous-disk branch learns exact addition-modulo rules, while
 its fixed LLM-prior fusion fails the competitive answer gate.
+Whole-Transformer low-bit and mixed-precision continuation extends the test
+beyond localized interventions. It fails the declared likelihood screen in
+this short recipe, while the matched higher-precision controls retain
+quality. Particular encoding comparisons favor cyclic reduction, with
+stronger ordinary numerical controls remaining essential.
 These are scoped outcomes, not a hardware verdict.
 The routing result is limited
 feasibility evidence for the concrete hybrid, with unresolved transfer and
@@ -890,6 +991,18 @@ arXiv:2609.25501, version 1, 21 September 2026. Preprint.
 \url{https://arxiv.org/abs/2609.25501}.
 Public arithmetic code inspected 4 October 2026; training code unavailable at inspection.
 \url{https://github.com/google-deepmind/padic-ml}.
+
+\bibitem[Liu et~al.(2025)]{liu2025paretoq}
+Z.~Liu, C.~Zhao, H.~Huang, et~al.
+\emph{ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization}.
+NeurIPS (2025). arXiv:2502.02631.
+\url{https://arxiv.org/abs/2502.02631}.
+
+\bibitem[Miyashita et~al.(2016)]{miyashita2016log}
+D.~Miyashita, E.~H.~Lee, and B.~Murmann.
+\emph{Convolutional Neural Networks using Logarithmic Data Representation}.
+arXiv:1603.01025 (2016).
+\url{https://arxiv.org/abs/1603.01025}.
 
 \end{thebibliography}
 \clearpage
@@ -3924,5 +4037,440 @@ The positive bounded learning result and negative competitive answer result
 remain separate from the routing, finite-ring FFN and semantic-prefix
 experiments. The continuous-disk and modular-branch studies use the
 recorded Spark environment.
+
+\clearpage
+\section{Low-bit representations and quantization-aware continuation}
+\label{si:low-precision}
+
+\subsection{Finite digits, units and real decoding}
+
+We extend the single-projection arithmetic checks to all seven attention
+and feed-forward projections in every Transformer block. The underlying
+representation and its conversion to a real neural operation are specified
+separately. A code index uses at most \(b\in\{2,3,4\}\) bits. The finite
+residue alphabet is the balanced representative set modulo \(p^k\), with
+the largest positive \(k\) satisfying \(p^k\leq 2^b\). Its ordinary
+signed-integer implementation is an exact control.
+
+For a unit/valuation representation, let
+\begin{equation}
+ \mathcal U_{p,k}
+ =\{u\in I_{p^k}\mid p\nmid u\},\qquad
+ \mathcal A_{p,k,E}
+ =\{0\}\cup\{up^e\mid u\in\mathcal U_{p,k},\quad e=0,\ldots,E-1\},
+\end{equation}
+where the balanced interval is
+\(I_M=\{-\lfloor M/2\rfloor,\ldots,\lceil M/2\rceil-1\}\) for positive
+integer \(M\), \(k\) is unit
+precision, and \(E\) is the number of exponent values. Every nonzero
+state has valuation \(e\) and norm \(p^{-e}\). Distinct unit/exponent
+pairs give distinct states, so the address budget requires
+\begin{equation}
+ 1+E(p^k-p^{k-1})\leq 2^b.
+\end{equation}
+For integer representatives, $p\nmid u$ gives $v_p(up^e)=e$.
+If $up^e=u'p^{e'}$ and $e<e'$, the right-hand side is divisible by
+$p^{e+1}$ while the left-hand side is not. Thus $e=e'$ and $u=u'$,
+which establishes the state count rather than assuming a free exponent.
+Negative states are carried by negative unit representatives. The shared
+real block scale sets the dynamic range. This finite alphabet has
+nonnegative valuation exponents and does not attempt to represent every
+fractional element of $\Qp$.
+
+The primary unit alphabets use \(k=2\) for binary and \(k=1\) for ternary
+and quinary representations, with the largest admissible \(E\). Here the bit cap
+measures index budget. In each primary unit family, increasing the cap
+extends the exponent range while unit precision stays fixed. A separate
+two-digit ternary unit allocation supplies 13 four-bit states
+\(\{0,\pm1,\pm2,\pm3,\pm4,\pm6,\pm12\}\). The same real alphabet follows
+from binary unit precision 3 with three exponent values. This equality
+does not make the two \(p\)-adic metrics equal. At four bits, the primary binary
+alphabet has magnitudes \(1,2,4,8,16,32,64\), while the primary ternary
+alphabet has \(1,3,9,27,81,243,729\). Both have fifteen states including
+zero and signs. Their largest-to-smallest nonzero magnitude ratios are
+64 and 729, whereas the extended ternary ratio is 12. A common real scale
+changes the range but leaves these relative spacings intact. At three bits, the
+two-digit ternary unit alphabet also equals the primary binary alphabet
+\(\{0,\pm1,\pm2,\pm4\}\). The mixed study uses a three-state fallback
+in two-bit blocks, since six nonzero ternary units cannot fit there.
+
+For an alphabet \(\mathcal A\), a positive block scale \(s\) and a real
+weight \(w\), the decoded nearest-real quantizer is
+\begin{equation}
+ \widehat w=s\,Q_{\mathcal A}(w/s),\qquad
+ Q_{\mathcal A}(z)\in\operatorname*{arg\,min}_{a\in\mathcal A}|z-a|,
+\end{equation}
+with lower-state tie resolution. This conversion minimizes a real
+distance. Merely describing its finite state set in \(p\)-adic terms
+does not introduce a \(p\)-adic objective into the LLM. The binary unit-precision-two alphabet is an ordinary signed
+powers-of-two alphabet, connecting it directly with logarithmic neural
+representations \citep{miyashita2016log}.
+
+A separate mechanistic check uses an actual low-digit projection.
+After grid conversion \(n=\operatorname{round}(w/s)\), it keeps
+\(n\bmod p^k\) and applies balanced real decoding. Grid conversion and
+reduction use FP64; the integer rounding rule is nearest even.
+For the converted integer $n$, the representative $r$ satisfies
+$n-r\in p^k\Z$ and hence $|n-r|_p\leq p^{-k}$.
+For fixed real scale $s$ and output set, nearest-real encoding minimizes
+$|w-sr|$ pointwise; cyclic projection has no corresponding real-error
+guarantee. Grid conversion first imposes a real quantization and does not
+identify the original neural coordinate with a canonical element of $\Qp$.
+The matrix accumulator remains wide. Consequently, parameter-digit
+truncation is separated from the narrow-accumulator wraparound tested
+earlier. Corresponding clipped codebooks and full signed integer controls
+make the alternative encodings explicit.
+
+All methods retain a real decoder and real matrix arithmetic. Identical
+decoded alphabets and identical encoders have identical forward operations
+and straight-through gradients. Such cases are fitted once and reported
+as exact aliases. Equal alphabets alone do not identify cyclic projection
+with clipping.
+
+
+A common exponent offset does not add a new real codebook family when
+the block scale is free. For any integer offset \(e_0\), replacing each
+state \(up^e\) by \(up^{e_0+e}\) and replacing the scale \(s\) by
+\(sp^{-e_0}\) leaves its real decoded value unchanged. This algebraic
+equivalence concerns the real quantizer family. It does not supply
+finite-precision division, cancellation rules or a \(\Qp\)-valued LLM.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Distinct decoded states within each prescribed bit cap. Cardinality,
+rather than the prime or nominal cap alone, determines the minimum index
+width. The two-bit extended ternary entry is its stated three-state fallback.
+Equal cardinalities need not give equal numerical alphabets.}
+\label{tab:low-precision-alphabets}
+\begin{tabular}{lrrr}
+\toprule
+Alphabet & 2-bit cap & 3-bit cap & 4-bit cap\\
+\midrule
+Symmetric integer & 3 & 7 & 15\\
+Full balanced integer / binary residues & 4 & 8 & 16\\
+Balanced ternary residues & 3 & 3 & 9\\
+Binary units, precision 2 & 3 & 7 & 15\\
+Ternary units, precision 1 & 3 & 7 & 15\\
+Balanced quinary residues & -- & 5 & 5\\
+Quinary units, precision 1 & -- & 5 & 13\\
+Extended ternary units, precision 2 & 3 & 7 & 13\\
+Real FP4 value set & -- & -- & 15\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{A conventional FP4 alphabet in valuation coordinates}
+
+Let \(\mathcal F_{\mathrm{E2M1}}\) denote the fifteen distinct finite real
+values of the FP4 control with one sign bit, two exponent bits and one
+fraction bit. Zero is enumerated once in this numerical codebook.
+The same rational values have a binary unit/valuation description
+\begin{equation}
+ \mathcal F_{\mathrm{E2M1}}
+ =\{0\}\cup
+   \{u2^e\mid u\in\{-3,-1,1,3\},\ e\in\{-1,0,1\}\}
+   \cup\{-4,4\}.
+\end{equation}
+The three complete exponent bands contain twelve nonzero states. The
+partial fourth band adds two states. This is an identity of represented
+values. A conventional floating-point exponent encodes real magnitude,
+whereas \(e\) in this decomposition is a divisibility valuation.
+The identity changes neither the arithmetic nor its error metric.
+
+The extended ternary alphabet therefore satisfies
+\begin{equation}
+ \mathcal A_{3,2,2}
+ =\mathcal A_{2,3,3}
+ =2\bigl(\mathcal F_{\mathrm{E2M1}}\setminus\{-4,4\}\bigr).
+\end{equation}
+Up to the shared real scale, it is a thirteen-state subset of the ordinary
+FP4 value set. Allowing partial unit/exponent bands changes the allocation
+of the same finite index budget. Our complete-band choices are consequently
+specific quantizers, rather than an exhaustive class of \(p\)-adic number
+formats. A numerical advantage from a real-decoded value set cannot, by
+itself, identify the field used to describe that set.
+
+\subsection{Precision schedules, fitting and inputs}
+
+Weight groups of 64 values use learned FP32 scales. Activations use tokenwise
+groups of 64 with a learned clipping factor per projection. Shadow weights,
+scale optimization and matrix accumulation use FP32; embeddings, the tied
+output head, normalization and residual tensors retain BF16. We report
+code-index bytes, scale bytes and unchanged BF16 parameter bytes separately.
+Packing tests verify the index representation. Neural evaluation dequantizes
+for real matrix operations, so these parameter-payload calculations are
+neither native-kernel speed measurements nor peak-memory measurements.
+
+If projection \(j\) has \(N_j\) weights and an alphabet with \(C_j\)
+distinct values, its index width is \(b_j=\lceil\log_2 C_j\rceil\).
+A three-state index therefore uses two bits in this accounting. We do not
+assume joint radix packing across several such indices.
+With \(J\) projections and \(N_{\mathrm{rest}}\) remaining parameters,
+the ideal parameter payload in bytes is
+\begin{equation}
+ B_{\mathrm{param}}=
+ \sum_{j=1}^{J}\left[
+    \left\lceil\frac{N_jb_j}{8}\right\rceil+
+    4\left(\frac{N_j}{64}+1\right)
+ \right]+2N_{\mathrm{rest}}.
+\end{equation}
+Here \(N_j/64\) counts weight scales, the extra scalar is the learned
+activation clipping factor, and the final term counts BF16 parameters once,
+including tied embeddings. Activation storage, optimizer state and temporary
+real dequantization are outside this parameter-only measure.
+
+
+We write W\(b\)/A\(a\) for weight and activation index caps of \(b\)
+and \(a\) bits, respectively. The fixed schedules are W2/A2, W3/A3, W4/A4, W2/A8, W3/A8, W4/A8 and
+W3/A4. Alternating Transformer blocks at W2/W4 with ordinary A4 supply the
+mixed-precision comparison against W3/A4. Equal projection shapes in every
+block make the mean prescribed weight cap three bits. Actual index widths
+are counted from each alphabet's cardinality and can underfill that cap;
+the packed budgets coincide for the integer and unit-alphabet comparisons. Full signed integer
+controls supplement symmetric integer alphabets. The E2M1 FP4 value set
+uses the same group scales as the other methods. It does not reproduce
+NVFP4's hierarchical scaling or native training recipe
+\citep{nvidia2026nvfp4}. Three-level weight codes are also distinguished
+from BitNet's architecture and large-scale training
+\citep{ma2024era,ma2025bitnet}. Low-bit results depend on the continuation
+recipe and budget, as emphasized by \citet{liu2025paretoq}.
+
+Initial weight scales minimize within-group squared reconstruction error
+over factors $0.25,0.35,0.5,0.65,0.8,1,1.25,1.5,2$ times the ratio of
+the maximum weight magnitude to the largest code magnitude. Cyclic
+projection uses its own reconstruction in this same search. A scale is
+clamped to the range $\exp([-25,5])$ during fitting, and the activation
+clipping factor to $\exp([-2.3,2.3])$. Scale and clipping gradients are
+multiplied by $1/\sqrt{64}$.
+
+Every fit uses 128 updates, two 256-token windows per update and seeds
+17, 29 and 43, giving 65,536 input tokens per fit. The final fixed update
+is evaluated. The loss equally weights next-token cross entropy and
+temperature-one KL divergence from the frozen original model. AdamW uses
+learning rates \(10^{-5}\) for weights and \(10^{-3}\) for scales/clipping,
+moments \((0.9,0.999)\), denominator constant \(10^{-8}\), zero weight decay,
+and global gradient-norm clipping at 1. Discrete forward values use a
+straight-through derivative with a real objective.
+
+Training comprises 128 article-preserving WikiText prefixes. Sixteen
+disjoint development prefixes come from the same official training split.
+Hash-ordered selection excludes earlier adaptation articles and repeated
+prefixes. No held-out target is used for parameter updates. Evaluation uses
+40 WikiText test articles and 40 PG-19 books, each at 256 tokens and 255
+next-token targets. These corpora were used in earlier component studies;
+they are held out from the present continuation rather than globally new
+confirmation. The input manifests preserve exact tokens, article selections,
+model versions and seeds.
+
+\subsection{Matched higher-precision continuation}
+
+A supplementary control retains BF16 forward weights and activations in
+the same seven trainable projections per block. It uses FP32 shadow
+weights and accumulation, the same frozen teacher, tokens, loss, schedules,
+weight learning rate and gradient clipping, with all other parameters fixed.
+Shadow weights are rounded to BF16 before the forward product. Quantizer
+scales and clipping factors are absent, and its parameter payload is two
+bytes per parameter. The comparison is implemented on the same size/device
+pair as the corresponding quantized fits.
+
+These six control fits were specified after initial quantized outcomes and
+before any continued-BF16 outcome. They provide a supplementary mechanistic
+comparison for the shared continuation recipe. The primary quality screen
+against the original checkpoint remains unchanged. The supplementary
+retention label uses the same six-bound allowance against the same-seed
+continued BF16 control. The complete study contains 168 fits over 56
+canonical settings, including these six controls. Equal-alphabet aliases
+retain their requested labels without duplicate fits.
+
+\subsection{Quality criteria and scope}
+
+Before-and-after continuation NLL is reported for every setting. Paired
+whole-document bootstrap intervals use 20,000 common draws and seed 514203.
+A quality-retaining label requires the 97.5\% upper paired NLL bound against
+BF16 to lie below \(\log(1.10)\) on both corpora in all three seeds.
+The primary BF16 reference is the original checkpoint without continuation.
+Both matched quantized controls and the supplementary BF16 control receive
+the same continuation. Absolute changes against the original checkpoint
+include adaptation to the fixed WikiText training data. Matched comparisons
+separate this shared recipe from the additional effect of each quantizer.
+
+A superiority label against the corresponding trained integer control
+requires every such upper bound to be negative. These fixed engineering
+criteria are scoped to this continuation and are not a general familywise
+statistical guarantee.
+
+The primary model is SmolLM2-135M. W4/A8 confirmation at SmolLM2-360M uses
+a second size/device pair. Primary GPU computations use Spark GB10;
+confirmation uses Terok A40, with their recorded software environments.
+This provides an additional controlled comparison within that pair and
+cannot isolate a causal model-size effect. Short continuation on one model
+family also cannot establish the optimality or impossibility of a number
+format.
+
+\subsection{Outcomes and parameter payloads}
+
+All 56 canonical settings complete in the three fixed seeds. Tables
+\ref{tab:low-precision-primary}--\ref{tab:low-precision-confirmation}
+report the complete before-and-after NLL ranges. No low-bit setting satisfies
+the primary retention rule, and none satisfies the supplementary rule
+against continued BF16. The two BF16 continuation controls satisfy the
+primary rule. Per-document losses independently reconstruct all endpoints
+and paired intervals. Shared-seed minibatch schedules are identical across
+methods and model sizes.
+
+Positive comparisons with weaker controls remain informative. At 135M,
+binary and ternary unit alphabets beat symmetric integers at W3/A3 and
+W3/A4. Binary units also beat W3/A8 integers. At 360M, ternary cyclic
+projection improves on its same-alphabet nearest-real control in every
+seed and corpus. Binary cyclic projection beats its corresponding clipped
+control at W2/A8 and at mixed W2/W4, A4 in 135M. These comparisons coexist
+with substantial absolute errors. They compare complete encoding,
+initialization and continuation procedures, including the stated tie
+rules, and do not isolate a \(p\)-adic optimization metric.
+
+The wider ternary unit allocation improves W4/A8 outcomes over its
+one-digit-unit counterpart at both model sizes. At 360M, its PG-19 PPL
+range is 21.00--21.70, compared with 1,616.03--14,795.86 for the primary
+ternary allocation. Its exact equality with a binary unit alphabet and
+its scaled inclusion in the FP4 alphabet explain why this is a
+mantissa/range comparison with shared real decoding. The real FP4 control
+has smaller W4/A8 PPL than the displayed unit allocations in both corpora
+and model sizes.
+
+Mixed precision provides no quality-retaining setting in this study.
+The only complete six-bound improvement over nominal W3/A4 occurs for
+nearest-real ternary residues. That comparison uses three actual mean
+weight-index bits in the mixed schedule and two in the uniform schedule.
+The integer and unit comparisons with equal packed index payloads do
+not pass the corresponding improvement rule. This fixed alternating
+schedule does not assess a learned layerwise bit allocation.
+
+Table~\ref{tab:low-precision-storage} gives ideal parameter payloads.
+For 135M, two-bit projection indices with their scales and remaining BF16
+parameters total 89.872 million bytes, compared with 269.030 million
+bytes for BF16 parameters throughout. Four-bit projection indices total
+116.414 million bytes. The corresponding 360M four-bit total is
+271.445 million bytes, compared with 723.642 million bytes throughout
+BF16. These reductions describe a proposed parameter encoding. The
+failed likelihood screens prevent a usable compression claim for these
+fits. Neural execution still dequantizes the low-bit values.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Ideal parameter payloads in millions of bytes. Projection values use packed code indices for the low-bit methods and sixteen-bit words for the continued BF16 controls. Scales include the learned clipping factors. Remaining parameters include tied embeddings once. These counts exclude activations, optimizer state, dequantization and runtime overhead.}
+\label{tab:low-precision-storage}
+\begin{tabular}{llrrrr}
+\toprule
+Model & Schedule & Projections & Scales & Remaining & Total\\
+\midrule
+135M & W16/A16 & 212.337 & 0.000 & 56.693 & 269.030 \\
+135M & W2/A8 & 26.542 & 6.636 & 56.693 & 89.872 \\
+135M & W3/A8 & 39.813 & 6.636 & 56.693 & 103.143 \\
+135M & W4/A8 & 53.084 & 6.636 & 56.693 & 116.414 \\
+360M & W16/A16 & 629.146 & 0.000 & 94.497 & 723.642 \\
+360M & W4/A8 & 157.286 & 19.662 & 94.497 & 271.445 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[p]
+\centering\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{All primary SmolLM2-135M settings. Before and after refer to the fixed 128-update continuation. Entries give ranges over the three fixed seeds, collapsing to one number when they agree at the shown precision. Quality requires all six upper bounds against the original BF16 checkpoint to meet the declared allowance. Exact codebook aliases are evaluated once.}
+\label{tab:low-precision-primary}
+\begin{tabular}{llrrrrl}
+\toprule
+Schedule & Alphabet & \multicolumn{2}{c}{WikiText NLL} & \multicolumn{2}{c}{PG-19 NLL} & Quality\\
+& & Before & After & Before & After & \\
+\midrule
+W2/W4, A4 & Integer & 13.430 & 7.354--7.446 & 13.878 & 9.312--9.691 & Fail \\
+W2/W4, A4 & Ternary residues & 12.678 & 7.572--7.628 & 13.607 & 9.302--9.596 & Fail \\
+W2/W4, A4 & Binary units & 14.080 & 7.605--7.628 & 15.318 & 9.471--9.963 & Fail \\
+W2/W4, A4 & Ternary units & 14.331 & 7.682--7.786 & 15.220 & 9.424--10.614 & Fail \\
+W2/A2 & Integer & 17.699 & 13.983--14.080 & 17.886 & 15.641--15.900 & Fail \\
+W2/A8 & Integer & 17.728 & 8.340--8.409 & 17.262 & 11.233--11.545 & Fail \\
+W2/A8 & Full integer & 16.668 & 26.567--26.605 & 16.995 & 25.891--25.937 & Fail \\
+W3/A3 & Integer & 11.085 & 8.043--8.146 & 11.119 & 8.955--9.219 & Fail \\
+W3/A3 & Binary units & 9.176 & 6.660--6.752 & 9.232 & 7.915--8.258 & Fail \\
+W3/A3 & Ternary units & 7.183 & 6.050--6.226 & 7.493 & 6.952--7.124 & Fail \\
+W3/A4 & Integer & 7.981 & 5.880--6.025 & 8.184 & 7.196--7.291 & Fail \\
+W3/A4 & Ternary residues & 16.804 & 8.851--8.940 & 16.414 & 11.764--11.962 & Fail \\
+W3/A4 & Binary units & 6.534 & 5.109--5.246 & 6.612 & 5.875--6.167 & Fail \\
+W3/A4 & Ternary units & 6.352 & 5.107--5.233 & 6.483 & 6.149--6.454 & Fail \\
+W3/A8 & Integer & 6.174 & 4.623--4.799 & 6.489 & 5.552--5.893 & Fail \\
+W3/A8 & Full integer & 5.128 & 4.153--4.313 & 5.275 & 5.099--5.347 & Fail \\
+W3/A8 & Quinary residues & 10.740 & 6.619--6.796 & 11.239 & 8.101--8.606 & Fail \\
+W3/A8 & Binary units & 4.826 & 4.040--4.179 & 4.956 & 4.818--4.851 & Fail \\
+W3/A8 & Ternary units & 5.162 & 4.242--4.745 & 5.335 & 5.354--5.801 & Fail \\
+W4/A4 & Real FP4 & 3.735 & 3.228--3.251 & 3.614 & 3.575--3.628 & Fail \\
+W4/A4 & Integer & 4.740 & 3.871--3.932 & 4.461 & 4.283--4.330 & Fail \\
+W4/A4 & Ternary residues & 8.406 & 6.222--6.278 & 8.099 & 7.139--7.150 & Fail \\
+W4/A4 & Binary units & 4.402 & 3.727--3.802 & 4.331 & 4.190--4.236 & Fail \\
+W4/A4 & Ternary units & 6.546 & 5.458--5.761 & 7.075 & 6.456--6.736 & Fail \\
+W4/A8 & Real FP4 & 3.252 & 2.880--2.930 & 3.105 & 3.084--3.155 & Fail \\
+W4/A8 & Integer & 3.486 & 3.099--3.173 & 3.274 & 3.413--3.552 & Fail \\
+W4/A8 & Full integer & 3.350 & 3.034--3.064 & 3.187 & 3.293--3.407 & Fail \\
+W4/A8 & Ternary residues & 4.453 & 3.975--4.119 & 4.495 & 4.990--5.030 & Fail \\
+W4/A8 & Binary units & 3.787 & 3.174--3.305 & 3.626 & 3.512--4.013 & Fail \\
+W4/A8 & Ternary units & 4.914 & 4.030--4.289 & 5.091 & 5.033--5.368 & Fail \\
+W4/A8 & Quinary units & 3.842 & 3.415--3.428 & 3.742 & 4.008--4.103 & Fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[p]
+\centering\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{Additional SmolLM2-135M unit-precision allocations, low-digit projections, full-integer controls and matched BF16 continuation. Values are NLL ranges over the same three seeds before and after continuation. Binary low-digit projection has the same decoded alphabet as the full integer control but a different encoder. The ternary W3/A8 low-digit setting is an exact alias of its W2/A8 setting.}
+\label{tab:low-precision-projection}
+\begin{tabular}{llrrrrl}
+\toprule
+Schedule & Alphabet & \multicolumn{2}{c}{WikiText NLL} & \multicolumn{2}{c}{PG-19 NLL} & Quality\\
+& & Before & After & Before & After & \\
+\midrule
+W2/W4, A4 & Full integer & 16.147 & 15.192--15.273 & 16.730 & 16.243--16.306 & Fail \\
+W2/W4, A4 & Extended ternary units & 14.516 & 7.388--7.440 & 14.542 & 9.061--9.162 & Fail \\
+W2/W4, A4 & Binary low digits & 13.191 & 9.080--9.315 & 11.936 & 11.147--11.445 & Fail \\
+W2/W4, A4 & Ternary low digits & 13.935 & 9.121--9.168 & 15.370 & 11.159--11.429 & Fail \\
+W16/A16 & Continued BF16 & 2.948 & 2.691 & 2.737 & 2.733--2.735 & Pass \\
+W2/A8 & Binary low digits & 18.746 & 10.670--11.348 & 17.985 & 14.084--14.617 & Fail \\
+W2/A8 & Ternary low digits & 15.141 & 7.851--7.884 & 16.725 & 10.866--11.640 & Fail \\
+W3/A8 & Binary low digits & 4.847 & 7.419--8.086 & 4.754 & 9.171--10.895 & Fail \\
+W4/A4 & Full integer & 4.506 & 4.000--4.022 & 4.377 & 4.506--4.563 & Fail \\
+W4/A4 & Extended ternary units & 4.142 & 3.550--3.575 & 4.226 & 4.019--4.094 & Fail \\
+W4/A4 & Binary low digits & 15.803 & 17.131--18.403 & 16.687 & 18.476--19.408 & Fail \\
+W4/A4 & Ternary low digits & 7.968 & 16.235--21.609 & 7.573 & 16.464--22.815 & Fail \\
+W4/A8 & Extended ternary units & 3.462 & 3.063--3.089 & 3.475 & 3.367--3.408 & Fail \\
+W4/A8 & Binary low digits & 3.354 & 3.667--8.328 & 3.176 & 4.670--9.685 & Fail \\
+W4/A8 & Ternary low digits & 4.242 & 3.917--4.072 & 4.258 & 5.107--5.207 & Fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[p]
+\centering\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{All SmolLM2-360M W4/A8 settings and the matched BF16 continuation on the second size/device pair. Entries give three-seed NLL ranges. The two nearest-real residue controls match the alphabets of the cyclic projections. This comparison does not isolate a model-size effect.}
+\label{tab:low-precision-confirmation}
+\begin{tabular}{llrrrrl}
+\toprule
+Schedule & Alphabet & \multicolumn{2}{c}{WikiText NLL} & \multicolumn{2}{c}{PG-19 NLL} & Quality\\
+& & Before & After & Before & After & \\
+\midrule
+W16/A16 & Continued BF16 & 2.646 & 2.373--2.374 & 2.621 & 2.624--2.627 & Pass \\
+W4/A8 & Real FP4 & 2.813 & 2.485--2.496 & 2.816 & 2.877--2.901 & Fail \\
+W4/A8 & Integer & 2.975 & 2.626--2.645 & 2.995 & 3.099--3.190 & Fail \\
+W4/A8 & Full integer & 2.955 & 2.631--2.653 & 3.099 & 3.449--5.524 & Fail \\
+W4/A8 & Ternary residues & 4.508 & 3.487--3.604 & 5.120 & 4.477--4.606 & Fail \\
+W4/A8 & Binary units & 3.088 & 2.723--2.741 & 3.127 & 3.177--3.230 & Fail \\
+W4/A8 & Ternary units & 4.041 & 3.282--3.291 & 4.253 & 7.388--9.602 & Fail \\
+W4/A8 & Extended ternary units & 2.971 & 2.565--2.595 & 2.993 & 3.044--3.077 & Fail \\
+W4/A8 & Binary low digits & 2.916 & 3.355--8.429 & 2.913 & 3.640--9.540 & Fail \\
+W4/A8 & Ternary low digits & 3.462 & 2.791--2.799 & 3.424 & 3.383--3.399 & Fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 
 \end{document}

@@ -1,0 +1,26 @@
+{
+  "batch": 2,
+  "created_utc": "2026-10-19T00:22:50.141161+00:00",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "length": 256,
+  "models": {
+    "135M": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "360M": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49"
+  },
+  "primary_quality_log_margin": 0.09531017980432493,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "source_sha256": {
+    "experiments/llm_routing.py": "744452c4cbfc64b6629dd8247f2dc031b1fe62c4ad41ea0fff15e78972dd9f62",
+    "experiments/low_precision_study.py": "1d1dfbee76f3849fd5e27aac9d3363bed142315e845bf6eed13a35e51bf2f9d1",
+    "research/low-precision-protocol-20261019.md": "cb5e2d7857110a02f1bf85c589f0a6dd6c1a951359f7c8892bec81a7d94f0d3e",
+    "src/padic_lm/corpus.py": "2df453e4777bde7c0546549b7fd4576367713e87f35271e064edbd08672c871c",
+    "src/padic_lm/low_precision.py": "b5391a6a1b0fb207d2ac0402bd941919383ea08a99c57f42722a391a11daccac",
+    "tests/test_low_precision.py": "feb0cee565d35f1acd887611aafb41f89de2927ebecbbfd9d9355d4229903629"
+  },
+  "steps": 128,
+  "training_loss": "0.5*CE+0.5*teacher_KL"
+}

@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Kühne"
     given-names: "Thomas"
-date-released: "2026-10-08"
+date-released: "2026-10-19"
 repository-code: "https://github.com/DCM-Uni-Paderborn/padic-language-models"
 url: "https://github.com/DCM-Uni-Paderborn/padic-language-models"
 abstract: "Manuscript, supporting information, essential inputs and compact results for controlled p-adic language-model component experiments."

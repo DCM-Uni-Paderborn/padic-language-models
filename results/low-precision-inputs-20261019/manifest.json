@@ -1,0 +1,2576 @@
+{
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "development_documents": 16,
+  "length": 256,
+  "models": {
+    "135M": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+    "360M": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49"
+  },
+  "prior_adaptation_article_hashes_excluded": [
+    "0089c758a806d5daf346bcef44582bee0f740454caf4c881fdbcdddc57023dd5",
+    "01cdef77ed4652168cb7c0f94101462a51063f4b5d79ae605c8cbfcf76ae0463",
+    "1b5da311eedd24bad000dab924ce30799bafa5207f86580431d81c366ad83527",
+    "1d35b9c8656d59a2bc823ffb9dbc0366183291e02671ed0f5e19d94e2dd36894",
+    "4bcd6948819975f536381e22f8d5d56fa9db012145dfcfa0538fda110389a865",
+    "51bd551d3b1e0ef0951478c4215e2561d06c0ec06d85e82e0c672b3083870de6",
+    "61439592252e751d2c84285fa5a4abf3185e03c5408023b7146ffac818c6f52f",
+    "6d94a676fb6087f8093a8bcf51de1ec53d626adcc63a873b8eb6aa3643c7569e",
+    "7a2625ca2ad286738f4e88d94ceba3ab30cd9ae216441e3506654ec3e7c6b280",
+    "83d3dfd85cdfb419948975b1da7652e9bf9532fb8a261da4df1c6a0d7930f73d",
+    "8c775bd1fba4e48fd91e344e3d7e3cbf53e308ec70336f67e4b1cf6a190cff86",
+    "93f9174d3692310d6711a8a8eeb74e56b9dbedc9725b8968414ab9642b1efac8",
+    "b03f04a34cc4795224930a0c4ac2730678768b1e38d98e6ff1087992c6835e04",
+    "b19573ddabfbdcd4cff71a679aef7b785d3baf4d73f8a337e5d4613af4909232",
+    "d9d8444977e792b01eb2fc44755d86f1ba2a3f2b7771c54138c5ce46ed9f8ec0",
+    "fb79ed0c94caf2aa593657b28cfb5a44785ef7b9baec59fa6f57cbd80b9a5ea8"
+  ],
+  "records": {
+    "development": [
+      {
+        "start_row": 35191,
+        "stop_row": 35240,
+        "text_sha256": "94ce6141a20d0ea1f9488593ef8b0c48ddf4133b7be7d097f1600b3de7fbeed4",
+        "title": "Partington",
+        "token_sha256": "2724f9a6ffdfc78f9cf35dde39253e7e83e16a9040a88a2613a69bba78f138c3"
+      },
+      {
+        "start_row": 34641,
+        "stop_row": 34683,
+        "text_sha256": "fbb8bf393a2c17f53c271b27d99202a31d739646b35bb78fdbbfc533de482283",
+        "title": "North @-@ Eastern Area Command ( RAAF )",
+        "token_sha256": "d6ac2f802decf099e5e77706cb32288924d8bbef7357847d9a133438070d7d2f"
+      },
+      {
+        "start_row": 5713,
+        "stop_row": 5748,
+        "text_sha256": "4625fa25cf88bf2ac65913b0fad5b3a56c08c35bb7430e412f5a713d1659eedd",
+        "title": "Hurricane Omar ( 2008 )",
+        "token_sha256": "4e8aae520cfc3b23939f462382b3239813fdd09c1c047a8a4e5af9cab01c5046"
+      },
+      {
+        "start_row": 6542,
+        "stop_row": 6699,
+        "text_sha256": "8abb93bea3a271680a293be30f90ae5f2193bfc5aa1644a530d2bb3e0896d0ab",
+        "title": "The Importance of Being Earnest",
+        "token_sha256": "c002effd9c4c548b77a71d90f1241b6131e518cbb4f78f38496b894b779d30b6"
+      },
+      {
+        "start_row": 5057,
+        "stop_row": 5103,
+        "text_sha256": "3b6106caf200bcca334d4fc0a852dad4d422673de02349e7d0af6dce03f6e7d3",
+        "title": "Yamaha NS @-@ 10",
+        "token_sha256": "93a28cd87a4e6a3120293ab6da27a3f635263171052d38ec2fd46764c163087f"
+      },
+      {
+        "start_row": 5326,
+        "stop_row": 5393,
+        "text_sha256": "d6f0d9079fe64944fc808c8f1a74ea80a801dacba1ac5f7f8c083baeb069a55c",
+        "title": "Of Human Feelings",
+        "token_sha256": "21976e1ea6d2ff7e1d7f7186d08122d2db91a3232412ecddc6feafe3a4d3ce59"
+      },
+      {
+        "start_row": 32153,
+        "stop_row": 32199,
+        "text_sha256": "99190b91d3f2b7736340444f780ae1cdaf1ed9aa0f023ca37efab4d7a534a417",
+        "title": "I Am Unicorn",
+        "token_sha256": "eacb4b723240ecd49672e4f25d81f8fdca08006cfe1fc56e6b4c6b6bff70d5cc"
+      },
+      {
+        "start_row": 12023,
+        "stop_row": 12048,
+        "text_sha256": "6473591dafe398009c60669920a8e2c8042ecb96b05ffc07e990ad44f5707a78",
+        "title": "Hope Highway",
+        "token_sha256": "dabd8e7442e6800ec4512d7818547e2c9b01b6c254a38488f2a91f85cb811527"
+      },
+      {
+        "start_row": 25628,
+        "stop_row": 25665,
+        "text_sha256": "465020bb54f6d12fe51ca162b97774ee4ad126ca0ef8ad14659e4230fadce66a",
+        "title": "Crush ( video game )",
+        "token_sha256": "63bc7ed8843d329504cb92e6ae27d9dc3a5adaed2424d62f485a4aca80cbb090"
+      },
+      {
+        "start_row": 20861,
+        "stop_row": 20880,
+        "text_sha256": "94e1a92de007eb9c601f9874bb7f8d9dc8a18f94d193b7717f8dfc2f74ab5d9d",
+        "title": "M @-@ 108 ( Michigan highway )",
+        "token_sha256": "20e2faf11bd7eeafad8b7f3f99a1b9d2c796927e171cb2bde2fbdbfdcf63ef8e"
+      },
+      {
+        "start_row": 32231,
+        "stop_row": 32253,
+        "text_sha256": "d342fe2fa53a9f3ed4fe5c1cd413877403252b878433467fcb9d3e636927e38f",
+        "title": "Bossy ( Lindsay Lohan song )",
+        "token_sha256": "ef7aa1738f2725028504305cfe0e75bfd1df0a3c667729573b01c98bcc13542f"
+      },
+      {
+        "start_row": 10143,
+        "stop_row": 10165,
+        "text_sha256": "3b1fb4e4b1da43776a60b695ee85758b04f26f555418b23e279acf7518c3b6a5",
+        "title": "Cadmium",
+        "token_sha256": "fa6500636849fc1fe38869d2769a3185a3761ca902298f901c7a5d6f21475468"
+      },
+      {
+        "start_row": 2347,
+        "stop_row": 2378,
+        "text_sha256": "74a9b7a688f19ddf0eb78406f970a720a9ff4b7b8fdced95cae476419759d5f5",
+        "title": "Christmas 1994 nor 'easter",
+        "token_sha256": "ebdb8f7c4621ffb53f756adfc187a68ff1cd087cb87d1296d15f73998616afc5"
+      },
+      {
+        "start_row": 5639,
+        "stop_row": 5679,
+        "text_sha256": "0042feaf6a728eefaf3b067ad35836608e35b391e77b411c58dd89665d914f3b",
+        "title": "Not Quite Hollywood : The Wild , Untold Story of Ozploitation !",
+        "token_sha256": "8637341b405c5c4dd4642001580e05dd297373350672260ba172a01e73e00b50"
+      },
+      {
+        "start_row": 9425,
+        "stop_row": 9475,
+        "text_sha256": "fc2ebefe489684b54ba9432e74bf1aa8184adb015bad5a254a11fdb3f9f94003",
+        "title": "U2 concert in Sarajevo",
+        "token_sha256": "140fcbb8140290798f31c9d798e355f5d38f30cffd04aecd8a6ca19a1211d2a9"
+      },
+      {
+        "start_row": 28198,
+        "stop_row": 28275,
+        "text_sha256": "0f77a40c4905115ad183f1ed6987d60022420107b0ab3b0cd8a2eacc76504c9a",
+        "title": "Ghost in the Shell ( 1995 film )",
+        "token_sha256": "8d184ec9fc84cd84af79a9f0472839b12d5ee39535df1b287b6c4691d8584165"
+      }
+    ],
+    "pg19": {
+      "documents": [
+        {
+          "book_id": "53345",
+          "bytes": 347642,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/53345",
+          "inventory_index": 75,
+          "object_headers": {
+            "content-length": "347642",
+            "etag": "\"72e47e22d5447e818dfaef8bf4dff3b2\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215121737",
+            "x-goog-hash": "md5=cuR+ItVEfoGN+u+L9N/zsg=="
+          },
+          "path": "test/53345.txt",
+          "prefix2048_sha256": "85cc01f3c29a3fcfd6091a616fda0c575019badfda123d596221a70c4163442a",
+          "prefix4096_sha256": "db901fe263609fab8d585a0795a265f95e31fdcc53ee28fdca02f5d786e1cd30",
+          "publication_date": "1893",
+          "text_sha256": "bfb2a98da02fbb42f1f8394ee09119cdffe75ab98fbfcd383a4b1fe86efc3382",
+          "title": "Dan The Newsboy by Horatio Alger Jr.",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/53345.txt",
+          "whole_token_sha256": "d1f8963562a79e0369d83be65e681e5be7dbeaaf989aef35188a6251bbebfebb",
+          "whole_tokens": 96674
+        },
+        {
+          "book_id": "5962",
+          "bytes": 459976,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/5962",
+          "inventory_index": 89,
+          "object_headers": {
+            "content-length": "459976",
+            "etag": "\"1a5f737d04f6f82fd40d4580a0f9871f\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215499659",
+            "x-goog-hash": "md5=Gl9zfQT2+C/UDUWAoPmHHw=="
+          },
+          "path": "test/5962.txt",
+          "prefix2048_sha256": "11f1b3c58a42a0f10c91b255ceaabc8a21442b11a5b9db7279988761e8038383",
+          "prefix4096_sha256": "7fd17524a65f786b3e45e1756808c666855d972da230a4477631b1a3c41b3eeb",
+          "publication_date": "1918",
+          "text_sha256": "c19a6febe9781833f02598cf157fc1c45b65d8994f2674e88410cd00eea7ad6d",
+          "title": "Oh Money! Money! by Eleanor Hodgman Porter",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/5962.txt",
+          "whole_token_sha256": "61c7451283e7ae848ef64c702cfb09fb4ed52eff063ac29fb3bf6a185db2cfa8",
+          "whole_tokens": 131286
+        },
+        {
+          "book_id": "3754",
+          "bytes": 507933,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/3754",
+          "inventory_index": 43,
+          "object_headers": {
+            "content-length": "507933",
+            "etag": "\"389752a3086c448824dd94059835f699\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214748125",
+            "x-goog-hash": "md5=OJdSowhsRIgk3ZQFmDX2mQ=="
+          },
+          "path": "test/3754.txt",
+          "prefix2048_sha256": "7b1591d76768f796ee6da44ecad134be14904fe15404215778f0be72b1f17263",
+          "prefix4096_sha256": "4b91f86a1fc44bee384f7adc15c601c5c8b6d940f678d615dcc73127d9b32ef5",
+          "publication_date": "1918",
+          "text_sha256": "05c3b16201f534fd6ab8643feb9b1c59e482a913c9a47fd513255791d9e67f60",
+          "title": "The Wonders Of Instinct by J. H. Fabre",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/3754.txt",
+          "whole_token_sha256": "b39228028082c70f2fb90d5ed40841099fdd95806dca046d859c743cf5f3d023",
+          "whole_tokens": 130701
+        },
+        {
+          "book_id": "8559",
+          "bytes": 236569,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/8559",
+          "inventory_index": 95,
+          "object_headers": {
+            "content-length": "236569",
+            "etag": "\"90c17333dddef556c2a0e65b9e3d8708\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215495154",
+            "x-goog-hash": "md5=kMFzM93e9VbCoOZbnj2HCA=="
+          },
+          "path": "test/8559.txt",
+          "prefix2048_sha256": "afd08c1b6fa12047f80a6999d61c0a2198f6bf06c06e13966d61c1e2115ff29b",
+          "prefix4096_sha256": "1a12a912117481e700785612fa1ed7c0a43a504abfde4a14fa3830b2016e084b",
+          "publication_date": "1882",
+          "text_sha256": "eed15b11e09b418eee4e8b38bd324b805934abbb22c340c7561514a89be4b981",
+          "title": "Scientific American Supplement No. 360 November 25 1882 by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/8559.txt",
+          "whole_token_sha256": "736bc4dad905bdf8a2a7c24114665d08587c04e112ecfc56cf5526b895df057a",
+          "whole_tokens": 60911
+        },
+        {
+          "book_id": "37443",
+          "bytes": 24491,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/37443",
+          "inventory_index": 42,
+          "object_headers": {
+            "content-length": "24491",
+            "etag": "\"ca5c27398c99ed3183bec640744520e4\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214899658",
+            "x-goog-hash": "md5=ylwnOYyZ7TGDvsZAdEUg5A=="
+          },
+          "path": "test/37443.txt",
+          "prefix2048_sha256": "2faa5c1bb6cff3c26c8a2960b5c45e648b7650d0367cb5230f8e9ce8553185f5",
+          "prefix4096_sha256": "5a5eda9757b9cd404f67b031050576cd24fc4c2b0b9a99e403f2564c62d3db5d",
+          "publication_date": "1913",
+          "text_sha256": "398fec2e5baf93fb4614b7a8ae5f425a59f5b6fc1182f47336e641520826c4a5",
+          "title": "The Fascinating Boston by Alfonso Josephs Sheafe",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/37443.txt",
+          "whole_token_sha256": "cca9070b088e15d4dfa330bbb8301f888ba0b99cbc4945182f14364661bac68a",
+          "whole_tokens": 6084
+        },
+        {
+          "book_id": "25646",
+          "bytes": 103323,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/25646",
+          "inventory_index": 9,
+          "object_headers": {
+            "content-length": "103323",
+            "etag": "\"ec49975b82fdcc61cca240b068c74844\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214489780",
+            "x-goog-hash": "md5=7EmXW4L9zGHMokCwaMdIRA=="
+          },
+          "path": "test/25646.txt",
+          "prefix2048_sha256": "bda31a86a2945ec3df27f7bae36d28de760d0be09b791c15c2de0dd990bfdcdf",
+          "prefix4096_sha256": "10255ce98753f929118dfd20b5a496cc08bd04135669e8de2923e68b9adc87b8",
+          "publication_date": "1885",
+          "text_sha256": "04af5d410857dab7b4ef5a90d43bff622450b4bc9ee9abfc578487203f423d64",
+          "title": "Child's Health Primer For Primary Classes by Jane Andrews",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/25646.txt",
+          "whole_token_sha256": "e41de1faed04e21d1ef095eb23fab29a16ea269cef91477af399342f26b7353e",
+          "whole_tokens": 26907
+        },
+        {
+          "book_id": "25773",
+          "bytes": 488162,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/25773",
+          "inventory_index": 10,
+          "object_headers": {
+            "content-length": "488162",
+            "etag": "\"9195d2c9af5d9e0433a25b73c0fe3362\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214528725",
+            "x-goog-hash": "md5=kZXSya9dngQzoltzwP4zYg=="
+          },
+          "path": "test/25773.txt",
+          "prefix2048_sha256": "16046785543c960e49e79539a358fcd4089924d41c0d282c69c3ab384cd23d7f",
+          "prefix4096_sha256": "1a7775dd5cd78081b8db662adf356a18cdfcdebaf8d1ad25603dcb1753c45f68",
+          "publication_date": "1830",
+          "text_sha256": "02dedc58fe901826fe05a6864f377ec2d38993bd8c4e27429152e5e047dd52c4",
+          "title": "On the Portraits of English Authors on Gardening by Samuel Felton",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/25773.txt",
+          "whole_token_sha256": "5dd83f320b2d085d87e952901c3ae61119d2307b4497dc60d50caacb4916feab",
+          "whole_tokens": 134391
+        },
+        {
+          "book_id": "860",
+          "bytes": 280293,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/860",
+          "inventory_index": 96,
+          "object_headers": {
+            "content-length": "280293",
+            "etag": "\"74e50d18d37196a15ef45d6c16478b6d\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215641686",
+            "x-goog-hash": "md5=dOUNGNNxlqFe9F1sFkeLbQ=="
+          },
+          "path": "test/860.txt",
+          "prefix2048_sha256": "798b9d2d43903dfddd5c6b8bd0bd0d804ea5ad27392826f83ee2e7db01d9726a",
+          "prefix4096_sha256": "0d20a62c90d260a89e01240dd88d352ae7cb0c7b2458d6e649fc2c944cbacf50",
+          "publication_date": "1910",
+          "text_sha256": "4b52c996d63bfeb3c942fff20b6b2298d3455be8954d44a3350022c3187dd584",
+          "title": "Baby Mine by Margaret Mayo",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/860.txt",
+          "whole_token_sha256": "85f554155e5b0e8a2b168bb1aad10f3f18cb318bd94322b126eb0bcbd69f35a0",
+          "whole_tokens": 75983
+        },
+        {
+          "book_id": "40579",
+          "bytes": 355979,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/40579",
+          "inventory_index": 50,
+          "object_headers": {
+            "content-length": "355979",
+            "etag": "\"9f4972d88e3198733939750db56f214a\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215120328",
+            "x-goog-hash": "md5=n0ly2I4xmHM5OXUNtW8hSg=="
+          },
+          "path": "test/40579.txt",
+          "prefix2048_sha256": "fb726bfa75c7bd30184e4a3409862276c06f3cac45190b9c021c05034c280770",
+          "prefix4096_sha256": "79dc62183fbeff9192c7f1e694a55ad8a125ed337c2a7ed0e524b0e42a6a6de0",
+          "publication_date": "1911",
+          "text_sha256": "6564c4b893231d7b39a195e10d734a53506350fb6c2af16105a67365eded11cc",
+          "title": "Memoir of Hendrick Zwaardecroon commandeur of Jaffnapatam",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/40579.txt",
+          "whole_token_sha256": "08ffeb09b0d0a025b10fa058b6975e3efde8d892bef7b118d5047712f1831556",
+          "whole_tokens": 92415
+        },
+        {
+          "book_id": "12204",
+          "bytes": 24408,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/12204",
+          "inventory_index": 4,
+          "object_headers": {
+            "content-length": "24408",
+            "etag": "\"85396b6b2f2a2e1f8a417ac6de27eb6b\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214576695",
+            "x-goog-hash": "md5=hTlray8qLh+KQXrG3ifraw=="
+          },
+          "path": "test/12204.txt",
+          "prefix2048_sha256": "57ff1484c21d2fb8beccc27e92a48a01a4d6493c9d2cc5d2011a2589ae09536e",
+          "prefix4096_sha256": "d05d7e09e28aee8bb82461051637ea1ddf70d974c03639a34935993a180e7848",
+          "publication_date": "1909",
+          "text_sha256": "e1c79655be744bc89fd291f84b77ddb1819d117f2bba142373f94d5ab309d0d0",
+          "title": "Odd Craft Part 4: Bill's Lapse by W.W. Jacobs",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/12204.txt",
+          "whole_token_sha256": "492445321d0e3f6b149c020b3f4c68b4bed40dc33502235326e905f36b6702bb",
+          "whole_tokens": 7467
+        },
+        {
+          "book_id": "42655",
+          "bytes": 882218,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/42655",
+          "inventory_index": 56,
+          "object_headers": {
+            "content-length": "882218",
+            "etag": "\"6a32adbd2c02be5d8b81ff95f1aa7ce3\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215322683",
+            "x-goog-hash": "md5=ajKtvSwCvl2Lgf+V8ap84w=="
+          },
+          "path": "test/42655.txt",
+          "prefix2048_sha256": "10d3dfc0bbd5d7cf6d3a971549a628de70eb86c89543843a825bb38665b7d46f",
+          "prefix4096_sha256": "74d2c66aedc283e82251cd9fa544acbe7089fd640e6a62db72a9bc5dca284ce0",
+          "publication_date": "1912",
+          "text_sha256": "06b9d5036c9191b9ab7008931096f40ddcf467f98b1dd03accea1617aca495e6",
+          "title": "The Civil War Through the Camera by Henry William Elson",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/42655.txt",
+          "whole_token_sha256": "459ef1e642c8ec6e957e21d151e0a73c74d185ebdb052cb07c1aca291e4b25fc",
+          "whole_tokens": 222674
+        },
+        {
+          "book_id": "35246",
+          "bytes": 228141,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/35246",
+          "inventory_index": 36,
+          "object_headers": {
+            "content-length": "228141",
+            "etag": "\"fba8ba284f5ee067172e43fb8156652f\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214040054",
+            "x-goog-hash": "md5=+6i6KE9e4GcXLkP7gVZlLw=="
+          },
+          "path": "test/35246.txt",
+          "prefix2048_sha256": "d291edccc15c0cd7ea4f96251e309bf67c7719b181b11484d9ab1c9a7e6e10c1",
+          "prefix4096_sha256": "b9ddc2e6d828342ae938c27fd8cf0df0b831281d4ae8727246f83103f5ff11c7",
+          "publication_date": "1869",
+          "text_sha256": "4362445794452e6df50919837f9aa851539a11eaed673b8eb3ed613ac0b1a84b",
+          "title": "Arne; A Sketch of Norwegian Country Life by Bj?tjerne Bj?on",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/35246.txt",
+          "whole_token_sha256": "75dc48c0d320fca9cf70c276fd0db51df82f1f06ef765ba5f72c30521dc9149c",
+          "whole_tokens": 61990
+        },
+        {
+          "book_id": "49596",
+          "bytes": 97986,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/49596",
+          "inventory_index": 72,
+          "object_headers": {
+            "content-length": "97986",
+            "etag": "\"b2baf69f54339fa32edce913d77ef55c\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215335271",
+            "x-goog-hash": "md5=srr2n1Qzn6Mu3OkT1371XA=="
+          },
+          "path": "test/49596.txt",
+          "prefix2048_sha256": "d0021ef82f446652e4622084a30950f6d0bc25da4e33335a5ea31b1755c1ba40",
+          "prefix4096_sha256": "4b01db43132b072284d659b4c22f0d68161e7f34ebc9a4ca6d4e65c6a3e120cd",
+          "publication_date": "1915",
+          "text_sha256": "514b46b3b4b6b98886ad099f8876c518fd9210de49c1ac7e7cf6914b2c8170bc",
+          "title": "The Sorrows of Belgium by Leonid Andreyev",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/49596.txt",
+          "whole_token_sha256": "b3d8e2c990d7c3032a4f31f0a37ab111c364a32758a1c2816b67b8eee977eaed",
+          "whole_tokens": 29700
+        },
+        {
+          "book_id": "58473",
+          "bytes": 150101,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/58473",
+          "inventory_index": 85,
+          "object_headers": {
+            "content-length": "150101",
+            "etag": "\"720ec6ba2f0796772e8f1ec6a447cbe1\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215104598",
+            "x-goog-hash": "md5=cg7Gui8Hlncujx7GpEfL4Q=="
+          },
+          "path": "test/58473.txt",
+          "prefix2048_sha256": "35abf7ac726160ad540de432399d3ae739fa8f6bc920d0105d655fabff8555c9",
+          "prefix4096_sha256": "49fc4fefcb2ab93261c5a425713d77dc8933ee4733aba6fe26e8d1ce9b4bc92c",
+          "publication_date": "1912",
+          "text_sha256": "adbe37933adf00031d0fa3a243556b9d7ff12e7de9933b67883e1eb64b3e1ae2",
+          "title": "The Good Hope by Herman Heijermans Jr.",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/58473.txt",
+          "whole_token_sha256": "18b467321cc21b3ac96a2e49886306278845473454b704249a804983275e5ebd",
+          "whole_tokens": 45889
+        },
+        {
+          "book_id": "26618",
+          "bytes": 58957,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/26618",
+          "inventory_index": 15,
+          "object_headers": {
+            "content-length": "58957",
+            "etag": "\"a84b05aaf5af2993f14444b66a6d6269\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214276138",
+            "x-goog-hash": "md5=qEsFqvWvKZPxRES2am1iaQ=="
+          },
+          "path": "test/26618.txt",
+          "prefix2048_sha256": "a7d59123a1eab5a1afabeacafc3e90928cd9f0b9794cc25310a4dfa4ff447c14",
+          "prefix4096_sha256": "422d9614c2db24e83ca90d4afbb26a6da1720c392a61430c547a38aa90b8935b",
+          "publication_date": "1864",
+          "text_sha256": "9352d2211b37f9e32ca13ea68027fbec101acf13718ff96c606e766f9144b677",
+          "title": "Minnie's Pet Monkey by Madeline Leslie",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/26618.txt",
+          "whole_token_sha256": "7a567562c703e83963e9088d87c1a73c1105a94978b1dab7886b84ffebee674a",
+          "whole_tokens": 15466
+        },
+        {
+          "book_id": "3247",
+          "bytes": 539667,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/3247",
+          "inventory_index": 29,
+          "object_headers": {
+            "content-length": "539667",
+            "etag": "\"7f2bdbec382101ed138f4e515c509a62\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215407010",
+            "x-goog-hash": "md5=fyvb7DghAe0Tj05RXFCaYg=="
+          },
+          "path": "test/3247.txt",
+          "prefix2048_sha256": "0b1e299ae772f589e5259d0c1030874cf3d9b7e41c908f84a7a2c94b056020f6",
+          "prefix4096_sha256": "9badd95826a369d9ad83c5bbbcd8d8e08f5aea7a444efe122751647f44feba78",
+          "publication_date": "1914",
+          "text_sha256": "aa97806b530ffb25b5678e4c562e49055715eb5734c533c0b244537734b6a59c",
+          "title": "The Patrol of the Sun Dance Trail by Ralph Connor",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/3247.txt",
+          "whole_token_sha256": "4e280a09859d691ea6a288b484e63dbfa4c744258d6fb1993eaa44bd6dbb92e0",
+          "whole_tokens": 142742
+        },
+        {
+          "book_id": "38955",
+          "bytes": 282624,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/38955",
+          "inventory_index": 48,
+          "object_headers": {
+            "content-length": "282624",
+            "etag": "\"299b97248218669bb3642f6893e7abce\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215460850",
+            "x-goog-hash": "md5=KZuXJIIYZpuzZC9ok+erzg=="
+          },
+          "path": "test/38955.txt",
+          "prefix2048_sha256": "fd7d2af64e34b359d3914b4e28bbffdb9e2d472ef1ce62dea3c0259a706baca4",
+          "prefix4096_sha256": "61ff0458c6c9eeca92340294373dd48bff0e2bf5f81ec03e6235d67988a987cb",
+          "publication_date": "1884",
+          "text_sha256": "540fa42d430263cc4662caa95b33e5e5c8babbdedda671f800a2db65ff25a485",
+          "title": "Prairie Farmer Vol. 56: No. 12 March 22 1884 by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/38955.txt",
+          "whole_token_sha256": "0aa5c987dcb74f1d4e7982b0bd29a35c83a89c383ba2d55e50080f08ebfed029",
+          "whole_tokens": 76095
+        },
+        {
+          "book_id": "54624",
+          "bytes": 70363,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/54624",
+          "inventory_index": 78,
+          "object_headers": {
+            "content-length": "70363",
+            "etag": "\"fff6481949a16d2d216deec3bae8fb91\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215366933",
+            "x-goog-hash": "md5=//ZIGUmhbS0hbe7Duuj7kQ=="
+          },
+          "path": "test/54624.txt",
+          "prefix2048_sha256": "7323ec58d289096ea63419e3409572c63b8f1aff4a138f4c39e16377db864eff",
+          "prefix4096_sha256": "c273b334d75db33e3631372a95aeb99c7c13ccc60f02afffea320db3fc5ccae3",
+          "publication_date": "1641",
+          "text_sha256": "8c7c0d63e4253003d93727e5d9dfe1245ecfef2ac71fc4b48969f685d150e6e8",
+          "title": "The Irish Penny Journal Vol. 1 No. 28 January 9 1841 by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/54624.txt",
+          "whole_token_sha256": "b2e67be7e80f9ad9dbfbd43b9e2c8e0e7f5e5d054dff33d83a394b048de4aa70",
+          "whole_tokens": 17608
+        },
+        {
+          "book_id": "30754",
+          "bytes": 916394,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/30754",
+          "inventory_index": 23,
+          "object_headers": {
+            "content-length": "916394",
+            "etag": "\"2fc43bab597bbc7dc9bac910e600ad04\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214202385",
+            "x-goog-hash": "md5=L8Q7q1l7vH3JuskQ5gCtBA=="
+          },
+          "path": "test/30754.txt",
+          "prefix2048_sha256": "ebc1618eea474626aa62baf60c8fe220bd9b7ac10302e6679c19b1575177ec57",
+          "prefix4096_sha256": "275458105063de280fc808431e9342915695542058878de89366de40c0b3b00e",
+          "publication_date": "1851",
+          "text_sha256": "f01af5df32ed5c8c4f5e99121f85d25667d45579da31856e9d572fd09810dd50",
+          "title": "The Stones of Venice Volume I (of 3) by John Ruskin",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/30754.txt",
+          "whole_token_sha256": "21f9e0c2705f6205eb246999a6368b9cad6ecf2068718be45a91a97021d0a83e",
+          "whole_tokens": 232041
+        },
+        {
+          "book_id": "9315",
+          "bytes": 22463,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/9315",
+          "inventory_index": 98,
+          "object_headers": {
+            "content-length": "22463",
+            "etag": "\"5946106b8a937170e8b685e3facd9b6d\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215505822",
+            "x-goog-hash": "md5=WUYQa4qTcXDotoXj+s2bbQ=="
+          },
+          "path": "test/9315.txt",
+          "prefix2048_sha256": "10577035d2308f34b006686f334e9b460a13ca1b51d9099da6135e20937d0651",
+          "prefix4096_sha256": "d32d809b13fdb69cf1159848edbd0341cb1a6dd9508a29d06f4106c48416317b",
+          "publication_date": "1895",
+          "text_sha256": "0be37609fae1df19c234b8e5c54ea41f538d6963554fad9bc55ae073b3dec79b",
+          "title": "A Doctor of the Old School Part 1 by Ian Maclaren",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/9315.txt",
+          "whole_token_sha256": "ac4d4f587c8a78b504f98ff76c800c89fb08a2f6e587fbd1914f5a504d722ca2",
+          "whole_tokens": 6606
+        },
+        {
+          "book_id": "8197",
+          "bytes": 137711,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/8197",
+          "inventory_index": 94,
+          "object_headers": {
+            "content-length": "137711",
+            "etag": "\"0e3948385c767363f3546ad9a4f24184\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215582617",
+            "x-goog-hash": "md5=DjlIOFx2c2PzVGrZpPJBhA=="
+          },
+          "path": "test/8197.txt",
+          "prefix2048_sha256": "ef923c511d5127d98f0e704181d71f6e9f00d12c9faf20aac7070478438194dd",
+          "prefix4096_sha256": "ab7ccb7eb2867f491de5655158ae1a481540671e4f978492ae93004c5af69ea9",
+          "publication_date": "1902",
+          "text_sha256": "68d02bd36db0180bf70c7f95afc54541f588618b25c59a39cc60018f51070ca3",
+          "title": "India's Love Lyrics by Laurence Hope",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/8197.txt",
+          "whole_token_sha256": "dba2d9fb89156976b1a0f925b29f63ab468209dd539605d89e86255077654dbe",
+          "whole_tokens": 34579
+        },
+        {
+          "book_id": "47558",
+          "bytes": 147889,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/47558",
+          "inventory_index": 66,
+          "object_headers": {
+            "content-length": "147889",
+            "etag": "\"3bc95a7cc12e47fddaf0478fb595daa8\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215309498",
+            "x-goog-hash": "md5=O8lafMEuR/3a8EePtZXaqA=="
+          },
+          "path": "test/47558.txt",
+          "prefix2048_sha256": "bd1fd50255a6ac6231c046b683a9ffcb915c4cc7f39c2687d4e2d720c9c2bf80",
+          "prefix4096_sha256": "ff96861b5309effd84a18d249dcef26f8faf4bcd0212e1a6cb8753c49fcaab24",
+          "publication_date": "1880",
+          "text_sha256": "1233554c460bac754d1483649bb26c02ecccc5293bea2748b97c156e7b18f316",
+          "title": "Pen Pictures by B. F. Craig",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/47558.txt",
+          "whole_token_sha256": "c32209e91e6b49e5e6c2b12707a8b6b1eddbfc2444a7bce6b69d38be976ecafa",
+          "whole_tokens": 38307
+        },
+        {
+          "book_id": "37328",
+          "bytes": 148769,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/37328",
+          "inventory_index": 40,
+          "object_headers": {
+            "content-length": "148769",
+            "etag": "\"227a0e4f72c946cf930a1f6ffce5e6e4\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214728220",
+            "x-goog-hash": "md5=InoOT3LJRs+TCh9v/OXm5A=="
+          },
+          "path": "test/37328.txt",
+          "prefix2048_sha256": "e6b9421459dd9482ced299f9ab39a8ba5bb324f3eefaf20fcc01ca1201d688e5",
+          "prefix4096_sha256": "56c11632afd262cb725b0763ed95b1ba544a3551ae86103b59d6a7bb6622aa68",
+          "publication_date": "1868",
+          "text_sha256": "5adf5e9ded08c343b60cb66b553a696a27e3724d9f4410839333d37699063ffe",
+          "title": "Medical Life in the Navy by Gordon Stables",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/37328.txt",
+          "whole_token_sha256": "fdfab3215f3f01f7319b1bc7ad7285786bbcf3f1b5c320ae13b664242d9bf101",
+          "whole_tokens": 40142
+        },
+        {
+          "book_id": "32761",
+          "bytes": 506070,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/32761",
+          "inventory_index": 30,
+          "object_headers": {
+            "content-length": "506070",
+            "etag": "\"71835af4069e0e8c30fab224011bc8e6\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215130824",
+            "x-goog-hash": "md5=cYNa9AaeDoww+rIkARvI5g=="
+          },
+          "path": "test/32761.txt",
+          "prefix2048_sha256": "59e561f9f842fd760c1d21a3c024e29d293343da83e5dcfae7e90f5837b58c56",
+          "prefix4096_sha256": "6ef73df2a5957b976858926305928260a894f584ef22af30567fd73c7e1d0862",
+          "publication_date": "1876",
+          "text_sha256": "cd0c0c4cb9508cbabd73f90673c63363bf03e2d72aa87de2e86ed895689c3c13",
+          "title": "Caxton's Book: A Collection of Essays Poems Tales and",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/32761.txt",
+          "whole_token_sha256": "0a5be1693c57efc9b61a9224a14b6291ba899423cdd5ca8ed357aefe0d000be2",
+          "whole_tokens": 125687
+        },
+        {
+          "book_id": "7987",
+          "bytes": 1048869,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/7987",
+          "inventory_index": 93,
+          "object_headers": {
+            "content-length": "1048869",
+            "etag": "\"49d9c07fcf2da325fa95a55a09d1aabe\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215581015",
+            "x-goog-hash": "md5=SdnAf88toyX6laVaCdGqvg=="
+          },
+          "path": "test/7987.txt",
+          "prefix2048_sha256": "b33bdcff984ffaeb87e629f41ffbd2f205a3de4b53760b9b672548975d1c1f27",
+          "prefix4096_sha256": "041d26f1d6dfdcf393e3ed4edb7609d74a652328c1b8478050d81f69ebbd56c6",
+          "publication_date": "1828",
+          "text_sha256": "cae86a95f8467d55800af340ee360c83a97f0ee35536ad9ff4d9a0132617fd2a",
+          "title": "The Fair Maid of Perth by Sir Walter Scott",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/7987.txt",
+          "whole_token_sha256": "7ca6063e82a14e4e1e22d28642a429f73fdae0996e65769f0423c7152999b6d4",
+          "whole_tokens": 274132
+        },
+        {
+          "book_id": "41603",
+          "bytes": 274624,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/41603",
+          "inventory_index": 53,
+          "object_headers": {
+            "content-length": "274624",
+            "etag": "\"a842650c12fa739ad89421b2acc30898\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215474867",
+            "x-goog-hash": "md5=qEJlDBL6c5rYlCGyrMMImA=="
+          },
+          "path": "test/41603.txt",
+          "prefix2048_sha256": "3c77f3f97ab541fef1cb29f6cdab2a783d603d708118526c9fb84b540fac8ad6",
+          "prefix4096_sha256": "df4fcb79d4c12441879c8a4509b074a7b8290f532ae9d3165298e260f2d86ade",
+          "publication_date": "1887",
+          "text_sha256": "f24c812cb32ad195a0a5d779d43579179a4e8e5add019d49de3536d9163ae3c6",
+          "title": "Toto's Merry Winter by Laura E. Richards",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/41603.txt",
+          "whole_token_sha256": "f9bc4064a651283b34cc768d11176a5fd94c84c3b74e0f2e21962d098bee8625",
+          "whole_tokens": 77983
+        },
+        {
+          "book_id": "58598",
+          "bytes": 115036,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/58598",
+          "inventory_index": 87,
+          "object_headers": {
+            "content-length": "115036",
+            "etag": "\"ad2af106da0c91f4bd5899c880601e18\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215437385",
+            "x-goog-hash": "md5=rSrxBtoMkfS9WJnIgGAeGA=="
+          },
+          "path": "test/58598.txt",
+          "prefix2048_sha256": "b488618d006ddf15d56f98feeefb06be276e12bfe73a01fd1b4e32ac15cc9e62",
+          "prefix4096_sha256": "a6c90b94c6f7e15a63781adb904583d90742e73c6c375b32a7e88d9cf8385698",
+          "publication_date": "1890",
+          "text_sha256": "e6b356ae9cd31ec1d719b4e2f5ce7c74e35a367668974407fd8e7d735455fb20",
+          "title": "Another Brownie Book by Palmer Cox",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/58598.txt",
+          "whole_token_sha256": "b11c2a0cbe54c2eaf005421cde498587b95220f48e6f047b39d8bfc403ef1cee",
+          "whole_tokens": 25101
+        },
+        {
+          "book_id": "8788",
+          "bytes": 19415,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/8788",
+          "inventory_index": 97,
+          "object_headers": {
+            "content-length": "19415",
+            "etag": "\"3b160af11490b01e7d8b0d2222044775\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215569994",
+            "x-goog-hash": "md5=OxYK8RSQsB59iw0iIgRHdQ=="
+          },
+          "path": "test/8788.txt",
+          "prefix2048_sha256": "e6e08d10a0856af8c46de46206b667a8ca826900dc2bbd59fbec2c0537f962e6",
+          "prefix4096_sha256": "82d54d2e0cfab2a7d57ab123062df33528b93928187ad63e552c597369290fdb",
+          "publication_date": "1892",
+          "text_sha256": "5e76554a61fcfb22932070305961f737c573134363f96ae18971b2428e2f7874",
+          "title": "The Vision of Hell Part 10 by Dante Alighieri",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/8788.txt",
+          "whole_token_sha256": "f28c1cf22ca98317721c5b30ab134e0daac9c52e1866b7730d28fc220a27c688",
+          "whole_tokens": 5906
+        },
+        {
+          "book_id": "45313",
+          "bytes": 4574066,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/45313",
+          "inventory_index": 61,
+          "object_headers": {
+            "content-length": "4574066",
+            "etag": "\"5b743ab25aef91edf35c41dbbc883309\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215906785",
+            "x-goog-hash": "md5=W3Q6slrvke3zXEHbvIgzCQ=="
+          },
+          "path": "test/45313.txt",
+          "prefix2048_sha256": "885c9a7ded33808ec308c8ed594f504cd5797c84043e44b7ae5b8e51e544f05d",
+          "prefix4096_sha256": "4234916f58f30741c6be3248db83987e9fd8329fb7dc4a23eec3691471ceccd7",
+          "publication_date": "1885",
+          "text_sha256": "f91cd91b6af593ffa0cbe969bf220350bcafd613e3f982f415e7ffe5f45e45bf",
+          "title": "A System of Practical Medicine By American Authors Vol. II by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/45313.txt",
+          "whole_token_sha256": "e4ac6bc382d28fa6964f0680e7eba53cd790a934a04284fc65702464b82b3099",
+          "whole_tokens": 1193473
+        },
+        {
+          "book_id": "5956",
+          "bytes": 260972,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/5956",
+          "inventory_index": 88,
+          "object_headers": {
+            "content-length": "260972",
+            "etag": "\"e26342a58df7f9123f252b3a983d4061\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215477983",
+            "x-goog-hash": "md5=4mNCpY33+RI/JSs6mD1AYQ=="
+          },
+          "path": "test/5956.txt",
+          "prefix2048_sha256": "67052748d563fa6cec0e1e40ae39b623d6642a7a21869547323aa2d365002051",
+          "prefix4096_sha256": "566c89edd66eeefa447037df8d88da0b5a8893f51473c36f053d721ac963d4b7",
+          "publication_date": "1891",
+          "text_sha256": "c1c1981b187036d4a00f0ba9c2fd65c06c43663a4593a1ce7bd01bbe8125bd19",
+          "title": "Gallegher and Other Stories by Richard Harding Davis",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/5956.txt",
+          "whole_token_sha256": "23f5b99b586db4c38bd6e306b2f18d9bc33aa89b853f574cf82e10ea7637cc34",
+          "whole_tokens": 68873
+        },
+        {
+          "book_id": "4128",
+          "bytes": 95877,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/4128",
+          "inventory_index": 52,
+          "object_headers": {
+            "content-length": "95877",
+            "etag": "\"43764c3b7d9ca56ef7bee1bd936e6e32\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215076607",
+            "x-goog-hash": "md5=Q3ZMO32cpW73vuG9k25uMg=="
+          },
+          "path": "test/4128.txt",
+          "prefix2048_sha256": "1b9a25ab176131bc650fcffda09956031a4c8315ed97e1dae2229048fa6b2644",
+          "prefix4096_sha256": "2d88560a2067d6d502f5482fad555a620753d3e09fe3197511d4f41a823ec1d0",
+          "publication_date": "1661",
+          "text_sha256": "23a359e1c8734cf74372442fbedc6ec6bf9ecaf47e6936628cb6dba90fb6409b",
+          "title": "The Diary of Samuel Pepys June July & August 1661",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/4128.txt",
+          "whole_token_sha256": "6e42870cd4952f29256a9688e8ee2b1854b89e574a8c9a030b422bad74d13927",
+          "whole_tokens": 26565
+        },
+        {
+          "book_id": "46915",
+          "bytes": 429060,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/46915",
+          "inventory_index": 64,
+          "object_headers": {
+            "content-length": "429060",
+            "etag": "\"11b259270749a4191c8c41647775f01d\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215296879",
+            "x-goog-hash": "md5=EbJZJwdJpBkcjEFkd3XwHQ=="
+          },
+          "path": "test/46915.txt",
+          "prefix2048_sha256": "997bdfced9171812fd0401512804f352dc9e24def2dad220c56119b15afeb8a9",
+          "prefix4096_sha256": "273ec044e7739a6a64df92107f53be0a6b52fd9657841e6925933f2c710ef07f",
+          "publication_date": "1802",
+          "text_sha256": "4786e48c791bb791957b629eee30de504a8e03fb35fa0092bef278c8ed10ee83",
+          "title": "A Treatise on Painting by Leonardo Da Vinci",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/46915.txt",
+          "whole_token_sha256": "5b4d1124be470b1437010342bd87798c1e907e09b954849c8ba7ace0759ccb08",
+          "whole_tokens": 114919
+        },
+        {
+          "book_id": "43845",
+          "bytes": 57163,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/43845",
+          "inventory_index": 58,
+          "object_headers": {
+            "content-length": "57163",
+            "etag": "\"5c5c0a31a656e721da558e8277ca2f8c\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215071607",
+            "x-goog-hash": "md5=XFwKMaZW5yHaVY6Cd8ovjA=="
+          },
+          "path": "test/43845.txt",
+          "prefix2048_sha256": "90544b1953dce9f1bdc10d050b232ddee73911ffde7354048ebe0311003e556d",
+          "prefix4096_sha256": "bb12b829ed3a4e73f245a58f7a84c19ae4bd30aac16fa4fc8956a90efb7c40b0",
+          "publication_date": "1894",
+          "text_sha256": "a02e28569346e8e561b4574ab60a6f4dd01dd9f9ddccca2241fe961f9c186537",
+          "title": "Punch or the London Charivari Vol.107 September 1 1894 by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/43845.txt",
+          "whole_token_sha256": "1c2f5d3786112983a6162b52cee34918a2a996a54ebfd3eaf39cf3ef3afc342e",
+          "whole_tokens": 16659
+        },
+        {
+          "book_id": "40700",
+          "bytes": 148045,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/40700",
+          "inventory_index": 51,
+          "object_headers": {
+            "content-length": "148045",
+            "etag": "\"a7b71438f021c9395eb352a6bd05063a\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214899570",
+            "x-goog-hash": "md5=p7cUOPAhyTles1KmvQUGOg=="
+          },
+          "path": "test/40700.txt",
+          "prefix2048_sha256": "c90907f1396699f7304af904d73c0fb3a6edfda07f07ece3168c2c9226e6e1cc",
+          "prefix4096_sha256": "b3f67c497c8b1124154f417c8a1e1cb8a07ecf8a7145721a6f13060a926ac1d5",
+          "publication_date": "1893",
+          "text_sha256": "c8dbe3563ca688278bcfa09b673bd177e2500ecb243cfb34a00690823b113c9c",
+          "title": "Dandy Dick by Arthur Pinero",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/40700.txt",
+          "whole_token_sha256": "c464c281b2e7805283d6b774fee88571ab018da5d5dcec7e97171b3e17f0ff5f",
+          "whole_tokens": 49374
+        },
+        {
+          "book_id": "37702",
+          "bytes": 892108,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/37702",
+          "inventory_index": 44,
+          "object_headers": {
+            "content-length": "892108",
+            "etag": "\"f35295df99c3514ace1eb529fe5662b8\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215175760",
+            "x-goog-hash": "md5=81KV35nDUUrOHrUp/lZiuA=="
+          },
+          "path": "test/37702.txt",
+          "prefix2048_sha256": "2e332d7edb7dfb95382e2c608fc2a638039187f17063078e554a53cfb05248d8",
+          "prefix4096_sha256": "1321c984e2b892f562bcf3444f506505f6da724e81b478262ae7edc5b1fd1adc",
+          "publication_date": "1793",
+          "text_sha256": "30bd8b5ca13be6439e231389f94f4d2d7fdf3b15cf0b0202842cee38c5f17260",
+          "title": "The Life Of Thomas Paine Vol. II. (of II) by Moncure Daniel Conway",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/37702.txt",
+          "whole_token_sha256": "ab85915d6f43ff7e4da7881346a852f81886a044df4a3f329fb5e287a788891f",
+          "whole_tokens": 221119
+        },
+        {
+          "book_id": "10146",
+          "bytes": 253872,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/10146",
+          "inventory_index": 0,
+          "object_headers": {
+            "content-length": "253872",
+            "etag": "\"0bbe2569ea7d62f4f7cfb74e09ba3827\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214944531",
+            "x-goog-hash": "md5=C74laep9YvT3z7dOCbo4Jw=="
+          },
+          "path": "test/10146.txt",
+          "prefix2048_sha256": "91604e68ce6da0525fc4c5a78eb0af28701f9d0b2b8aec1b2cd86734cb50e9ac",
+          "prefix4096_sha256": "9410c05a239a8e7fc450a47050118c48dee78161ac0080db061fac6f97c7dcbe",
+          "publication_date": "1908",
+          "text_sha256": "f8dd4334fd8d422cd2f9153ffbff9b097611569592d7ca09fc6fe7881336d331",
+          "title": "Reminiscences of Pioneer Days in St. Paul by Frank Moore",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/10146.txt",
+          "whole_token_sha256": "02c399265bdf11bf23c110b5f87c3c41bbff473c833684530e6d3af16ff2fa25",
+          "whole_tokens": 62861
+        },
+        {
+          "book_id": "49529",
+          "bytes": 412383,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/49529",
+          "inventory_index": 71,
+          "object_headers": {
+            "content-length": "412383",
+            "etag": "\"efcb29215b9dd941d71d7b793ff093db\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215365210",
+            "x-goog-hash": "md5=78spIVud2UHXHXt5P/CT2w=="
+          },
+          "path": "test/49529.txt",
+          "prefix2048_sha256": "334dc8b5233788962459871a42cd1f8a3bf08fc5d6bfaa2eb188eac7fc445aff",
+          "prefix4096_sha256": "74f80b7b9b47622124e3358c4ec84f6d7241cb7484dd7c0182ddd28e5c63a074",
+          "publication_date": "1898",
+          "text_sha256": "d7887877fe2e794196b741c6c122c605df89818d9a7c37e7406ae234acc8d329",
+          "title": "General Nelson's Scout by Byron A. Dunn",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/49529.txt",
+          "whole_token_sha256": "c0e3376ff7a77a7888028a8cbe39c5b308890d092b94d4e414c623e161665d4d",
+          "whole_tokens": 107934
+        },
+        {
+          "book_id": "27454",
+          "bytes": 404307,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/27454",
+          "inventory_index": 16,
+          "object_headers": {
+            "content-length": "404307",
+            "etag": "\"d2439eeb4039d83fb6860520a44670cd\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:34 GMT",
+            "x-goog-generation": "1568646214323423",
+            "x-goog-hash": "md5=0kOe60A52D+2hgUgpEZwzQ=="
+          },
+          "path": "test/27454.txt",
+          "prefix2048_sha256": "448511282aced78ad8cadc163ae03636a7464db80834d14e7fa92dcd030a02af",
+          "prefix4096_sha256": "5bb2acdef3220cb0bb7af7cf0df530d338b4e98f8192edd9ca46a35541b62d63",
+          "publication_date": "1911",
+          "text_sha256": "0f5a3efba148e8435ae9acc4a34e570369d493d635413d56a3044b08d70f6d9a",
+          "title": "In Her Own Right by John Reed Scott",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/27454.txt",
+          "whole_token_sha256": "da14a578d1a19d9aec978844568ec68ce121907112ec1be25c9d6b3309edfa64",
+          "whole_tokens": 114035
+        },
+        {
+          "book_id": "37403",
+          "bytes": 100089,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/37403",
+          "inventory_index": 41,
+          "object_headers": {
+            "content-length": "100089",
+            "etag": "\"94bae4c67a1644162e0aee89d76d4911\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215025798",
+            "x-goog-hash": "md5=lLrkxnoWRBYuCu6J121JEQ=="
+          },
+          "path": "test/37403.txt",
+          "prefix2048_sha256": "f50525832ed016eee0ade6bfd3887377120f3bad227c8a06635d489099ff9f74",
+          "prefix4096_sha256": "ab3450b3ccb866498df4ba292f1207be322cb84d9d259ab877a2c10f0b086c5b",
+          "publication_date": "1851",
+          "text_sha256": "071262841d7a577585a182101d028fa7bd79683c99bf27c2db3b570e6d24d101",
+          "title": "Notes and Queries Number 85 June 14 1851 by Various",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/37403.txt",
+          "whole_token_sha256": "1bfb53c78af2f750e8f6e1b564420afc0020af43d1b909d5d041f92225bd13f8",
+          "whole_tokens": 30785
+        },
+        {
+          "book_id": "28444",
+          "bytes": 335975,
+          "eligible": true,
+          "exclusion_reasons": [],
+          "gutenberg_url": "http://www.gutenberg.org/ebooks/28444",
+          "inventory_index": 17,
+          "object_headers": {
+            "content-length": "335975",
+            "etag": "\"cd53919aa546e4da4e0f38fc328632d0\"",
+            "last-modified": "Mon, 16 Sep 2019 15:03:35 GMT",
+            "x-goog-generation": "1568646215053698",
+            "x-goog-hash": "md5=zVORmqVG5NpODzj8MoYy0A=="
+          },
+          "path": "test/28444.txt",
+          "prefix2048_sha256": "6701621ee9c0e264b3d5da5a092dc6c7ae673532e26404e1c47e9d4e94bef396",
+          "prefix4096_sha256": "6cef09bb1c513b40c012b27ef417bffa622952417bf468a354fec0947b5a476b",
+          "publication_date": "1917",
+          "text_sha256": "f7bd54971caf53bc3ca651cacbaaefae402812b56918f6c4b5dcaeb6a279864f",
+          "title": "Turn About Eleanor by Ethel M. Kelley",
+          "url": "https://storage.googleapis.com/deepmind-gutenberg/test/28444.txt",
+          "whole_token_sha256": "c66a242ce7ca109d57a3173d5fb2ab40ab0cc023879c3cd608aeac5d5d09aba0",
+          "whole_tokens": 88703
+        }
+      ],
+      "original_manifest_sha256": "d9d3fbdb01a8c1d62bb03be00062909dcbec991953aad9d23e34afee767ed6fd"
+    },
+    "train": [
+      {
+        "start_row": 8695,
+        "stop_row": 8729,
+        "text_sha256": "b2d7d66f70153529d2886b81d1342e75498275fb2db5f36462cea61478977c62",
+        "title": "Bart vs. Australia",
+        "token_sha256": "2f025dc7b99241efb3af1f6159c053b9d0702f2d61e715d5d7a1b31ec4b90c43"
+      },
+      {
+        "start_row": 14004,
+        "stop_row": 14065,
+        "text_sha256": "39d50548098be38539c97471d421e5dcb72d3cb3a22a331da89d47a43e4bb8fe",
+        "title": "Tales of Destiny 2",
+        "token_sha256": "487cefa0c65cc63edc22343b769ed25cc1068f918f995b4d8a6de17148f10310"
+      },
+      {
+        "start_row": 1582,
+        "stop_row": 1633,
+        "text_sha256": "f237b117f78026908f1e0ec43667e385c0bf93d08a6c4f8f971176720777b5b4",
+        "title": "Zagreb Synagogue",
+        "token_sha256": "4e5ec3c57eb37d64ee0362ac4437d1dde3d4121897ddac69cf188d87649b2d3c"
+      },
+      {
+        "start_row": 16067,
+        "stop_row": 16096,
+        "text_sha256": "ab4ac4b6cfe6f9f15b27f4c9d56a5a5dc98519fa8796737d099e30420ce32dbb",
+        "title": "Stephanolepis cirrhifer",
+        "token_sha256": "15b915d732c27fdbfd086fe5a7dfe6bb03384b59372fd9aa5d643c1112af5f78"
+      },
+      {
+        "start_row": 18279,
+        "stop_row": 18301,
+        "text_sha256": "b7747297b01c6fcae54163c72e1768c3d8adea7560072a7483dde6f014ba3ee1",
+        "title": "God 's Choice",
+        "token_sha256": "70df759ca56c07c4db9538fa88cfe3ca5194b37b5dda2947ae804acc4916735a"
+      },
+      {
+        "start_row": 6821,
+        "stop_row": 6882,
+        "text_sha256": "682cbba8ed22c802cfd29bcb31cf201bf6f59889006648a0750fa613c9c72a2b",
+        "title": "Architecture of the Song dynasty",
+        "token_sha256": "1eba5292225890a89c403adff7ab91c7e751c5fad161a46a51478ecdab026c46"
+      },
+      {
+        "start_row": 10411,
+        "stop_row": 10452,
+        "text_sha256": "fbeff9036447672ba4f595e29f0e98dff10e982651ce7bce8e59a7fc2a196316",
+        "title": "The Food Album",
+        "token_sha256": "71d4dd4f80ec13fca3e160fd3af4db5c4acac7e5211f11652688737dc2945ee2"
+      },
+      {
+        "start_row": 36392,
+        "stop_row": 36544,
+        "text_sha256": "ad6a19d7dc9117d86ec273f78de3c91fc63d288722d623e86c3c1536ba162a18",
+        "title": "Charles @-@ Valentin Alkan",
+        "token_sha256": "20898912f14a2069a3f8157369a0b77405dd4a019889b31315e9ec3bb03ef985"
+      },
+      {
+        "start_row": 3733,
+        "stop_row": 3790,
+        "text_sha256": "d0145b1544dfb4ca13dbfbf1c40f87a351877eee81cb9339608592c8e57c7eb8",
+        "title": "Nicole Franklin",
+        "token_sha256": "babffcccc4182dcd29978c55adcb41a63ecfc2182b52918b8306f1756cf83186"
+      },
+      {
+        "start_row": 35449,
+        "stop_row": 35489,
+        "text_sha256": "7d52d8e3bf51870b4b034c6bbaa6cc6aceb1606d919e4b3ebc3637cc131f22a1",
+        "title": "Youth on the Prow , and Pleasure at the Helm",
+        "token_sha256": "44ac8e694fd3e17ae1bca26b7c32a238d81955b91db661df3a28cc67de5e5429"
+      },
+      {
+        "start_row": 34703,
+        "stop_row": 34838,
+        "text_sha256": "ff6e48246b6b4895396c29afc43280f90d3b99f61efca77a966b380918f7aa93",
+        "title": "A4232 road",
+        "token_sha256": "6e02ed498521619e3348e3bb65a4f1cb22da224b46fe9007d5a20c71d6c23e2e"
+      },
+      {
+        "start_row": 22925,
+        "stop_row": 22948,
+        "text_sha256": "62c7ba755614f48e7391f57c25e65f0b4a86c80217953318b38e67bed3e25c6b",
+        "title": "Mark Stockwell",
+        "token_sha256": "d8ae1b011d9f2ff31b7f3a821637c429a57746a657ba03379fe94fda8a193375"
+      },
+      {
+        "start_row": 7009,
+        "stop_row": 7115,
+        "text_sha256": "7ef485e80b6c8f59ba2fbf2b56457267a50df257221d93e63fbd7cc41120a0fd",
+        "title": "Glorious First of June",
+        "token_sha256": "a268c14d579560c5b4c4a6e8fed9c87359b2d9cafa383e153615f21e59ff4cf5"
+      },
+      {
+        "start_row": 5748,
+        "stop_row": 5869,
+        "text_sha256": "94611439cda92fc63e5893d1df216dcc9ca93b271e4cff99218d07e5bf8cae8f",
+        "title": "Papal conclave , 1769",
+        "token_sha256": "e9c984438f63b5ad8b744a473508aa466b1881d8fa4ebd536879639b38512e6c"
+      },
+      {
+        "start_row": 6939,
+        "stop_row": 6968,
+        "text_sha256": "db0726250df31ecec20c79296fa311804e50352d9bdb3194f6e1b63285ce6240",
+        "title": "USS Breese ( DD @-@ 122 )",
+        "token_sha256": "c9a224f0b3709637cbbd7d58f95eda02629d893ae9b776a0716a000c53a8129b"
+      },
+      {
+        "start_row": 18510,
+        "stop_row": 18547,
+        "text_sha256": "584108498554e0cccbf6b6893f7a420a928e5bb481d9f8c71ebab6310fa13cf1",
+        "title": "Santa @-@ Fe ( Bob Dylan song )",
+        "token_sha256": "08d8b401b1e65b6bb33c261db3eb347e0dbfac807679dc3fba8f6981f5a65d73"
+      },
+      {
+        "start_row": 2134,
+        "stop_row": 2156,
+        "text_sha256": "350816cb4950eee8c961031115702be13808c7b9f5a355f2f0f90019b2054e22",
+        "title": "Soviet cruiser Krasnyi Kavkaz",
+        "token_sha256": "04615a026667c5d79b79d3a2e5f9cba4c2fc98e2db6687ccdcb8b28ed15bc53e"
+      },
+      {
+        "start_row": 21814,
+        "stop_row": 21867,
+        "text_sha256": "d12a65de1ea50de2d18302b18cb57a603f0fccb7219b8fd1d08e6553f7c33ae1",
+        "title": "Chapter 1 ( House of Cards )",
+        "token_sha256": "f4f511da7859bcf1991c6d33bd7a16dd6fc8030d6b15a80082bb10a1a6f6d513"
+      },
+      {
+        "start_row": 24969,
+        "stop_row": 25181,
+        "text_sha256": "f6415f5d95d9cbc273773125ef19b17251debaffd3f06ad84dfdab7240684881",
+        "title": "History of artificial intelligence",
+        "token_sha256": "fb650eb7ada1f16d5e92074c5529685f9856d69f31ad4e17c9f78e7088227966"
+      },
+      {
+        "start_row": 24694,
+        "stop_row": 24759,
+        "text_sha256": "80f321e7ac506d220d3bb37b5406a0e117be9898de290ea8ca7a0e0fabf7c292",
+        "title": "New York State Route 38",
+        "token_sha256": "e8ada3a78b5e62a8b6cba66f3544117c5393e3576e920cbc0030fb2aeef732e3"
+      },
+      {
+        "start_row": 12877,
+        "stop_row": 12928,
+        "text_sha256": "1a96f9e84324917799d9bec376eea75f8b608037ee135070d468a82aba7d26e1",
+        "title": "Grade I listed buildings in Somerset",
+        "token_sha256": "73f119abacd62fa12143c20077f11d3523922857f40388b17da33c4b29cea393"
+      },
+      {
+        "start_row": 2378,
+        "stop_row": 2487,
+        "text_sha256": "ec008b57d4f5f693c1792cd585db9fe5f42eafaf5f20cfb388540e3e7bfcdae0",
+        "title": "Sholay",
+        "token_sha256": "4c8af7c26b3ef1c0034545f0eae20f9154d5eebb221c79bd7c13e611b6113e42"
+      },
+      {
+        "start_row": 22743,
+        "stop_row": 22764,
+        "text_sha256": "9168c9e00cab412cb044a28139ede8e8b8e646a875d4d583a37ce8799ba5c6b4",
+        "title": "New York State Route 185",
+        "token_sha256": "cb61fe765074a24bbd11eb59b8edca3313b4f0e78de404d2df6fb3a41d69a024"
+      },
+      {
+        "start_row": 16779,
+        "stop_row": 16821,
+        "text_sha256": "8f9f5409b35d08bbae8decfe1ba7043cd4cb04de63c833cdf5babf341cb9275b",
+        "title": "L\u00e1grimas C\u00e1lidas",
+        "token_sha256": "cccc48dd58e378f79af59639241dbf4e6ab1b8f0df2e9d0548348c623f8e3d11"
+      },
+      {
+        "start_row": 9518,
+        "stop_row": 9666,
+        "text_sha256": "5893ff4dc582944057ecabd379ecb428f35e97bd3dc24fc53aa3e66d823031ff",
+        "title": "Protein",
+        "token_sha256": "519e888a4e2624ad4988175579eec6dd142c43fa0fec472f565e7bc43d3299be"
+      },
+      {
+        "start_row": 20701,
+        "stop_row": 20734,
+        "text_sha256": "ad1bdd8d36b7cfbe8bc55c683569aba04929aae801269b121ee91201167e8cea",
+        "title": "The Actor 's Children",
+        "token_sha256": "4767f8e56da3b0f2601f4bd8ed8e69a913ec6cb534b1d503183b88850a0ae5b4"
+      },
+      {
+        "start_row": 32949,
+        "stop_row": 32975,
+        "text_sha256": "71afaf9df8c871cd6f2c447aca70c2c809b209f0014fec4253d112263ae27b30",
+        "title": "M @-@ 47 ( Michigan highway )",
+        "token_sha256": "c5c417f45a0719cb34db937116e258d43fd34c23cf477981a1d689db19b65bd6"
+      },
+      {
+        "start_row": 18840,
+        "stop_row": 18866,
+        "text_sha256": "9d0df9363c3d7c88033f4255b53510a860152495b0fb6db98b41ce9f20fc14b8",
+        "title": "Lisa the Simpson",
+        "token_sha256": "fd6fa418db0ad557b8a1f61f6a76505fbdf6f0e228e803957cc39450d9aca515"
+      },
+      {
+        "start_row": 32295,
+        "stop_row": 32315,
+        "text_sha256": "8d7b18209e8ad06d954fccdb6fb3f74af46a4d852c3a02af9221feb904abfe11",
+        "title": "\u00c6lfric of Abingdon",
+        "token_sha256": "dcce6945a472269d97d033d7fe1dccfbb3e4fa95ccb366ab904d817025c749ba"
+      },
+      {
+        "start_row": 5679,
+        "stop_row": 5713,
+        "text_sha256": "8ac9a7e090ceaf021dc02521fdef4a0010b57c97a88700965d8458ee95821f02",
+        "title": "Why Does It Hurt So Bad",
+        "token_sha256": "aa5c2960ea4fad68221a610b8b67e13b890d0b60bc0ac91db0e6bb153a55ee28"
+      },
+      {
+        "start_row": 32622,
+        "stop_row": 32655,
+        "text_sha256": "703a5851892b8d0a571dd61f98c68ccbb2e239c76a054abd037c3666f3b12e99",
+        "title": "Sang Pencerah",
+        "token_sha256": "5e5157c19d130068cc6d720d54c97ff60ef719e4078676b4a99da548cedb1da4"
+      },
+      {
+        "start_row": 5198,
+        "stop_row": 5227,
+        "text_sha256": "3505675678019e5741c40ea61aac120408146dc9b9a2c6dbc6fc6051b6d7edd3",
+        "title": "Leanne Del Toso",
+        "token_sha256": "604cc0f8125f2c81159003140592b45d679040c333d813208ced2fc44747331d"
+      },
+      {
+        "start_row": 9935,
+        "stop_row": 9975,
+        "text_sha256": "e7c198b2040fe9fe0ba189f03aad85a2167e1545bef615789e35b0466a80d796",
+        "title": "You 're Gonna Love Tomorrow",
+        "token_sha256": "191b7e2d8b65a1c1cb44ccc571a116bb96ec60d23bf7718ef398ab05afc245ec"
+      },
+      {
+        "start_row": 1960,
+        "stop_row": 1988,
+        "text_sha256": "44eadf1e69d35406af3d97e1bed5d89836d2084aab1b2b0a0cc3eaf01b52fc70",
+        "title": "Arihant @-@ class submarine",
+        "token_sha256": "9725c590ab867e97165fcdac81901891a13cfc8ba3365c70bae7a60da8b8b609"
+      },
+      {
+        "start_row": 18547,
+        "stop_row": 18586,
+        "text_sha256": "a34154f95983e97ecde0c03d4bb8c6f23070bcaea2ae830ca015b3d97a62b8d7",
+        "title": "The Secret ( The Office )",
+        "token_sha256": "b9a50bf64c29e1771a0f5b3d982dc9097a25c7be3fa600b2c63e6ccfb4f6d403"
+      },
+      {
+        "start_row": 20571,
+        "stop_row": 20603,
+        "text_sha256": "aa07512b1a4df5b53f5bee5aceb6b4ca24d574d1b813479ee9b78c9791ca31dc",
+        "title": "Laborintus II ( 2012 recording )",
+        "token_sha256": "1e31ec4004b1617ef96c79146bd08614083ce52f614e83de2b451f6227e50ca6"
+      },
+      {
+        "start_row": 13477,
+        "stop_row": 13494,
+        "text_sha256": "b4df44eb80b005ee363998fbfffd9d12924f66abd92f0782a9a3993fdea435b5",
+        "title": "No result , Pts",
+        "token_sha256": "cdad9a3153c7d3a08f8c73e94474464a46d34a78c2841dc58be6d1f83cfa0330"
+      },
+      {
+        "start_row": 31009,
+        "stop_row": 31101,
+        "text_sha256": "fd301a82b81c3596847a4cb8258385380a01abd982e09fb0f87bef1399c59a9e",
+        "title": "Noisy miner",
+        "token_sha256": "942ac128620399661a467fbe0a9a4172a76a7386789ebdc673236a81749f1672"
+      },
+      {
+        "start_row": 5393,
+        "stop_row": 5440,
+        "text_sha256": "9609c0e671a3ef5b72b868af28ae0da576ec575e7fb1316ea2e7ccfa0be899a0",
+        "title": "Dangerously in Love Tour",
+        "token_sha256": "1fb40b0d4a29bf4f894558250a0e12e8dfd3da86489d1d6adf026cf216f5a59f"
+      },
+      {
+        "start_row": 6059,
+        "stop_row": 6104,
+        "text_sha256": "a4cb3ab6ff3aecaea96ea0dfffabe3c2ad5953d4fd3e5aafc3715dbbc616d6a1",
+        "title": "The Crab with the Golden Claws",
+        "token_sha256": "17f049d1b67962de9bec6e4226de9cef0c08fee95737dec625466f176b9a9b39"
+      },
+      {
+        "start_row": 4439,
+        "stop_row": 4557,
+        "text_sha256": "d6d215cadf75f1da0cb5fd1ae828c350abeb6e9686a118a522b97e9c50fd27a9",
+        "title": "Sarnia",
+        "token_sha256": "d31e6fcf0dc0eb338eb24807a9f44d2b1faa2c6448c2db0898b9a133e93290ac"
+      },
+      {
+        "start_row": 20794,
+        "stop_row": 20824,
+        "text_sha256": "ef400064708535a7aa40862e6dd7651583dfa5a8afcf83a0c3badd500f15d6bd",
+        "title": "Roxas ( Kingdom Hearts )",
+        "token_sha256": "0db1b114966e0f47b86e4165c51ff76b6304af121327c2fc11ce81662bb6eca9"
+      },
+      {
+        "start_row": 25727,
+        "stop_row": 25844,
+        "text_sha256": "4ce021518994d46b2ae9a7db8aaad51c7d1ffed0fbeae1fec00b6f4a1607f8f6",
+        "title": "Amanita muscaria",
+        "token_sha256": "f3f5f485e1f6d997e4fa7592ec2eaab4f7f7555ac0aeae8b81248c08c9631d9d"
+      },
+      {
+        "start_row": 35878,
+        "stop_row": 35957,
+        "text_sha256": "64a8137e7bba56d878d7527bde40f070b3652eee745a03136042fdb820bcc189",
+        "title": "Crown Fountain",
+        "token_sha256": "e4a9de7c78159e3daf5840e2536d29d35b1d3f6a20fda45ba3ee00e96e6de071"
+      },
+      {
+        "start_row": 4228,
+        "stop_row": 4439,
+        "text_sha256": "93d914cf66e530236a56509f521bfecb80e41c591ba80454b73879267e9b725b",
+        "title": "Galveston , Texas",
+        "token_sha256": "02c5c4dfef85c2b9d5499ce3370f82e41c1482b68218fc45447f7aab075f6659"
+      },
+      {
+        "start_row": 13217,
+        "stop_row": 13301,
+        "text_sha256": "0654a4c84b75db4be3a85c6be1fdc009f614687ab53faee3bab95aaaf7b4dc24",
+        "title": "Qedarite",
+        "token_sha256": "f452bbd25312bc7403cc16f2f8216bc529c4a746734bd84ed973adee93d3034d"
+      },
+      {
+        "start_row": 21422,
+        "stop_row": 21482,
+        "text_sha256": "e7aa30be6651267fe5cd1f936bcce16e9476f1a44200912ece1a8c278cdf261c",
+        "title": "Derfflinger @-@ class battlecruiser",
+        "token_sha256": "b7e6986fa7132db0e99a26df5c1c01794b01b86ce1a2de82b83ab4374f103bf2"
+      },
+      {
+        "start_row": 8961,
+        "stop_row": 9103,
+        "text_sha256": "dd27f7bd0a560a6ced54119977821986f0e013c9bc4f06e1244f9552dda6de7e",
+        "title": "Ode to a Nightingale",
+        "token_sha256": "211d18a55a186b37799fd1fd2b450731bd87e0df117c711bcc002abf2eb118d9"
+      },
+      {
+        "start_row": 26171,
+        "stop_row": 26228,
+        "text_sha256": "e0c6e70bc83997980c95eebeea1e87e29d785496460737f2595257599622500b",
+        "title": "R\u00e9union ibis",
+        "token_sha256": "6f27e2361ddd1f575cfea51914310feb8db2a9023a414a085623b8ef551484be"
+      },
+      {
+        "start_row": 21022,
+        "stop_row": 21131,
+        "text_sha256": "fa16e10100591cb5399cff7199a6bec31559f5a995d4b2fa6e29678ac7081c13",
+        "title": "Mumia Abu @-@ Jamal",
+        "token_sha256": "a660c2accbeba6037e88de2f7c535b8471787a9961ed39c6fef3dfa7c6fe4f43"
+      },
+      {
+        "start_row": 4199,
+        "stop_row": 4228,
+        "text_sha256": "5028797cee126dd7b5d840f6916207b1c7ae379d8d6d72297ee4e9e6f7071e07",
+        "title": "Shaoguan incident",
+        "token_sha256": "2333e7c1c03f7dd45bef113997c8ec9a958cd0a46515d80f6a6942b3b0ffe350"
+      },
+      {
+        "start_row": 20257,
+        "stop_row": 20323,
+        "text_sha256": "b40e6cf890d5a0c1e5655b94aec428df6987baafbdbad2b0b4a953d6ee8f85f4",
+        "title": "E. W. Hornung",
+        "token_sha256": "09e319fa3c04801520be973f8dafe53ec7f39c1194c3745108c7196915702bd6"
+      },
+      {
+        "start_row": 11623,
+        "stop_row": 11691,
+        "text_sha256": "27e4c49273ddc87dd0580e7f36a24c538636c4c197fd3b2acf158644b855cf06",
+        "title": "Royal prerogative in the United Kingdom",
+        "token_sha256": "d8ba5ca65de88e3fee61f815eb89a04dcd641db5032c0d4200bd9b5afe3d93ad"
+      },
+      {
+        "start_row": 18254,
+        "stop_row": 18279,
+        "text_sha256": "94df3d4611f7f74a957aede794e6234790edcff6797cde1c04dc31f3c3ca9603",
+        "title": "On the Pulse of Morning",
+        "token_sha256": "3a7bcd2aa03917bc62385acc113bdec1651ae1953ca91dd79b62a7d546081070"
+      },
+      {
+        "start_row": 22497,
+        "stop_row": 22514,
+        "text_sha256": "ca6986c36015d9978d0532760fe4f104a3943d79814cecfaed6b48fe2b72b329",
+        "title": "New York State Route 164",
+        "token_sha256": "eade068584ba992de27dd2f32f9b94741b88f3ad5252bcaecbe44e3cd56665cc"
+      },
+      {
+        "start_row": 25973,
+        "stop_row": 26015,
+        "text_sha256": "7ea9bf24ea1c5b682bf923aab0c318978e4eb0de84f905eaba1ea6fde1038445",
+        "title": "Dave Sisler",
+        "token_sha256": "6542eff0d8e8564417ec943369fe777ecf1447c466381c2913fa6edb75fbbc11"
+      },
+      {
+        "start_row": 33266,
+        "stop_row": 33302,
+        "text_sha256": "a30a8c016184b35cd9861f94637e8fd72cefffa28f64c7a83fb25a83b5e16894",
+        "title": "Ghost in the Shell : Stand Alone Complex - Solid State Society",
+        "token_sha256": "a871fb8d2045f98946812e4b3c3af27afe8ee3a1d588f05934ba49e7e5fd6e52"
+      },
+      {
+        "start_row": 15542,
+        "stop_row": 15577,
+        "text_sha256": "b10b5f50a6e4ced0f8b1198c27d438488336796abfc40630082c096dbb9af13c",
+        "title": "Joyful , Joyful",
+        "token_sha256": "18d1373e67a32e441ae58ca97b984a921f150e26c2676a087b1088e9bb02005a"
+      },
+      {
+        "start_row": 32063,
+        "stop_row": 32118,
+        "text_sha256": "62a15a02b909f5dc8ae544d5c95a057197b5096ae3eea2daf9c74ca1096eae0f",
+        "title": "The Good Terrorist",
+        "token_sha256": "391d64b7b7d078e6a029e919e5b56187026ca8f73924554feb1c1fd1a509a6c1"
+      },
+      {
+        "start_row": 19864,
+        "stop_row": 19937,
+        "text_sha256": "3ddbd3089142d8a1e0ed7139f3c5f8009f0c3be965b8c8304e5fedab067d51a3",
+        "title": "Pokiri",
+        "token_sha256": "44e3329a833cd2e6eec0af831793a27a2ad0a3ffd64dedc63d52d3a5fbf6917d"
+      },
+      {
+        "start_row": 13613,
+        "stop_row": 13630,
+        "text_sha256": "1f78d1ae1e911d6603c523bc8e1e7505d110c2f5b64dee7e62b4c72ef3263a2d",
+        "title": "World War I Memorial ( East Providence , Rhode Island )",
+        "token_sha256": "8ac6691d5f7a910a69e16a640292127f6ab2ac3684be2c030e971f6939041d0f"
+      },
+      {
+        "start_row": 26883,
+        "stop_row": 26916,
+        "text_sha256": "5da93282d1b395611a784465e05e04340a9aa4ccaa2973f49bc5d4963a27040e",
+        "title": "Bath Assembly Rooms",
+        "token_sha256": "293cbc1ec433157c2c5e1dfc17789d6436beb7a1d5196c043cb11c0312115bbb"
+      },
+      {
+        "start_row": 14112,
+        "stop_row": 14198,
+        "text_sha256": "512b4e2eef32468c221c735d2294085a4e319912de10024ecac5ebda7650975d",
+        "title": "Lady in the Lake trial",
+        "token_sha256": "a7e09d05e1ea9d3686f1cfd632db4a38126ffcbe4fd0ddec0d3898b6b7ccbde1"
+      },
+      {
+        "start_row": 35163,
+        "stop_row": 35191,
+        "text_sha256": "bba3433abf80336bb3a2f634a3d2b029ede34ed753752280555e18256a41c304",
+        "title": "T. Arthur Cottam",
+        "token_sha256": "8a4f47caf0b88041341d10e90fb15963d792f5728fd25ef3ffa035125ee88416"
+      },
+      {
+        "start_row": 26131,
+        "stop_row": 26171,
+        "text_sha256": "86c92f17f3633dc13d97ca6e5270a39b19dca1063ca3b8492789d86538acc64a",
+        "title": "Kyra ( Charmed )",
+        "token_sha256": "23a5c5b8606f0a16f8c133ce058e7b4d14581e26daac330a697514fdeed7ed24"
+      },
+      {
+        "start_row": 14451,
+        "stop_row": 14580,
+        "text_sha256": "72ccee0c7d9d20c34f89cf5421aa20178378352c9d23781c50c7b1102cc60b01",
+        "title": "Giacomo Meyerbeer",
+        "token_sha256": "8712f10826c7ff63456bc65710efdf57c073a4b1cbe2d63732505ebadefa70c1"
+      },
+      {
+        "start_row": 1274,
+        "stop_row": 1380,
+        "text_sha256": "3aafbcf63bcb90d1fbf6287edeb1284d4fd887203357152d5db787929691abe7",
+        "title": "Tina Fey",
+        "token_sha256": "7ab8871b813ae7f6b6e530429965fb2b4dad315aa19dad71d376781301fe9515"
+      },
+      {
+        "start_row": 18226,
+        "stop_row": 18254,
+        "text_sha256": "bada1ec3ad2080e95b89599a819a405cdbd11ee1285a86d60537fe035255972b",
+        "title": "HMS Black Prince ( 1904 )",
+        "token_sha256": "3d07edde0c33723e293147835bdbb13faa6d504e2743132983824691a0aad95c"
+      },
+      {
+        "start_row": 6914,
+        "stop_row": 6939,
+        "text_sha256": "7ef3503d0c317e396464f750ab46c136f68c25b4aafa17d644718e8e884318fb",
+        "title": "Fastra II",
+        "token_sha256": "440ed85dc0adbce74a7488c32c90c6608a457e5c61c5847faa368706ebd29e4f"
+      },
+      {
+        "start_row": 13592,
+        "stop_row": 13613,
+        "text_sha256": "97edd0b4b463c0894412915caeec99a19d006b55e6c85cc5ba5361f562bbd0d3",
+        "title": "Josce de Dinan",
+        "token_sha256": "cccd8f6d9471d238f622da4d9ce02edff804f1600a9920a4c116cf7fae4de9cc"
+      },
+      {
+        "start_row": 24201,
+        "stop_row": 24251,
+        "text_sha256": "791fbbe4a623eb9c42a94ffc7b2de93c0d0e0a6b8134ed520f7c32c2f535176e",
+        "title": "James Robert Baker",
+        "token_sha256": "2ae30f10cc67eb0ebc502d6555aaa3e716416276f81b4d752ba696e920241156"
+      },
+      {
+        "start_row": 4557,
+        "stop_row": 4573,
+        "text_sha256": "57f1e75ef7a0fbcddf719a992aa27976a239fdf7241e001a47ba32731b0ef9e5",
+        "title": "French cruiser Sully",
+        "token_sha256": "41fe6986694507461c18eadfd6ccbd0c09797177d3f1c23b976b8d4da7b7ab71"
+      },
+      {
+        "start_row": 8844,
+        "stop_row": 8901,
+        "text_sha256": "411f386eb8d10841baa90e8e4065f96a20d72bbf74ab00097512e693510449ee",
+        "title": "AIL Storm",
+        "token_sha256": "362129ad3ff3aacf5f210b96b4de60b8c9be24585bccbbc50d57b9aac1484179"
+      },
+      {
+        "start_row": 30156,
+        "stop_row": 30181,
+        "text_sha256": "8793443befc4f73cd6c32988043c4d9e7b572a1fae564ed887767c4423761046",
+        "title": "T30 Howitzer Motor Carriage",
+        "token_sha256": "0d7794fc0f9c0d8e47c1fad901a48f38703c8984393cd2d5dba3309bd0c1afb9"
+      },
+      {
+        "start_row": 13432,
+        "stop_row": 13452,
+        "text_sha256": "1b7cf5a22e64316a176d0b26388b37155ff3029d7a06571175c865a65386d651",
+        "title": "No result , Pts",
+        "token_sha256": "5f84b74370d14faa88eb2f38312d3493cda3f979a9d25edb934351b51fa80caa"
+      },
+      {
+        "start_row": 20421,
+        "stop_row": 20484,
+        "text_sha256": "87bf68d13778bbb3df8cafba634efcca1dfa00f43a32cf2adb5868e0969c4e53",
+        "title": "Vistara",
+        "token_sha256": "46fd120157054800deb0d199b802180823b9645540bcebeefd6836d2e0316c37"
+      },
+      {
+        "start_row": 18442,
+        "stop_row": 18480,
+        "text_sha256": "2a3d837d07c860d992fb4ed987adcd8ae5fda04906ec5aae0c76c37af403cd28",
+        "title": "Typhoon Imbudo",
+        "token_sha256": "672d647629a684f265e3538ba2b3ee160d65456d3d34c091708a3c4dd409472b"
+      },
+      {
+        "start_row": 11810,
+        "stop_row": 11983,
+        "text_sha256": "ec95d46977308606a06aab2323b4258b6b26c4b746319115289132ed95a9abb8",
+        "title": "Ceratopsia",
+        "token_sha256": "cddd058751a2b8a1df76bc0e2985e2dd4271e9dc215cb05866c978227295079d"
+      },
+      {
+        "start_row": 16740,
+        "stop_row": 16779,
+        "text_sha256": "14a6dd3e9ea867973941af3b16a232e1d40e0db358a601b99bca84aaf6d58cf0",
+        "title": "Murder of Tom ap Rhys Pryce",
+        "token_sha256": "e893c7acc2c6bc17c9146c5d0c0ba2e1404fe102593e92d08e258d9ec5eb2058"
+      },
+      {
+        "start_row": 8366,
+        "stop_row": 8446,
+        "text_sha256": "61edfde881415ea14a2fb8cc9f053bc17f1a687d975f10e13f16daf837131c02",
+        "title": "James Nesbitt",
+        "token_sha256": "dc2724376ec21f0894e300c634d0999e75e16b4ac621f14179fbeb77129e07aa"
+      },
+      {
+        "start_row": 30729,
+        "stop_row": 30798,
+        "text_sha256": "e11819390d812e165aa86ad9e9c440cb648fb9b6b2f39cb4458b6593dad7520b",
+        "title": "Bodyline",
+        "token_sha256": "290436ff4113abd8e0d472c652879726898503194865846a9abd05ca159e4faf"
+      },
+      {
+        "start_row": 34304,
+        "stop_row": 34455,
+        "text_sha256": "a668acc587efa8c9e27935593137402354c801ff14c2e745cfde712479670bc3",
+        "title": "Georgian scripts",
+        "token_sha256": "802639b9ff377d20ff385f99db52db56733cb07041a5c45a02f2fbffcb3a4192"
+      },
+      {
+        "start_row": 16516,
+        "stop_row": 16548,
+        "text_sha256": "835cd7c8dadd0dbd7a4bbf799dedc46a1f93b33de06626e2e7b26d76ada9b727",
+        "title": "\u00cdmar mac Arailt",
+        "token_sha256": "611ff35619b086aaa538c04ca3d6474c691d7dd8d624395bc3c470cf8dcf8a7f"
+      },
+      {
+        "start_row": 35655,
+        "stop_row": 35730,
+        "text_sha256": "11d2e72c193b8b6bdd20b32e0ad68d52e9d5fa10279954e2cc387100806e529a",
+        "title": "Temple of Eshmun",
+        "token_sha256": "290a902a0d63c024ff549700cd6de932313bc1dbe7ef249d1a53ce2b060e71de"
+      },
+      {
+        "start_row": 24322,
+        "stop_row": 24355,
+        "text_sha256": "7b2849cbf0dd567ec0f76f3a3d372280980e3de6ef8622379319fa218819df1f",
+        "title": "USS O 'Brien ( DD @-@ 51 )",
+        "token_sha256": "c87e4c878b6793d830469aff64757fe8df0e2c1205f239c2cfee4be54b5123ca"
+      },
+      {
+        "start_row": 29254,
+        "stop_row": 29338,
+        "text_sha256": "d5b67b2ff3d2c0337a02dfad3dd5f561842d63c89981d52a3221977e27f5174c",
+        "title": "Hannah Primrose , Countess of Rosebery",
+        "token_sha256": "de01e8cbebf99121e18e91b44af2d84745a4e1f7522f7eebf8133287bb2aba48"
+      },
+      {
+        "start_row": 25496,
+        "stop_row": 25556,
+        "text_sha256": "ecec1566593014ea95e2e26ec5954e97a90350eb9f703648429f9ce9b034640b",
+        "title": "Battle of Binh Gia",
+        "token_sha256": "514daaaf0538d6676e705a971a477f8fe9ce8856597cf598f0683d013809279a"
+      },
+      {
+        "start_row": 18772,
+        "stop_row": 18840,
+        "text_sha256": "7035ef4d3ea57e5c362e27b3b6c968a8d7b433e36523db742faa881660b7df68",
+        "title": "Yoko Shimomura",
+        "token_sha256": "8f5808c6b752fcba173913a5fd11d88358c15ff771234f38351e570f2bc98b3f"
+      },
+      {
+        "start_row": 17843,
+        "stop_row": 17858,
+        "text_sha256": "ee456df6a64bfb92734e05942137b86f7dd4424dd482bd304f3bed387c24eb7b",
+        "title": "Protomycena",
+        "token_sha256": "7dea80386f8cc713218932e271d22de880fe37812216fb2b23f31e03e52b6e43"
+      },
+      {
+        "start_row": 9228,
+        "stop_row": 9318,
+        "text_sha256": "e3942ceeccf561575012aebebb6538753666cd2f8a3a9fa73e47b0dd99315afa",
+        "title": "Sister Wives",
+        "token_sha256": "7ed36543a309ed9c41084e9acb47c46ff5d81c61fb0ca0cc53cc0c8718f4bf0e"
+      },
+      {
+        "start_row": 23519,
+        "stop_row": 23571,
+        "text_sha256": "18873173858c4680fae84c0744033dde362923be6c5ff68386316496e4fdf6c0",
+        "title": "Khoo Kheng @-@ Hor",
+        "token_sha256": "e015589196a75c52ceb20aebb16fccaf20a1accd3c161bbaafe5db370f2b020f"
+      },
+      {
+        "start_row": 21174,
+        "stop_row": 21202,
+        "text_sha256": "efed328375d59e2c5fa53b6df15f70c5a07f1df7a1f08360608cc6d761594dd4",
+        "title": "Boy @-@ Scoutz ' n the Hood",
+        "token_sha256": "35b78bbcaa437e127a3f14a55e52850f823937a1ca0d7dbed51647f996c9324e"
+      },
+      {
+        "start_row": 26949,
+        "stop_row": 26985,
+        "text_sha256": "e526ee2bdc0af156c719d53d4eb4618f4f388e3d339db8cd9e9f339d8599a48e",
+        "title": "Road to the North Pole",
+        "token_sha256": "6ca009ab8f1cf9951fc06128a190a0cb7c20eca975d596f585d0063db761478f"
+      },
+      {
+        "start_row": 10553,
+        "stop_row": 10603,
+        "text_sha256": "73fec5e1debb58c83cc2b45f2f418448ea4b741844799960b87bf0f1cd1ea9c6",
+        "title": "Leg before wicket",
+        "token_sha256": "c97bb814b5f81a396dab8f6457c3ff917fc5185a874525d71de99c193a4a5326"
+      },
+      {
+        "start_row": 27461,
+        "stop_row": 27526,
+        "text_sha256": "22de7f63822498afdb13cb5fc1cb7d4d89546266d2c27e43042dd6fc6b32c912",
+        "title": "Mitsuyo Maeda",
+        "token_sha256": "c4d814edb735a262e8b9741f24855221131c3de07ddda66f77c29069a043d6c7"
+      },
+      {
+        "start_row": 13125,
+        "stop_row": 13168,
+        "text_sha256": "29efdb4c80f25ff3d95160c3f0ce416cc4bcbbfcff8aceadbd7b8841da1390d0",
+        "title": "Otra Nota",
+        "token_sha256": "e4bbd161428064dd116fec625198f2c512e4b5cff9a029846d7cdfaf116281c3"
+      },
+      {
+        "start_row": 22150,
+        "stop_row": 22200,
+        "text_sha256": "7349000ac7b1e080f9efddd3244948930ad9917c5d470791f4346897cda6ef4e",
+        "title": "1939 Pacific hurricane season",
+        "token_sha256": "df1ef1ade7374e85cdb3786a02f291481e1f52713ebd879811b4dbf1f75db3d3"
+      },
+      {
+        "start_row": 11983,
+        "stop_row": 12023,
+        "text_sha256": "194a97573afb267831bcd9ad93e566f381dcbd31c34823c0ff7ed6a277014814",
+        "title": "Truth in Numbers ?",
+        "token_sha256": "2b934933f16569a7e4472c6d7a6a4e2a5721d301c18e54e312a5555ad97f59a9"
+      },
+      {
+        "start_row": 16630,
+        "stop_row": 16676,
+        "text_sha256": "abcab392ae7b70e40515fd2d9e301a093666baeff0959fe4909578294fe58d3b",
+        "title": "M @-@ 5 ( Michigan highway )",
+        "token_sha256": "b053a2f176c11318677ecd6f95cfa5445d4f3ced37115ae258317d8fbecaccb5"
+      },
+      {
+        "start_row": 29852,
+        "stop_row": 29878,
+        "text_sha256": "353f1fe3e7c9b6f114ed9348b4c83e9a5ea5726436a84d080ddac05d74f906a8",
+        "title": "Awakening ( Star Trek : Enterprise )",
+        "token_sha256": "b4aa4d613ee6492f40ea4df0c059492cd35bea107a61f2fdc0065f081fcf9663"
+      },
+      {
+        "start_row": 18417,
+        "stop_row": 18442,
+        "text_sha256": "b4b841db4936b02a797aa760d8825737e516cfb2ee10a018c4715351702726d1",
+        "title": "Hurricane Ingrid",
+        "token_sha256": "cd83ed634b0886f5c1aaf541d92d782ea218956355692a3f6766d3dd0e09bb45"
+      },
+      {
+        "start_row": 18032,
+        "stop_row": 18153,
+        "text_sha256": "652fbaed897a50d2834ed023d14732ab51037c8af1e624390534e65c6138c870",
+        "title": "England national rugby union team",
+        "token_sha256": "64d1b63f5012416c840037d55854499478f8ce0d9a2f9828a5127396a75a5c72"
+      },
+      {
+        "start_row": 20603,
+        "stop_row": 20626,
+        "text_sha256": "a69fb4baab18ad9216f93f220652d74f160de2acb09debb03d2e2e84206fdf22",
+        "title": "Residence of the United States Ambassador to the United Nations",
+        "token_sha256": "6dcc4885a522c7d0096fd31729a01dad160296f6c694a55344107b5c4fe390f8"
+      },
+      {
+        "start_row": 21202,
+        "stop_row": 21220,
+        "text_sha256": "10cf534bbe6af1b1dcec3a60f6d64e4123c906b6c5df07959203a78b8e5c7abf",
+        "title": "Last Exit on Brooklyn",
+        "token_sha256": "fe57193ceaabd66328a009f3fd718a08e6e4ed26a5b3b8c3e02d4085a5ec285b"
+      },
+      {
+        "start_row": 8058,
+        "stop_row": 8106,
+        "text_sha256": "b47d2b7ae21973a3ca63c2750d8ffbcd799464efe50275e3e64ede5196ff74b2",
+        "title": "Voyage : Inspired by Jules Verne",
+        "token_sha256": "bc024b7c6e2b819e5a6fda148c607f4e56f23eafe9c399109ea4ccf04af5bb56"
+      },
+      {
+        "start_row": 3345,
+        "stop_row": 3443,
+        "text_sha256": "ac0bff2ab7190d6ee0a16fb45cff144e9395f50db3a36f23b1d2894d70f35267",
+        "title": "Paul Thomas Anderson",
+        "token_sha256": "a463ee26fa7c585497a29d00d51dde53c6e31ee64fe39346658bb3ae6cb6745e"
+      },
+      {
+        "start_row": 26498,
+        "stop_row": 26710,
+        "text_sha256": "cfb513b0e86a77da76c66bcda255777c987ce026e7d59a5ed46c08ccc2712cd3",
+        "title": "Track and field",
+        "token_sha256": "2bebcde05df90c275e1f7a39976264e416365b593700bbcc5c1de138614ff942"
+      },
+      {
+        "start_row": 16676,
+        "stop_row": 16710,
+        "text_sha256": "26043457f9c398a0deaed6072b310d8dd455a4923618bb4f4cc2c7f52e9988ad",
+        "title": "McAllister Tower Apartments",
+        "token_sha256": "6688a1848206522f202b554b4e98454b4aeefbea1fcc251353b8cf2fc038232e"
+      },
+      {
+        "start_row": 13498,
+        "stop_row": 13511,
+        "text_sha256": "8ddabeb373bc682cd7dd3e1f1251856c0b9209f096245c775f3da3777db8e943",
+        "title": "No result , Pts",
+        "token_sha256": "9c45657a1c170d52bc10845f493a0fdc54eee881db009f51daf66880f0e6da96"
+      },
+      {
+        "start_row": 27054,
+        "stop_row": 27087,
+        "text_sha256": "92fe94724d85dcbf231506109b1e11316d90c228187875f1be3ed2936d088d62",
+        "title": "S.R. 819",
+        "token_sha256": "34363847485852f842a14d7722bf5bc40fff65a703f6ca8ed14db64d7470be77"
+      },
+      {
+        "start_row": 34562,
+        "stop_row": 34641,
+        "text_sha256": "c1a3dc2f7cd36573edf0e3b82d6d7f28a3c71f76f6651012bcfbbf0f0691fbf4",
+        "title": "7 / 2 ) suppresses the superconductivity , which is induced by eliminating this local moment ( J",
+        "token_sha256": "cafb0e0e83eed74acff0512bb1741eaf9e4cb76a59da0e22285182cd1cbe36c3"
+      },
+      {
+        "start_row": 5885,
+        "stop_row": 5912,
+        "text_sha256": "136a828ea8b86f05a45cea25c0b8a37c0c64d9fdc1a18daafada07e0600dbf2f",
+        "title": "New Year 's Eve ( Up All Night )",
+        "token_sha256": "e4031bbbaecbc3aa6605464647ef14aeeaa99fd56576e518047f7aaf6c5a58aa"
+      },
+      {
+        "start_row": 21131,
+        "stop_row": 21174,
+        "text_sha256": "296b0fbc0a8fb127dbd15a09fbe760a1cd2e7845bf06a59525478b0c2c968bef",
+        "title": "Brandon Minor",
+        "token_sha256": "abd9f13880a03409a6153ec26b6e634d7e3732029fb81b3cbbab38c9b39ec355"
+      },
+      {
+        "start_row": 14883,
+        "stop_row": 14925,
+        "text_sha256": "ed3a8c44ba1909d515e674a2b75b53f8b919064f19f41b1d900b1ee07ffee8cc",
+        "title": "Oribi",
+        "token_sha256": "3bb99562cf538ef501ee71db202385ac8bf84c5e0da1a315e00ffef43699c03f"
+      },
+      {
+        "start_row": 15642,
+        "stop_row": 15678,
+        "text_sha256": "c7638d164a2dd3bb43d45b0dc78cffd3e68e3165e89bf182596484e625880ba1",
+        "title": "Battle of Merville Gun Battery",
+        "token_sha256": "ca78ff0c4b482f4c91651ecd602a0e6a3b7927fdad093c531f0b723a92506089"
+      },
+      {
+        "start_row": 3717,
+        "stop_row": 3733,
+        "text_sha256": "0366f4ee0e8e674c9adca1e8bb953d96e04a293b997a1352734ce52813d63007",
+        "title": "Portuguese ironclad Vasco da Gama",
+        "token_sha256": "99483c2eddd14d5cd515b93b0f8ab7481cae9440e4e21e0902870eb55e6f281a"
+      },
+      {
+        "start_row": 30319,
+        "stop_row": 30341,
+        "text_sha256": "4a0856e8b5158a999df789a1e7694e748103a86f2f11c432921c049552efb264",
+        "title": "Big Boy ( song )",
+        "token_sha256": "c540a36f6beb774e09316e2ccc8be2603efccdf0c98462d1529e81e56064ddde"
+      },
+      {
+        "start_row": 1107,
+        "stop_row": 1157,
+        "text_sha256": "3c52779993e3c6efd726b29d7139d88a06c7cd3461d8b2d76af9c04e4f364f12",
+        "title": "Treaty of Ciudad Ju\u00e1rez",
+        "token_sha256": "2de7e109a2247898e3e754b5dd62d67a1cce1dc6eb0708741cb20dc971f72d41"
+      },
+      {
+        "start_row": 13552,
+        "stop_row": 13574,
+        "text_sha256": "b80a04c43507c5415c1e73fe29f8903c6abe2ef839b94046bbd0cd0a9e50a2f9",
+        "title": "Ontario Highway 36",
+        "token_sha256": "a50ca1468c56d0ab8b37589b947d927d8fe1ad5d2ece6d96d8e71978e70a65cb"
+      },
+      {
+        "start_row": 32315,
+        "stop_row": 32349,
+        "text_sha256": "22c8857cc7706c895c7115992614d21d14306d697e4ac6f7ba04bb5c53ec438a",
+        "title": "White Dog ( Gary novel )",
+        "token_sha256": "164e7f299a1453f482d6aef2685c5559e2407c74629660dd5c358c2decb9d37f"
+      },
+      {
+        "start_row": 35025,
+        "stop_row": 35163,
+        "text_sha256": "11b721ad7776d2dd3f5748fbd8db4b7290f16153133f1bc671532328ef4c157b",
+        "title": "Thunderbirds ( TV series )",
+        "token_sha256": "5112956be78b313353935163071e1f364556fd5837172e6a7914687f6638dd9f"
+      },
+      {
+        "start_row": 23660,
+        "stop_row": 23775,
+        "text_sha256": "4496b3140f0f4c187e70dd21fc8548c7abb8029e1befd1c95d4f9525387e9bfd",
+        "title": "Djedkare Isesi",
+        "token_sha256": "e8ea03ab27a5d1fd4120ddf95d49f2cb53e0aed16081d04d5fa929159bbf1938"
+      },
+      {
+        "start_row": 26015,
+        "stop_row": 26131,
+        "text_sha256": "31d5a3ca200901dd73717ecc448e61500701af881fb8f51b6690a08fb1cca7d2",
+        "title": "Cole Hamels",
+        "token_sha256": "6d36dc23b4a94863c1b5b0d2d5258e77a550be860a3a8125d711d4bb2f47ce5f"
+      },
+      {
+        "start_row": 29224,
+        "stop_row": 29254,
+        "text_sha256": "8626bdad2fd8e68481de9b8fa290bc5781759fbe58325c045d1b922a818fec84",
+        "title": "Inocybe praetervisa",
+        "token_sha256": "47049db06322eb05df803ae41eaa5a5c8524b3c3afa3888b0cd2b2e89473ac34"
+      },
+      {
+        "start_row": 13168,
+        "stop_row": 13191,
+        "text_sha256": "6360accf1ccd11e3b7b45df74a426982f21ec8d2db3bbd9ac046b9a05c1e63fe",
+        "title": "St Peulan 's Church , Llanbeulan",
+        "token_sha256": "c63cb66dc9fb78d7e17183298ec9792411de4954e001c7f2f5e38ec3e741bd0c"
+      },
+      {
+        "start_row": 7132,
+        "stop_row": 7149,
+        "text_sha256": "8511c6aa06beb8c31c64341e97503a69778ff6992ab274f872dc859169f563f3",
+        "title": "M @-@ 122 ( Michigan highway )",
+        "token_sha256": "d9f68c616a16ba32fbec94997e4bc23e448a70b431d303201be6b6df9e78801e"
+      },
+      {
+        "start_row": 33539,
+        "stop_row": 33562,
+        "text_sha256": "28992aa9b5b32e837b63cc83414ca9042600b5f92369d98493a13508207f0f16",
+        "title": "Arnhem Oosterbeek War Cemetery",
+        "token_sha256": "2d2060146c78bd5bb2eba6958d38cc2a5836d3683bd2b4991a76982283c16456"
+      },
+      {
+        "start_row": 4818,
+        "stop_row": 4836,
+        "text_sha256": "33ccd4ef9d51bd06336791deeb798942b0e8aa5c9af747285898d0bcab640860",
+        "title": "The Boat Race 1900",
+        "token_sha256": "31dd8db0938cfbaafadfcca696967ca5d5072e56f3abb37413dc50f4a0409e89"
+      }
+    ],
+    "wikitext": {
+      "documents": [
+        {
+          "article_id": "test-000032-870bd6ca8ad52e63",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "d22b87b7331df1bd1917350cf9e29cbd38f4e43d84c94fdcd4694396731ba356",
+          "start_row": 32,
+          "stop_row": 116,
+          "text_sha256": "870bd6ca8ad52e6338d4373b5d8ca154ccb19384ce28b20a16639c555cb6d1c0",
+          "title": "Du Fu",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 5525,
+          "whole_token_sha256": "800be1358e7e83ecbe9ed9d89dcfc7d777d671bb5d5605aab7bad095d7e041f1"
+        },
+        {
+          "article_id": "test-000116-562fc605d53962d2",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "dd31555de493098e8b88903812b45265c6da72eeb5de684b2da547a1d7be3daf",
+          "start_row": 116,
+          "stop_row": 177,
+          "text_sha256": "562fc605d53962d26b6923033fd714c07d935fa5d46fdc77006738c54ae6d40f",
+          "title": "Kiss You ( One Direction song )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3134,
+          "whole_token_sha256": "6daf1713828279c7bda63ea271c9e5c21d46eb93a610c8e99155cc7837c67938"
+        },
+        {
+          "article_id": "test-000177-b1e2104dbd6f58b0",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "bf2cb65e986b01587d64e025771a728c66d060ebb7e022c08ed02f46790b3d38",
+          "start_row": 177,
+          "stop_row": 264,
+          "text_sha256": "b1e2104dbd6f58b0a8096093b40cc8f880f983f599ed64f73f705d2a00194e51",
+          "title": "Ise @-@ class battleship",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 9678,
+          "whole_token_sha256": "6bf1854fe30893ee71ae91c10f935bd665ea11dd703db96df9c1e1d7ac49771a"
+        },
+        {
+          "article_id": "test-000264-49c61a4605d0488e",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "e47eb8d7772617bc3f5e7ae522ee473601afaeed9a3134260d54d5c7757a0568",
+          "start_row": 264,
+          "stop_row": 295,
+          "text_sha256": "49c61a4605d0488e1bd13b10eed0b3b941e0b5b248dc4260f092ac672c1165c6",
+          "title": "Dick Rifenburg",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2659,
+          "whole_token_sha256": "7ed7fe8d8972bf5c99a07e805438d9db872e267d1794a7ce739be9a84daf5d5b"
+        },
+        {
+          "article_id": "test-000295-65c4b813e95c399f",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "c69b1b0297486af5c4bacca3207a487aa70d242e9fd6b5a37a17ce841932305b",
+          "start_row": 295,
+          "stop_row": 322,
+          "text_sha256": "65c4b813e95c399f0cff084c02a57d3058bede19ee4e1ef88718ce98e0d6f0e5",
+          "title": "1933 Treasure Coast hurricane",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3006,
+          "whole_token_sha256": "523f6640c1bdcad599eef2a16cb7b369a0f58ffbe3590a9a65bc34e7fa973775"
+        },
+        {
+          "article_id": "test-000322-9fcea1e8914aeb1a",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "495e8f20c27fc921161b45fdb211b9c87516f959c250f44de48623aeb38b7d1c",
+          "start_row": 322,
+          "stop_row": 447,
+          "text_sha256": "9fcea1e8914aeb1adc578a96e682562b11966a8dfb997258beed737c964fe09a",
+          "title": "Second Battle of Naktong Bulge",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 12594,
+          "whole_token_sha256": "933dc9180d8527fa56883e037d103ec135392676282afbb007c939435b60254d"
+        },
+        {
+          "article_id": "test-000447-82a3f9aefe4e9947",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "c5c71ee2e7a7fbb03e7032a8cc63f6ac6337e34892c99b77137929909988ef95",
+          "start_row": 447,
+          "stop_row": 530,
+          "text_sha256": "82a3f9aefe4e99471cd35f449bff0ba0a6b44bfe9a1d9c8d9d713f5f0f4356ea",
+          "title": "Hed PE",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3102,
+          "whole_token_sha256": "29e98be4a5931418aef448e6a96958d58caf7fa7a55afd43fa222c15a3a44923"
+        },
+        {
+          "article_id": "test-000530-8d6cb04df888d083",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "2803a7d3dba498254385623b00033b2b3cd4904275dc26b291af143e433ad040",
+          "start_row": 530,
+          "stop_row": 704,
+          "text_sha256": "8d6cb04df888d083c25472154792a948e9c2f220015f03382155aa2185ac6ab6",
+          "title": "Ironclad warship",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 13514,
+          "whole_token_sha256": "786070088d80f23a32d33c5d71f2ba631cc489e9a1697b47b169822e9bddf984"
+        },
+        {
+          "article_id": "test-000734-413d863490edf759",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "9a5b61f0b65f7358919ddf0260b232d993c35b7137a20206ede6f57ec05c2889",
+          "start_row": 734,
+          "stop_row": 789,
+          "text_sha256": "413d863490edf75993be371039beae29c78f37ac7f7bcd57859a6a12d8c59427",
+          "title": "The Portage to San Cristobal of A.H.",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3498,
+          "whole_token_sha256": "888b5c03b536fd52a9830c6fe6e79ef41f6a0a142e6bf31375327618abf32a24"
+        },
+        {
+          "article_id": "test-000789-1cbbbf1ed78ac0aa",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "7b47e83423cafa9b6f9131cc26d5194960b2c81939f66bc3d9fc16e4d0610266",
+          "start_row": 789,
+          "stop_row": 930,
+          "text_sha256": "1cbbbf1ed78ac0aabef812498389e26dbd6259fe683f77342c08d6aaed021a66",
+          "title": "Temnospondyli",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 10716,
+          "whole_token_sha256": "d35650ff44f4ca74f32a7028e0ae8c1e5aa5b9d3584da9ea4d8c56dc0b5bef3c"
+        },
+        {
+          "article_id": "test-000954-f4014284ec88aef6",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "46aba87f14ed0e2b252688bab4466cfae87fb6c822d00550146292a2c4a3a34e",
+          "start_row": 954,
+          "stop_row": 991,
+          "text_sha256": "f4014284ec88aef631c9bcce50d8100a7edf9be1b3410940e7f795d47b00c777",
+          "title": "Dvorak technique",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2725,
+          "whole_token_sha256": "901dffd21f1310b202a6f1827ddaa67751bbc55edcf0d3e80eb5b4487628da0c"
+        },
+        {
+          "article_id": "test-001009-060d808d6f4c8404",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "392bb3650270349770b718a8d49a1825580e6c150b10772fc2e06a78de076770",
+          "start_row": 1009,
+          "stop_row": 1085,
+          "text_sha256": "060d808d6f4c8404a4f3d4ed3d970f11304ae0fedfe9829b3f9f8c395ea6082e",
+          "title": "Ben Amos",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2318,
+          "whole_token_sha256": "f77655100e5ab0cdb84cd1189cbd1859bc0f8ca53138dd1228581206910a6666"
+        },
+        {
+          "article_id": "test-001085-61fd5aee2f3b0e0e",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "f61bd21857b73fe5541bef08776e4dd382b576bce68c55b774232a06af8f2a55",
+          "start_row": 1085,
+          "stop_row": 1200,
+          "text_sha256": "61fd5aee2f3b0e0e73eed332d2888fe9e7f003a3e94617da2546e35d84da7648",
+          "title": "Clayton Kershaw",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 9128,
+          "whole_token_sha256": "525977647e97f4a190274fef489073db416db6cfea771417744658949388a0b2"
+        },
+        {
+          "article_id": "test-001223-215f5af1ba91c3a3",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "86a8a3df5079d5bb42e7276c4518f3fbb82d71523486f26622fc01a229fb1fa3",
+          "start_row": 1223,
+          "stop_row": 1265,
+          "text_sha256": "215f5af1ba91c3a3f8a6daa23e49aed60b33c602b3ea065f67b85618f5d9166b",
+          "title": "Head VI",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4596,
+          "whole_token_sha256": "556267ed4fc651679aa4075430612523e2263438cadac76d408498029b3c6976"
+        },
+        {
+          "article_id": "test-001265-72daf979d3a51a6e",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "7659deb28e3c62a6875118abf84908363c34d604d6aaa156cfb9721a12720f55",
+          "start_row": 1265,
+          "stop_row": 1319,
+          "text_sha256": "72daf979d3a51a6e02f79a0bf47f3cea337731b2f296688c61e15edb9d4c040e",
+          "title": "Imagism",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4428,
+          "whole_token_sha256": "79a4de9372e469d7c87495eb3e2960013d17777744ef7ee448874e1723d9f142"
+        },
+        {
+          "article_id": "test-001319-54d039d7c40a8358",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "74b3d13f55271c78413b81a8fca677eb21fd435df89f2a7ae433b28e59b7afd5",
+          "start_row": 1319,
+          "stop_row": 1382,
+          "text_sha256": "54d039d7c40a8358e433f7bace512fe873044fd5d7c101ec0829091eba2db756",
+          "title": "Operation Eastern Exit",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 5240,
+          "whole_token_sha256": "19e1452674409b1e602e358c3d7ff14f884370c7c2ab97d2584f9ed9497108bf"
+        },
+        {
+          "article_id": "test-001430-4319de535ec6106b",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "28c105e8d10161045d09f7e5658b7203fbf0c8a2f82ab19e64b4382f491e9453",
+          "start_row": 1430,
+          "stop_row": 1496,
+          "text_sha256": "4319de535ec6106b3e8f1ebdf7e2b43221db12ba193b4ac79069e5df89bc9886",
+          "title": "Independiente ( Ricardo Arjona album )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4882,
+          "whole_token_sha256": "a4a09bc72c75ea367920524b0fdf2890c6a8b52d282ff03e255c9fa392b7c5e4"
+        },
+        {
+          "article_id": "test-001496-0f28e69e85e41950",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "4b763fb5c85348fa69809624d5098851c6211e631fc4cd1c07fe9f93e4ada6d8",
+          "start_row": 1496,
+          "stop_row": 1652,
+          "text_sha256": "0f28e69e85e419509a8d57f2807feac10192751ca35872ac829cdfb29e6683c6",
+          "title": "2003 Pacific typhoon season",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 13770,
+          "whole_token_sha256": "743577f407e4f8b305fa78bf4c1f78236950ee12cc5aba6b32976fdfc736376a"
+        },
+        {
+          "article_id": "test-001652-0771ee99240f1533",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "a65f97c0cc8d387a4fd7161c2c4d5f9d9d15841e7bbda249299b295b43a77247",
+          "start_row": 1652,
+          "stop_row": 1731,
+          "text_sha256": "0771ee99240f1533a8cfdd6e0287935135c63d5d41bfda4b35d257686fa84ebb",
+          "title": "Oxaziridine",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2934,
+          "whole_token_sha256": "4e6f50e183cc9a093f8d047a98614026fc81494f433b817f7ef258df60431c4f"
+        },
+        {
+          "article_id": "test-001731-8d57bf5cb045faf4",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "62d1033b7c633f56fb071cedb426efab7cf7290aafad32afe3cf82d4fc0a7a4b",
+          "start_row": 1731,
+          "stop_row": 1833,
+          "text_sha256": "8d57bf5cb045faf4c2ef1e8b1b42b5e95aa6fca65573abb13a8c343b4989bdf9",
+          "title": "Battle of D\u00fcrenstein",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 8465,
+          "whole_token_sha256": "a26d809944ce9ba45efdc8f1d60fd1ee8d357083499c463f1e7d5a5766c1cd8d"
+        },
+        {
+          "article_id": "test-001833-e1083542302d3d86",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "26f6c83de19bf60df7fdef226ca208835a43008ceab71ce426aa5ddb9012d3af",
+          "start_row": 1833,
+          "stop_row": 2093,
+          "text_sha256": "e1083542302d3d86e895ce2920a7d1d8001cc100e9c06785085a5eb26a6568d2",
+          "title": "Brock Lesnar",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 14099,
+          "whole_token_sha256": "3f237c092b2f0faf853360a486705609bffd2f65ab181084567a13f19fc6a359"
+        },
+        {
+          "article_id": "test-002159-1c4071301713d402",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "072e974f6cafe784468796540a42377fa680d02e68d7619fac9f350fcf0314c9",
+          "start_row": 2159,
+          "stop_row": 2227,
+          "text_sha256": "1c4071301713d402a2f98a1ffde6a2af47b5895b299d2168ea30fc042d15c96b",
+          "title": "The Snowmen",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 5301,
+          "whole_token_sha256": "93aa96e8a765dfacb825942d7e8f9b634455e22af19fbd34af2c6d9b872f9b73"
+        },
+        {
+          "article_id": "test-002249-64d99e681aed272d",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "0379adcb321933f6a558f495fa48c8475ae477e620e157f140fe0311dcbf71a6",
+          "start_row": 2249,
+          "stop_row": 2315,
+          "text_sha256": "64d99e681aed272d6c6c9072a0cd8b745ba4835080349401d834d1bc74709a00",
+          "title": "Light Tank Mk VII Tetrarch",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 7365,
+          "whole_token_sha256": "51e9beab68cb036d4b923509eda94b61ab20569a423576956cd8d6310c7e44a8"
+        },
+        {
+          "article_id": "test-002342-75e4ae4ff35b9e38",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "5062bf94f6215aa530b410e6494a9f898e823869609e8e2fe813565cd10c5476",
+          "start_row": 2342,
+          "stop_row": 2441,
+          "text_sha256": "75e4ae4ff35b9e38340258b21241a2c91b6605d7d41c897e30ad33c154ce7cd0",
+          "title": "Olmec colossal heads",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 10965,
+          "whole_token_sha256": "f970699dd2a19e7025a303024366b57f8609980705811bbbf80d5679e15a6768"
+        },
+        {
+          "article_id": "test-002441-c5d402ba8a0363b9",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "86c8d94943f5f924e45c4be98496fca80d4996cee2787e97722875dafd3d0625",
+          "start_row": 2441,
+          "stop_row": 2565,
+          "text_sha256": "c5d402ba8a0363b933e84ddf440d24e3d5a0dfcbe4b905d942f5625abf3ecaeb",
+          "title": "Brad Stevens",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 8951,
+          "whole_token_sha256": "04ce5feb253079414291f896830774055acc052a886e9783b62b978a9fad0331"
+        },
+        {
+          "article_id": "test-002594-5f9f17a178acd9e2",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "654019730b5990df005466f4df86b5ecd1513831df7754aba587b13e537ae804",
+          "start_row": 2594,
+          "stop_row": 2726,
+          "text_sha256": "5f9f17a178acd9e26598f4525aa984824999f39d09475cd7ba28be07c0da50bf",
+          "title": "American Beauty ( 1999 film )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 16773,
+          "whole_token_sha256": "bed210d6d1255821d5fed8b829c0916267d1e02d96b96e889be2d8a500545e24"
+        },
+        {
+          "article_id": "test-002726-3f61eef447b2b912",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "3cfb9c4e8f0abd0c41a64a32d5355b8f8f52c0ded4cf3d07b4d5743623d2e769",
+          "start_row": 2726,
+          "stop_row": 2789,
+          "text_sha256": "3f61eef447b2b912506fa70acccf90796b7cf54b9bf4dea05e95ec4e29df4b5f",
+          "title": "Christopher Gore",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4987,
+          "whole_token_sha256": "4268cb40b7fa64cf66ce2a6580dba48c3d825f4e5f2c8448b276576a0cc48eb4"
+        },
+        {
+          "article_id": "test-002789-e240d8b80c0f9613",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "5ec7ec8774390d02ebb2c52c1d54e5942a11917c214f56350b3eeb45a443832e",
+          "start_row": 2789,
+          "stop_row": 2991,
+          "text_sha256": "e240d8b80c0f9613fb5df8e3cd7ecb1311e8cc55a9789fe024f2e16a4fe8a643",
+          "title": "Nero",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 11560,
+          "whole_token_sha256": "fef974117b8cad006c1f75407202e204796b5bb5806ed3609c7af56fb9a3dc70"
+        },
+        {
+          "article_id": "test-002991-7068313152477cd4",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "3d9aeb60c674c2be80d5dfe36bb70962750e50a1b4709f4ea2b013845ba25b86",
+          "start_row": 2991,
+          "stop_row": 3218,
+          "text_sha256": "7068313152477cd4b3fed2670f2c0da55ea0671f0cfcf3bddaef6af630845cf4",
+          "title": "Manila",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 13273,
+          "whole_token_sha256": "e7a2d4b9d4266ce719ef2be298fdd3b7898d9c4277336bf377c434c641b21abd"
+        },
+        {
+          "article_id": "test-003218-fecffb9abfdf49c8",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "76682b87696deb9a9c77e5a26d464e480258bb5c4f2c6c684bbd0852d0956bf8",
+          "start_row": 3218,
+          "stop_row": 3265,
+          "text_sha256": "fecffb9abfdf49c81dbb6a13f34c08dd6f8f203feeddc04408180ed7b58affcb",
+          "title": "Attalea ( palm )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2939,
+          "whole_token_sha256": "af59c6bfead0780159024aa1f7f5e231d373bb35ca7ddf54caed3ad7d69d929e"
+        },
+        {
+          "article_id": "test-003296-194432e3f884c295",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "bb3a6700b0718d0986796384390d6814bdbd7f9bbfa1bb1a7652d0d8a6bcd510",
+          "start_row": 3296,
+          "stop_row": 3355,
+          "text_sha256": "194432e3f884c295df028023226137d778263d32dd4514ad105a77ee6ef18e89",
+          "title": "Free Derry",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 6169,
+          "whole_token_sha256": "4bfb1c56f69b6040350d7c11b64db9da2fa139f25c1752cf93bdfd6e9ce9a255"
+        },
+        {
+          "article_id": "test-003355-a1296587f2b8b607",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "9d03aed8743e9deed2caf81b5510bef8fe8c3e55c14b75fa2225d7b1f32a2c20",
+          "start_row": 3355,
+          "stop_row": 3399,
+          "text_sha256": "a1296587f2b8b6071f2ca523fb90c6866fb823c9345a2f2d42a0484f57a84d09",
+          "title": "Come What ( ever ) May",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 2846,
+          "whole_token_sha256": "411d7e4c92991b52a287628bf5e739a36f1dc1a4fd11a5121ec5114364f92de5"
+        },
+        {
+          "article_id": "test-003454-e03b35990e91e576",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "2e77fda9179837fd4bdeddd76a4165d27b2f3abe16649f3681364673d05596d4",
+          "start_row": 3454,
+          "stop_row": 3614,
+          "text_sha256": "e03b35990e91e5767a00d84878f918616ddfe05ce91ddf775a9e2407d5f7a908",
+          "title": "Bintulu",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 8748,
+          "whole_token_sha256": "1a86306ccd7bdbc712eef8ab9a8f872cd215dc89820581c4b3fee7baa6ed4b3b"
+        },
+        {
+          "article_id": "test-003666-4ffddc78fbbe1d47",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "2f5c67f0c2b6a9a4c51cab3d0a7402d45070bdb1a64de9592bfc341c779db1e8",
+          "start_row": 3666,
+          "stop_row": 3722,
+          "text_sha256": "4ffddc78fbbe1d478a419302192d0ead2a8ec4db71e0db9b4de2028af5fa4dc8",
+          "title": "Temple Beth Israel ( Eugene , Oregon )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3439,
+          "whole_token_sha256": "bda6805058041f02c4f836753ae1a081c97b77898da587a9080960940f31c2ba"
+        },
+        {
+          "article_id": "test-003722-7dbceec6e616d40c",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "c9ae268279192bbe431ec707157d921e8836dcacbf75e51031a7ff1aec63b7be",
+          "start_row": 3722,
+          "stop_row": 3768,
+          "text_sha256": "7dbceec6e616d40c4440c5e660ed9d6b44b03ca4ec2c2fa77274b6bdbabda350",
+          "title": "New York State Route 93",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 3429,
+          "whole_token_sha256": "e9570d5c1caba2cb175d18380486feaaf463174d1f5bff2e6b01a888daff22ae"
+        },
+        {
+          "article_id": "test-003884-db408c213a29142f",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "3a31d547205239c80e710fda4b8cb35e263c0bde3df760022c070a7207d811aa",
+          "start_row": 3884,
+          "stop_row": 4011,
+          "text_sha256": "db408c213a29142f029f6f8859cac33a87af0509fc16605ce7d47b72a3ba32f5",
+          "title": "Commonwealth War Graves Commission",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 8166,
+          "whole_token_sha256": "27c7ccd14399e601368421342967301fcfa21b736e4d16e4bf2b7884cc1738b1"
+        },
+        {
+          "article_id": "test-004024-48cf52ffad266278",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "0af14113077f5ed294d3f1f06d82ed9adf3480176899db82e5419bdf93819e35",
+          "start_row": 4024,
+          "stop_row": 4122,
+          "text_sha256": "48cf52ffad266278c08bd39aea9cb98d5ef36f33be2c0dd5ea1bed1db07bd58f",
+          "title": "German Type UB I submarine",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4423,
+          "whole_token_sha256": "e002d6df625a49c2fab2bfb74ec6e6b2f4d28bdac9337368d2c9d9530e8a1fd4"
+        },
+        {
+          "article_id": "test-004122-a8f614a61ad05016",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "94535a9cc5673589a995be231e9a093fdf1856cb02463a5a8cd8d7c0d0c8abfa",
+          "start_row": 4122,
+          "stop_row": 4224,
+          "text_sha256": "a8f614a61ad050160188e7ca5c593af1ff1174055137cdb150e8f7c1346d7337",
+          "title": "Military history of Gibraltar during World War II",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 6729,
+          "whole_token_sha256": "e50e4bbf5f21b6673f5a8621dfbbb4c551adadcfcc0c76204db08e920ed74982"
+        },
+        {
+          "article_id": "test-004224-67b7ede2ffd75c8b",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "80a0eee305be03c1c264b9c2f9a3f8aa820a0b0de4d75c54fea696d32917ac29",
+          "start_row": 4224,
+          "stop_row": 4303,
+          "text_sha256": "67b7ede2ffd75c8bb1d9c4b1d8ce7074918600fd7f7529801fa661d4f3e04891",
+          "title": "Nerva",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4940,
+          "whole_token_sha256": "7002b78d41e5723ce23bb27af9ac27909bf806841a2f1ac764159c91f61c362f"
+        },
+        {
+          "article_id": "test-004303-9651eaa8563340a1",
+          "eligible": true,
+          "exclusion_reasons": [],
+          "prefix2048_sha256": "da62f04284168c83d280c60237cfdbe42570f2ab45df4f92ca37d94c94767f0d",
+          "start_row": 4303,
+          "stop_row": 4358,
+          "text_sha256": "9651eaa8563340a13514126dd5c9d1e5cc92405720de019c1118ae112825f91a",
+          "title": "The Hustler ( film )",
+          "token_start": 0,
+          "token_stop": 2048,
+          "whole_article_tokens": 4242,
+          "whole_token_sha256": "ee2c34294084855e9202d4d536746e5a6dc445c0702b36aabe88edefed27cadc"
+        }
+      ],
+      "original_manifest_sha256": "0b90c0b4da30cb5d4467bc92c4dea066152d86cb2a017ba95704c8f3f06f56ad"
+    }
+  },
+  "scope": "Held out from this continuation; test corpora were used in earlier component studies",
+  "test_documents_per_corpus": 40,
+  "tokenizers_match_selected_training": true,
+  "tokens_sha256": "339e07ee3f8c43230baf8dbc48fd34fd8b3dad858cf0bc5c3000a1fa239e900d",
+  "training_documents": 128
+}

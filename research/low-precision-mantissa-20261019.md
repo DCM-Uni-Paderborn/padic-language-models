@@ -1,0 +1,5 @@
+# Additional unit precision allocation
+
+This separately fixed representation check extends the original signed-unit alphabet to two base3 unit digits. The complete unit representatives are -4,-2,-1,1,2,4 modulo9. Jointly enumerate zero and u*3^e with as many exponents as fit the same2/3/4-bit index cap. At2 bits reuse the original ternary alphabet. At3 bits the decoded alphabet is exactly the existing binary unit representation. At4 bits it has13 values and equals the binary unit-precision3 representation with three exponents. These are exact ordinary-codebook equivalences, not additional independent experiments.
+
+Evaluate the distinct4-bit alphabet with W4/A4, W4/A8 and alternating W2/W4 with ordinary A4 at135M, and W4/A8 at360M. Use the same inputs, three seeds,128 steps, optimizer, scales, higher-precision exceptions and numerical checks. This is an additional mantissa/exponent allocation check, separately specified from the original primary matrix. Its outcomes do not change or replace that matrix or its fixed quality criteria. All three135M configurations and the360M confirmation are reported regardless of outcome.

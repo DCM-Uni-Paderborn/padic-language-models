@@ -4,7 +4,7 @@ Computational materials for the working manuscript by Thomas Kühne. The paper a
 
 [Read the manuscript and supporting information](manuscript/main.tex). Both are contained in this single LaTeX source. Compile it with a standard LaTeX distribution or import it into Overleaf. The current source also compiles in the desktop document editor.
 
-The experiments establish ordinary arithmetic and prefix-tree equivalences, a limited WikiText first-layer quality result, and a negative native PG-19 transfer result. A continuous disk learner recovers an exact modular rule on typed operands. Its fixed coupling to LLM logits does not beat the Fourier control. The semantic-prefix and finite-ring FFN studies provide further scoped results. The paper makes no general quality, compression or hardware advantage claim.
+The experiments establish ordinary arithmetic and prefix-tree equivalences, a limited WikiText first-layer quality result, and a negative native PG-19 transfer result. A continuous disk learner recovers an exact modular rule on typed operands. Its fixed coupling to LLM logits does not beat the Fourier control. The semantic-prefix and finite-ring FFN studies provide further scoped results. The full-projection low-bit study adds 168 continuation fits. None of its 54 low-bit settings retains quality on both corpora in every seed, while matched BF16 continuation does. Some cyclic encoders beat same-alphabet clipping, and conventional FP4 is stronger in the principal comparisons. The paper makes no general quality, compression or hardware advantage claim.
 
 ## Contents
 
@@ -33,6 +33,7 @@ The package keeps inputs and reported summary tables. Large feature captures, pe
 | S9 | Frozen WikiText training/development tokens | `pilot_ball_ffn.py`, `ball-ffn-summary-*` |
 | S10 | CLINC150 texts, selected rows, tokens and domain taxonomy | `pilot_structural_intent.py`, `structural-intent-summary-*` |
 | S11 | Three synthetic regression datasets, modular prompts and frozen LLM priors | `pilot_continuous_tree.py`, `pilot_modular_adapter.py`, continuous and modular summaries |
+| S12 | Frozen WikiText training/development and both test corpora | Full-Transformer low-precision continuation and compact per-document statistics |
 
 Each data directory preserves the original sample selection and content hashes. PG-19 supplies exact model token prefixes plus the whole-book source URLs and hashes. The upstream texts and checkpoint weights can be fetched at their recorded versions. The learned encoder/routing states are small outputs of the training study and essential inputs to downstream comparisons.
 
@@ -96,3 +97,31 @@ python tools/rebuild_native_statistics.py \
 ```
 
 Fresh execution clocks and output fingerprints will differ. Native numerical replay across hardware is a separate replication and must be assessed against the paper's stated contracts. The helper does not retune seeds, margins, context lengths or the method family.
+
+
+## Low-precision and mixed-precision continuation
+
+SI Section S12 compares 2-, 3- and 4-bit weight/activation alphabets throughout all Transformer attention and feed-forward projections. The fixed matrix contains 168 short continuation fits over three seeds. It includes integer and real FP4 controls, balanced residues, unit/exponent alphabets, cyclic low-digit projection alternating W2/W4 blocks and matched BF16 continuation controls. Embeddings, the tied output head, normalization and residual tensors retain higher precision.
+
+Exact tokens and article selections are in `results/low-precision-inputs-20261019/`. The complete matrix and control protocols are indexed by `research/low-precision-execution.json`. The common training recipe, model configurations and source freeze are in `research/low-precision-*.md` and `inputs/low-precision-*.json`. The mixed schedule has an average prescribed weight cap of three bits. Actual index widths can underfill a cap, so the ternary-residue mixed and uniform-three-bit cases have different packed payloads. A three-state index is counted as two bits. Shared scales and remaining BF16 parameters are included in the parameter payload.
+
+The complete GPU study can be regenerated from the supplied tokens. The optional download flag fetches the two checkpoints at the revisions in the input manifest. All output directories must be new.
+
+```bash
+python tools/reproduce_low_precision.py \
+  --output runs/low-precision --download-models
+```
+
+The published document loss sums also permit CPU-only rebuilding of every reported endpoint, paired bootstrap interval and three-seed decision.
+
+```bash
+python experiments/analyze_low_precision.py \
+  --published results/low-precision-summary-20261019/compact-fits.json \
+  --output runs/low-precision-statistics
+python experiments/summarize_low_precision.py \
+  --statistics runs/low-precision-statistics --output runs/low-precision-tables
+```
+
+The compact records retain scalar document losses for both the initial quantized model and the final fixed update. They omit teacher logits, optimizer states, shadow-weight checkpoints and execution logs. The tests independently check alphabets, exact aliases, digit projection, surrogate gradients and index packing. A separate calculation verifies parameter payloads from the pinned model configurations.
+
+Matrix operations use real arithmetic. These fits do not reproduce native NVFP4 scaling/training or BitNet pretraining, and they do not implement an LLM valued entirely in the p-adic field. The original BF16 checkpoint receives no continuation. The supplementary BF16 control uses the same updates with BF16-rounded forward weights and FP32 shadow-weight optimization. Test corpora are held out from these updates but were already used in earlier component studies.
